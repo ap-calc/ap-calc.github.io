@@ -1,0 +1,1 @@
+document.write('<a href="https://denis.network/" target="_blank"> denis.network</a>');
