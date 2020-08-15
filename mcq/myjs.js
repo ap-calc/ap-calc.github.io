@@ -4,13 +4,14 @@ var path ="dat/"
 var img="";
 var imga ="";
 var f = new Array(size);
+var fa = new Array(size);
 
 for(var i = 0; i <= size; i++) {
-  f[i] = i+1+".png";
-  //fa[i] =i+1+"a.png";
+  f[i] = (i+1)+".png";
+  fa[i] ="";
 }
 
-var fa = {"E","E","C","D","C","B","E","A","B","E","A","D","D","A","B","B","D","D","D","B","B","A","C","C","A",
+fa = {"E","E","C","D","C","B","E","A","B","E","A","D","D","A","B","B","D","D","D","B","B","A","C","C","A",
       "C","D","E","E","A","D","B","B","C","D","E","A","E","E","A","A","B","B","E","D","D","B","A","C","B",
       "C","B","E","C","B","B","C","B","C","A","B","E","A","C","C", "C","E","B","B","C","E","B","D","D","B",
       "C","E","E","D","C","E","B","D","B","D","E","D","D","C","C","B","E","E","B","A","D","B","A","C","D",
@@ -46,7 +47,7 @@ function getRandomImage(imagesArray, path) {
 
 function setupAnswer(){
   
-document.getElementById('cardanswer').innerHTML='<h2>'+ imga + '</h2>';  
+document.getElementById('cardanswer').innerHTML='<center><h2>'+ imga + '</h2></center>';  
 
 }
 
