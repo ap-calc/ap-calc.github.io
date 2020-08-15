@@ -1,7 +1,15 @@
 
 <!DOCTYPE html>
 <html>
-<head>
+<!-- Project Page: Title -->
+<script src="../incl/t.txt"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="../style/style.css">
 <!-- import Google Charts-->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <!-- import Functions -->
@@ -60,10 +68,16 @@ var scores;
 </head>
 
 <body>
+  <!-- Project Page: Domain and Name -->
+  <nav class="navbar navbar-default">
+    <div class="container">
 
+      <p class="nav navbar-nav navbar-left"> <script src="../incl/d.txt"></script></p>
+          <p class="nav navbar-nav navbar-right"> project: grade curve calculator </p>
+
+    </div>
+  </nav>
   <!-- Form -->
-<h2> <center> Grade Curve Calculator </center></h2>
-<hr>
 <p align="center"> Adjust the values of <b>p</b> and <b>m</b> to yield the desired group average. The curving methods P(x) and M(x) have the following equations, where x describes the raw score (0 to 100). <br />
 <center> $$P(x) = \frac{100^{p+1}-(100-x)^{p+1}}{100^p} \\ M(x) = 100^m * x^{1-m}$$   </center>
 <table width="100%" border="0">
@@ -171,8 +185,7 @@ mslider.oninput = function() {
 </script>
 
 
-<!-- footer -->
-<hr>
-<center> denis.network | 2018 </center>
+<!-- Project Page: Footer-->
+<script src="../incl/f.txt"></script>
 </body>
 </html>
