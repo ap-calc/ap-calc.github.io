@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html>
+<!-- Project Page: Title -->
+<script src="../incl/t.txt"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="../style/style.css">
+<!-- import Google Charts-->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- import Functions -->
+<script type="text/javascript" src="myfunctions.js"></script>
+<!-- import MathJAX -->
+<script type="text/javascript" async  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+</script>
+
+
+<script>
+//Global Vars
+var scores;
+
+</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<style>
+.slidecontainer {
+  width: 500px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 500px;
+  height: 15px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+</style>
+
+
+
+</head>
+
+<body>
+  <!-- Project Page: Domain and Name -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+
+      <p class="nav navbar-nav navbar-left"> <script src="../incl/d.txt"></script></p>
+          <p class="nav navbar-nav navbar-right"> project: grade curve calculator </p>
+
+    </div>
+  </nav>
+  <!-- Form -->
+<p align="center"> Adjust the values of <b>p</b> and <b>m</b> to yield the desired group average. The curving methods P(x) and M(x) have the following equations, where x describes the raw score (0 to 100). <br />
+<center> $$P(x) = \frac{100^{p+1}-(100-x)^{p+1}}{100^p} \\ M(x) = 100^m * x^{1-m}$$   </center>
+<table width="100%" border="0">
+  <tr> <td width="50%" align="center" valign="middle">
+<form>
+  <b>Enter raw scores (0 to 100), one score per line: <br /></b>
+  <textarea id="userScores" rows="15" cols="50">50&#013;95&#013;55&#013;60&#013;70&#013;65&#013;85&#013;45&#013;80&#013;75&#013;90&#013;35&#013;40&#013;100</textarea> <br />
+  <input type="button" value="Record Score" id="record"/>  <input type="button" value="Reset" id="reset"/> </form>
+<div class="slidecontainer">
+  <input type="range" min="0" max="11000" value="0" class="slider" id="pRange">
+  <p><b>p-value: </b> <span id="pvalue"></span></p>
+
+  <input type="range" min="0" max="1000" value="0" class="slider" id="mRange">
+  <p><b>m-value: </b> <span id="mvalue"></span></p>
+</div>
+</td>
+
+<td width="50%" valign="top">
+ <div id="myChart" style="width:500px; height:500px;"></div>
+  <td>
+</tr>
+</table>
+<table align="center>" width="100%">
+<tr>
+  <td bgcolor="#d4d4aa" valign="top"><b>Student ID</b> <br />
+  </td>
+  <td bgcolor="#d4d4aa" valign="top"><b>Raw Score</b>
+  </td>
+  <td bgcolor="#d4d4aa" valign="top"><b>P-Adjusted</b> <br />
+
+  </td>
+  <td bgcolor="#d4d4aa" valign="top"><b>M-Adjusted</b> <br />
+
+  </td>
+  <td bgcolor="#d4d4aa" valign="top"><b>PM-Adjusted (Avg)</b>
+  </td>
+ </tr>
+<tr>
+  <td><p id="student-id"> </p>
+  </td>
+ <td><p id="raw-scores"> </p>
+ </td>
+ <td> <p id="p-scores"> </p>
+ </td>
+ <td> <p id="m-scores"> </p>
+ </td>
+ <td> <p id="pm-scores"> </p>
+ </td>
+</tr>
+<tr>
+  <td bgcolor="#d4d4aa" valign="top"><b> AVERAGE</b>
+  </td>
+ <td bgcolor="#d4d4aa" valign="top"><div id="raw-average"> </div>
+ </td>
+ <td bgcolor="#d4d4aa" valign="top"> <div id="p-average"> </div>
+ </td>
+ <td bgcolor="#d4d4aa" valign="top"> <div id="m-average"> </div>
+ </td>
+ <td bgcolor="#d4d4aa" valign="top"> <div id="pm-average"> </div>
+ </td>
+</tr>
+</table>
+<p align="center>" id="messageAlert"> </p>
+<div id="printout"> </div>
+
+<script>
+var scores;
+var classSize;
+var p;
+var m;
+var students;
+var scoresP;
+var scoresM;
+var scoresPM;
+var pslider = document.getElementById("pRange");
+var poutput = document.getElementById("pvalue");
+var mslider = document.getElementById("mRange");
+var moutput = document.getElementById("mvalue");
+
+
+
+document.getElementById('record').addEventListener('click', updater);
+document.getElementById('reset').addEventListener('click', resetter);
+
+
+poutput.innerHTML = pslider.value;
+pslider.oninput = function() {
+  p = (0.001*this.value).toFixed(3);
+  poutput.innerHTML = p;
+
+  pmUpdate();
+
+}
+
+
+moutput.innerHTML = mslider.value;
+mslider.oninput = function() {
+  m = (0.001*this.value).toFixed(3);
+  moutput.innerHTML = m;
+
+ pmUpdate();
+
+}
+
+</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ap-calc.github.io -- center -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5206877545086254"
+     data-ad-slot="2120858852"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	 
+<!-- Project Page: Footer-->
+<script src="../incl/f.txt"></script>
+</body>
+</html>

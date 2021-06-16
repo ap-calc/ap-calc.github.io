@@ -1,0 +1,771 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     34211,        762]
+NotebookOptionsPosition[     32314,        702]
+NotebookOutlinePosition[     32903,        724]
+CellTagsIndexPosition[     32860,        721]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+ FontFamily->"Courier",
+ FontSize->15]], "Title",
+ PageWidth->PaperWidth,
+ CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
+  3.581265638393551*^9, 3.581265647393133*^9}}],
+
+Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Discovering FTC",
+ FontFamily->"Courier",
+ FontSize->14,
+ FontWeight->"Bold"]], "Subtitle",
+ CellChangeTimes->{{3.581265601010721*^9, 3.581265655392869*^9}, {
+   3.581266701505068*^9, 3.581266708687127*^9}, {3.5812692028742332`*^9, 
+   3.581269203648366*^9}, {3.58134646982648*^9, 3.581346478160564*^9}, {
+   3.581346843256914*^9, 3.581346846760537*^9}, {3.5813468926540194`*^9, 
+   3.581346902200821*^9}, {3.581356844736968*^9, 3.581356847805273*^9}, {
+   3.58142290580647*^9, 3.581422910504772*^9}, {3.581458210863021*^9, 
+   3.581458216212624*^9}, {3.581526828560207*^9, 3.581526834722445*^9}, {
+   3.581602866005961*^9, 3.5816028683644753`*^9}, {3.581607865887494*^9, 
+   3.581607869181218*^9}, {3.581616520785335*^9, 3.581616523855226*^9}, {
+   3.581629090092915*^9, 3.581629098426585*^9}, 3.5816296555026207`*^9, {
+   3.581632004245171*^9, 3.581632007521744*^9}, {3.581694055074936*^9, 
+   3.5816940579924173`*^9}, {3.581696836497075*^9, 3.5816968451504107`*^9}, {
+   3.581698714022531*^9, 3.581698715631257*^9}}],
+
+Cell[TextData[{
+ StyleBox["Goal: Use ",
+  FontFamily->"Courier",
+  FontSize->12,
+  FontWeight->"Plain"],
+ StyleBox["Mathematica",
+  FontFamily->"Courier",
+  FontSize->12,
+  FontWeight->"Plain",
+  FontSlant->"Italic"],
+ StyleBox[" to introduce the Fundamental Theorem of Calculus.",
+  FontFamily->"Courier",
+  FontSize->12,
+  FontWeight->"Plain"]
+}], "Subsection",
+ CellChangeTimes->{{3.5812677064877768`*^9, 3.581267707725995*^9}, {
+  3.581267855875408*^9, 3.58126785934597*^9}, {3.581351155789528*^9, 
+  3.581351182962747*^9}, {3.581356860013238*^9, 3.5813568678847027`*^9}, {
+  3.581423092757098*^9, 3.5814231073314962`*^9}, {3.5814582294217*^9, 
+  3.581458272722952*^9}, {3.581526852562292*^9, 3.5815268630097103`*^9}, {
+  3.58153080162568*^9, 3.5815308067517967`*^9}, {3.581602838548444*^9, 
+  3.58160286273313*^9}, {3.581607873045598*^9, 3.581607884140876*^9}, {
+  3.581616528335464*^9, 3.581616540982501*^9}, {3.5816291134667473`*^9, 
+  3.581629119122018*^9}, {3.581629692211686*^9, 3.581629701211341*^9}, {
+  3.581632734921468*^9, 3.58163274031953*^9}, {3.5816940629041967`*^9, 
+  3.5816940852557993`*^9}, {3.581698779750203*^9, 3.58169878788575*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Task 1",
+ FontFamily->"Courier",
+ FontSize->12,
+ FontWeight->"Plain"]], "Section",
+ CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
+  3.581266715599557*^9, 3.5812667166632633`*^9}}],
+
+Cell[TextData[StyleBox["a) Draw or plot the line y = 2t + 1, and use geometry \
+to find the area under the \nline, above the t-axis, and between the vertical \
+lines t=1 and t=3.",
+ FontFamily->"Courier"]], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGCQBGIQbT6j6dCuda8c/wTNOAyimSZW3X4MpLkTGe6C6Lj2
+E8VPgbSG15cyEJ3WEn2Qdf0rxw9J04+C6ARDxgmcQHoCsz+YLrrszyEOpNWu
+NkiC6CNtJfkWQFrL4n4JiK4LTg63AtLLOP9kgOhJz/ZPjgXSWQqGi0D0J3H3
+FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
+bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
+2iQQ/ctDeCmI9lqltwxE62evfZENpKuuhb0E0bx/98vmgOTzv+uA6DKnPcYg
+ellNkBWIPuGYLdgFpOcztqmB6FfxTAYg+nxrMJiuKoiu7AHSckWizSBaTeag
+VS+QzomLdgDRAJWYzHU=
+  "]],
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"2", "t"}], "+", "1"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "1", ",", "3"}], "}"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "1"}], ",", "8"}], "}"}]}], ",", 
+   RowBox[{"Filling", "\[Rule]", "Axis"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5812667270789757`*^9, 3.5812668944050694`*^9}, {
+   3.581266926948004*^9, 3.581266976578205*^9}, {3.581267085336474*^9, 
+   3.581267199829692*^9}, {3.581267367953918*^9, 3.581267372744327*^9}, {
+   3.581267408848702*^9, 3.581267411119084*^9}, {3.58126746235911*^9, 
+   3.581267469726203*^9}, {3.581267574580345*^9, 3.5812676452660522`*^9}, {
+   3.58126795988083*^9, 3.581267983519969*^9}, {3.5812680190084753`*^9, 
+   3.581268050454398*^9}, {3.581268097654386*^9, 3.581268102110301*^9}, {
+   3.5812693580073557`*^9, 3.581269369854138*^9}, {3.581271270863723*^9, 
+   3.5812712952616453`*^9}, {3.581271374779931*^9, 3.581271376915936*^9}, 
+   3.5812714557703876`*^9, 3.581271493800899*^9, {3.5812717048836117`*^9, 
+   3.5812717087955923`*^9}, {3.581271787762577*^9, 3.581271789289444*^9}, {
+   3.5813416171427193`*^9, 3.581341631596177*^9}, {3.5813439285639772`*^9, 
+   3.581343939169743*^9}, {3.581356876894699*^9, 3.581356944156927*^9}, {
+   3.58135708193781*^9, 3.581357084513652*^9}, {3.581423015608548*^9, 
+   3.5814230597979527`*^9}, {3.581423202507163*^9, 3.58142322292175*^9}, {
+   3.5814292396181498`*^9, 3.581429241072316*^9}, {3.5814582921953173`*^9, 
+   3.581458410753293*^9}, 3.581458455338107*^9, {3.5814586588286533`*^9, 
+   3.581458660379569*^9}, {3.581526867908676*^9, 3.5815268972459784`*^9}, {
+   3.5815269574795094`*^9, 3.581526983599942*^9}, {3.581530962762611*^9, 
+   3.581531007339761*^9}, {3.581608014735619*^9, 3.581608031313178*^9}, {
+   3.5816081101925573`*^9, 3.581608196079507*^9}, {3.581616723530081*^9, 
+   3.581616749162986*^9}, {3.5816292110805693`*^9, 3.581629304318973*^9}, {
+   3.58163287526645*^9, 3.581632923284101*^9}, {3.5816942648993587`*^9, 
+   3.581694294844863*^9}, {3.5816943281534433`*^9, 3.58169434701108*^9}, {
+   3.5816991025760803`*^9, 3.5816991586536493`*^9}}],
+
+Cell[TextData[StyleBox["b) If x > 1, let A(x) be the area of the region that \
+lies under the line y = 2t + 1,\nbetween t=1 and t=x. Sketch this region on \
+paper, and use geometry to find an \nexpression for A(x). The Manipulate \
+command below varies x from 1.1 to 3.",
+ FontFamily->"Courier"]], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGCQAmIQbT6j6dCuda8c/wTNOAyimSZW3X4MpLkTGe6C6Lj2
+E8VPgbSG15cyEJ3WEn2Qdf0rxw9J04+C6ARDxgmcQHoCsz+YLrrszyEOpNWu
+NkiC6CNtJfkWQFrL4n4JiK4LTg63AtLLOP9kgOhJz/ZPjgXSWQqGi0D0J3H3
+FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
+bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
+2iQQ/ctDeCmI9lqltwxE62evfZENpKuuhb0E0bx/98vmgOTzv+uA6DKnPcYg
+ellNkBWIPpUjaQeiNfd9tgfR57/lm3QB6QPVnlYgemeSVl8PkG6apzQTRF86
+7rQCRL+JFloFolUOi1j3gtxx4o09iAYAWAnZfg==
+  "]],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"2", "t"}], "+", "1"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "1", ",", "x"}], "}"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "1"}], ",", "8"}], "}"}]}], ",", 
+     RowBox[{"Filling", "\[Rule]", "Axis"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1.1", ",", "3"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.581629353684641*^9, 3.581629440849183*^9}, {
+  3.581629499690452*^9, 3.581629512633417*^9}, {3.581633036027581*^9, 
+  3.5816331001205473`*^9}, {3.581694422426434*^9, 3.5816944869527397`*^9}, {
+  3.581699286748673*^9, 3.581699312114224*^9}, {3.58169936259415*^9, 
+  3.58169936277953*^9}}],
+
+Cell[TextData[{
+ StyleBox["c) Differentiate the area function A(x) with respect to x. What do \
+you notice? If using ",
+  FontFamily->"Courier"],
+ StyleBox["Mathematica",
+  FontFamily->"Courier",
+  FontSlant->"Italic"],
+ StyleBox[", execute the following commands in the given order: ",
+  FontFamily->"Courier"]
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwly2kow3EAxvG/M1q8kZscsZBIhBAm55pWw5TbHAk1dxmxHHNn4wURQmbE
+5AUvEI2tFi9YjjcSESFK7maL3zMvnj4vvj0ePD6nxJiiKHcyGDbatrshf2To
+OKN70FgiOL8h0gqpC5jXpa69Jfow3xtgaUe2wmzlkfHCG1HBgiAjsSVRbMI2
+WHPMtrAn0k+FjlApquOHE/3CL+tgS1pRZgRRaqkrg0N3O8O5xHL3oBn4ap8k
+g1dTEwtwsM9Jl0/0cnu2KCCaJ9Rbw4MOD1tIOXR7wiex3guu2/22w8/4WBFM
+d0kMKSb2sOkxMHR1Oh56Hl2mQOGGJqec6M1a5kFtss0cZC4GSGFgxfJ9BVFw
+xn2AVvod10p0/pc/bIjbCobSZk4E3K90jIa+228xUDX5w4KS8fkMuOR6kQVP
+Dtdq4WxnVZPh5yw3WCpqbIVcmrMQmjInR+B16r/1bR+MXnSNNhF+p5rL+4kh
+VpIV6LdJV0BBtV4J11tP1DBacWXQbuwmcoAokyZEwT/cgA6+
+  "]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   StyleBox[
+    RowBox[{"A", "[", "x_", "]"}],
+    FontFamily->"Courier"], 
+   StyleBox[":=",
+    FontFamily->"Courier"], 
+   FractionBox[
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"3", "+", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", "x"}], "+", "1"}], ")"}]}], ")"}], "*", 
+     RowBox[{"(", 
+      RowBox[{"x", "-", "1"}], ")"}]}], "2"]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"D", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"3", "+", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", "x"}], "+", "1"}], ")"}]}], ")"}], "*", 
+     RowBox[{"(", 
+      RowBox[{"x", "-", "1"}], ")"}]}], "2"], ",", "x"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.581699501501939*^9, 3.5816995583798437`*^9}, {
+  3.581699627938939*^9, 3.581699630259153*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", "%", "]"}]], "Input",
+ CellChangeTimes->{{3.581699564136695*^9, 3.5816995686109343`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Task 2",
+ FontFamily->"Courier",
+ FontSize->12,
+ FontWeight->"Plain"]], "Section",
+ CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
+  3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
+  3.581699482068055*^9}}],
+
+Cell[TextData[{
+ StyleBox["a) If x ",
+  FontFamily->"Courier"],
+ "\[GreaterSlantEqual]",
+ StyleBox[" -1, define A(x)=",
+  FontFamily->"Courier"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubsuperscriptBox["\[Integral]", 
+     RowBox[{"-", "1"}], "x"], 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"1", "+", 
+       SuperscriptBox["t", "2"]}], ")"}], 
+     RowBox[{"\[DifferentialD]", "t"}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ StyleBox[". A(x) represents the area of a region. Sketch\nthat region on \
+paper.\n\nb) Use ",
+  FontFamily->"Courier"],
+ StyleBox["Mathematica",
+  FontFamily->"Courier",
+  FontSlant->"Italic"],
+ StyleBox[" to find an expression for A(x)",
+  FontFamily->"Courier"]
+}], "Text",
+ CellChangeTimes->{{3.581269524081081*^9, 3.58126953276013*^9}, {
+   3.581353691830201*^9, 3.581353704011846*^9}, {3.5813569582665243`*^9, 
+   3.5813569836340523`*^9}, {3.581423114859912*^9, 3.5814231487308273`*^9}, {
+   3.581430912037277*^9, 3.581430914469185*^9}, {3.581458498494561*^9, 
+   3.581458636026019*^9}, {3.581526907641451*^9, 3.581526950975606*^9}, {
+   3.581530811103942*^9, 3.581530951876178*^9}, {3.581602973996896*^9, 
+   3.581603089535207*^9}, {3.581603138221673*^9, 3.581603148925766*^9}, {
+   3.581607904829536*^9, 3.5816080074100513`*^9}, {3.5816080516646757`*^9, 
+   3.58160810504746*^9}, {3.5816082122529297`*^9, 3.5816082319239407`*^9}, {
+   3.5816089919715223`*^9, 3.581609010008418*^9}, {3.581616546190958*^9, 
+   3.581616633197209*^9}, {3.581616677052882*^9, 3.581616718994157*^9}, {
+   3.581629158554016*^9, 3.581629205415545*^9}, {3.5816297366026583`*^9, 
+   3.5816297454582872`*^9}, {3.581632325419334*^9, 3.581632330713681*^9}, {
+   3.58163274999964*^9, 3.581632871732335*^9}, {3.581632925883113*^9, 
+   3.581632978577716*^9}, {3.58169409135178*^9, 3.581694260187698*^9}, {
+   3.5816943360742083`*^9, 3.581694338610084*^9}, {3.58169901885748*^9, 
+   3.5816990966701803`*^9}, {3.5816997010145407`*^9, 3.581699793292383*^9}, {
+   3.581699832724794*^9, 3.5816998540424623`*^9}, 3.581699901378366*^9, {
+   3.5817000911806087`*^9, 3.581700092444667*^9}, {3.58170038744565*^9, 
+   3.581700393501135*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"1", "+", 
+    SuperscriptBox["t", "2"]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", 
+     RowBox[{"-", "1"}], ",", "x"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5812667270789757`*^9, 3.5812668944050694`*^9}, {
+   3.581266926948004*^9, 3.581266976578205*^9}, {3.581267085336474*^9, 
+   3.581267199829692*^9}, {3.581267367953918*^9, 3.581267372744327*^9}, {
+   3.581267408848702*^9, 3.581267411119084*^9}, {3.58126746235911*^9, 
+   3.581267469726203*^9}, {3.581267574580345*^9, 3.5812676452660522`*^9}, {
+   3.58126795988083*^9, 3.581267983519969*^9}, {3.5812680190084753`*^9, 
+   3.581268050454398*^9}, {3.581268097654386*^9, 3.581268102110301*^9}, {
+   3.5812693580073557`*^9, 3.581269369854138*^9}, {3.581271270863723*^9, 
+   3.5812712952616453`*^9}, {3.581271374779931*^9, 3.581271376915936*^9}, 
+   3.5812714557703876`*^9, 3.581271493800899*^9, {3.5812717048836117`*^9, 
+   3.5812717087955923`*^9}, {3.581271787762577*^9, 3.581271789289444*^9}, {
+   3.5813416171427193`*^9, 3.581341631596177*^9}, {3.5813439285639772`*^9, 
+   3.581343939169743*^9}, {3.581356876894699*^9, 3.581356944156927*^9}, {
+   3.58135708193781*^9, 3.581357084513652*^9}, {3.581423015608548*^9, 
+   3.5814230597979527`*^9}, {3.581423202507163*^9, 3.58142322292175*^9}, {
+   3.5814292396181498`*^9, 3.581429241072316*^9}, {3.5814582921953173`*^9, 
+   3.581458410753293*^9}, 3.581458455338107*^9, {3.5814586588286533`*^9, 
+   3.581458660379569*^9}, {3.581526867908676*^9, 3.5815268972459784`*^9}, {
+   3.5815269574795094`*^9, 3.581526983599942*^9}, {3.581530962762611*^9, 
+   3.581531007339761*^9}, {3.581608014735619*^9, 3.581608031313178*^9}, {
+   3.5816081101925573`*^9, 3.581608196079507*^9}, {3.581616723530081*^9, 
+   3.581616749162986*^9}, {3.5816292110805693`*^9, 3.581629304318973*^9}, {
+   3.58163287526645*^9, 3.581632923284101*^9}, {3.5816942648993587`*^9, 
+   3.581694294844863*^9}, {3.5816943281534433`*^9, 3.58169434701108*^9}, {
+   3.5816991025760803`*^9, 3.5816991586536493`*^9}, {3.581699858091386*^9, 
+   3.581699881837479*^9}}],
+
+Cell[TextData[StyleBox["c) Differentiate the answer using:",
+ FontFamily->"Courier"]], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdyWkow3EAh/H/JrJEScx9LOZIWBbyhmmupaYRL4bNHGlTkzNLtmzmztgL
+eyNHWciRN14steaolXIkXpBGcq0pSURb/L578fR58STIlKIWOkVR0SSYaxra
+t2w5eW6R6QDSZ1Q3D8SARuoWNozYux6JKYLPXtiqE9t8t528d9ncEZRyaAYG
+0eAj9Np5IfRnEtmXmgh4qO9W5hHT8hzdcLCqqTafaGa42+Dsk9VYT5THc5bh
+B7N0Fd4tzK/B6YlIt4SYGPfmLyX6FfcEwWNdQiikwkdZ0GXwJMLdsD8t/OIX
+6mF1dAm3mTgmZBfAnJ0lPmSdOcqhxnJeJycmVWzK4G9ZyAoUrGeYYaZi80VB
+VF3VvMJAjzWmHV/5nQ57i/ayoXlAlA/tPEXwOHGBpmdDp4SeBU+Hq7yqOsT9
+k8TYzlCt177FE8gVp15DLYfpgNdi2z00Rm08Q71a7YKV4yXJU8R4z4/Xf8Zb
+6IU=
+  "]],
+
+Cell[BoxData[
+ RowBox[{"D", "[", 
+  RowBox[{"%", ",", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.5812667270789757`*^9, 3.5812668944050694`*^9}, {
+   3.581266926948004*^9, 3.581266976578205*^9}, {3.581267085336474*^9, 
+   3.581267199829692*^9}, {3.581267367953918*^9, 3.581267372744327*^9}, {
+   3.581267408848702*^9, 3.581267411119084*^9}, {3.58126746235911*^9, 
+   3.581267469726203*^9}, {3.581267574580345*^9, 3.5812676452660522`*^9}, {
+   3.58126795988083*^9, 3.581267983519969*^9}, {3.5812680190084753`*^9, 
+   3.581268050454398*^9}, {3.581268097654386*^9, 3.581268102110301*^9}, {
+   3.5812693580073557`*^9, 3.581269369854138*^9}, {3.581271270863723*^9, 
+   3.5812712952616453`*^9}, {3.581271374779931*^9, 3.581271376915936*^9}, 
+   3.5812714557703876`*^9, 3.581271493800899*^9, {3.5812717048836117`*^9, 
+   3.5812717087955923`*^9}, {3.581271787762577*^9, 3.581271789289444*^9}, {
+   3.5813416171427193`*^9, 3.581341631596177*^9}, {3.5813439285639772`*^9, 
+   3.581343939169743*^9}, {3.581356876894699*^9, 3.581356944156927*^9}, {
+   3.58135708193781*^9, 3.581357084513652*^9}, {3.581423015608548*^9, 
+   3.5814230597979527`*^9}, {3.581423202507163*^9, 3.58142322292175*^9}, {
+   3.5814292396181498`*^9, 3.581429241072316*^9}, {3.5814582921953173`*^9, 
+   3.581458410753293*^9}, 3.581458455338107*^9, {3.5814586588286533`*^9, 
+   3.581458660379569*^9}, {3.581526867908676*^9, 3.5815268972459784`*^9}, {
+   3.5815269574795094`*^9, 3.581526983599942*^9}, {3.581530962762611*^9, 
+   3.581531007339761*^9}, {3.581608014735619*^9, 3.581608031313178*^9}, {
+   3.5816081101925573`*^9, 3.581608196079507*^9}, {3.581616723530081*^9, 
+   3.581616749162986*^9}, {3.5816292110805693`*^9, 3.581629304318973*^9}, {
+   3.58163287526645*^9, 3.581632923284101*^9}, {3.5816942648993587`*^9, 
+   3.581694294844863*^9}, {3.5816943281534433`*^9, 3.58169434701108*^9}, {
+   3.5816991025760803`*^9, 3.5816991586536493`*^9}, {3.581699858091386*^9, 
+   3.581699881837479*^9}, {3.581699943687007*^9, 3.58169994792906*^9}}],
+
+Cell[TextData[StyleBox["What do you notice?",
+ FontFamily->"Courier"]], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdyWkog3EAx/EH0ZZIxMy9tYklEqG9MJM7tRrxwv04G/WUYy9GWrPmZniB
+F2jKmtXIG2XJLaKc8UaaErFcIUoT/99efPu8+PJoRl7rSlFUMAkmT2i2rAt2
+qUM+sQ1dR1RXt0TPKuoalnfvt9wRo/I+lbBOW7LpvmiXvtHju7Ay3kXPJurd
+ZE6bz2UsDjHyQs2FO7pWJoUoSrG1ws6C6mIx0ch2NMDR+/WxMqIiIn4WvnOy
+TfBmZmoeDvcHOSqIgvBnViXRI7PNGx5qef6QCuzhwyf9rwAuB/x1wa+MNB0s
+DMlKrCH2yiIlMGnJkAH5J7ZcqLaeliqIwnwLDX9y/OZgnjnWCOMaLQ+NRNVl
+0SP0+l0PbcJnvmOgMn01ARo75GJ40MRNhdFrHxJ4/MUk9hE32nPFcIUWDQ0Q
+NdP8SXi2l26CTyW+ZujDGniB9QVHr7BXOB02SOQZ3p3+Ay+A4W0=
+  "]],
+
+Cell[TextData[{
+ StyleBox["d) If x ",
+  FontFamily->"Courier"],
+ "\[GreaterSlantEqual]",
+ StyleBox[" -1 and h is a small positive number, then A(x+h) - A(x) \
+represents the area\nof a region. Describe and sketch the region on paper.\n\n\
+e) Draw a rectangle that approximates the region above. By comparing the \
+areas of these\ntwo regions, argue that:\n\n",
+  FontFamily->"Courier"],
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{
+     RowBox[{"A", "(", 
+      RowBox[{"x", "+", "h"}], ")"}], "-", 
+     RowBox[{"A", "(", "x", ")"}]}], "h"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\[TildeTilde]",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "+", 
+    SuperscriptBox["x", "2"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ StyleBox["  \nf) Give an intuitive explanation for the result of part c). \
+[Hint: Consider the limit\nof the left hand side in the part e), as h \
+approaches 0.]  \n",
+  FontFamily->"Courier"]
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGBQAmIQbT6j6dCuda8c/wTNOAyimSZW3X4MpLkTGe6C6Lj2
+E8VPgbSG15cyEJ3WEn2Qdf0rxw9J04+C6ARDxgmcQHoCsz+YLrrszyEOpNWu
+NkiC6CNtJfkWQFrL4n4JiK4LTg63AtLLOP9kgOhJz/ZPjgXSWQqGi0D0J3H3
+FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
+bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
+2iQQ/ctDeCmI9lqltwxE62evfZENpKuuhb0E0bx/98vmgOTzv+uA6DKnPcYg
+ellNkBWIPpUjaQeiNfd9tgfRR+f99gHRE2cvDwXRa2TvRoHoK+e3FoPoxa0F
+1WB90uvAdFpbZT2IDuOWbgDRLF7zpoPoR74QurTpq2MXSP7iLzcQ/cOXbV0P
+kDbhnbgeRLNvSfsMopl2LvoHot22WbD2AuktRgLcILrp+H0BEO0euUwWRB+q
+dlIC0as8XZVB9IF3jTogWkU91RJEAwAH0RtV
+  "]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Task 3",
+ FontFamily->"Courier",
+ FontSize->12,
+ FontWeight->"Plain"]], "Section",
+ CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
+   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
+   3.581699482068055*^9}, 3.5817006399675703`*^9}],
+
+Cell[TextData[{
+ StyleBox["a) Draw the graph of the function ",
+  FontFamily->"Courier"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"f", "(", "x", ")"}], "=", 
+    RowBox[{"cos", "(", 
+     SuperscriptBox["x", "2"], ")"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ StyleBox["in the viewing rectangle [0, 2] by [-1.25, 1.25].",
+  FontFamily->"Courier"]
+}], "Text",
+ CellChangeTimes->{{3.581269524081081*^9, 3.58126953276013*^9}, {
+   3.581353691830201*^9, 3.581353704011846*^9}, {3.5813569582665243`*^9, 
+   3.5813569836340523`*^9}, {3.581423114859912*^9, 3.5814231487308273`*^9}, {
+   3.581430912037277*^9, 3.581430914469185*^9}, {3.581458498494561*^9, 
+   3.581458636026019*^9}, {3.581526907641451*^9, 3.581526950975606*^9}, {
+   3.581530811103942*^9, 3.581530951876178*^9}, {3.581602973996896*^9, 
+   3.581603089535207*^9}, {3.581603138221673*^9, 3.581603148925766*^9}, {
+   3.581607904829536*^9, 3.5816080074100513`*^9}, {3.5816080516646757`*^9, 
+   3.58160810504746*^9}, {3.5816082122529297`*^9, 3.5816082319239407`*^9}, {
+   3.5816089919715223`*^9, 3.581609010008418*^9}, {3.581616546190958*^9, 
+   3.581616633197209*^9}, {3.581616677052882*^9, 3.581616718994157*^9}, {
+   3.581629158554016*^9, 3.581629205415545*^9}, {3.5816297366026583`*^9, 
+   3.5816297454582872`*^9}, {3.581632325419334*^9, 3.581632330713681*^9}, {
+   3.58163274999964*^9, 3.581632871732335*^9}, {3.581632925883113*^9, 
+   3.581632978577716*^9}, {3.58169409135178*^9, 3.581694260187698*^9}, {
+   3.5816943360742083`*^9, 3.581694338610084*^9}, {3.58169901885748*^9, 
+   3.5816990966701803`*^9}, {3.5816997010145407`*^9, 3.581699793292383*^9}, {
+   3.581699832724794*^9, 3.5816998540424623`*^9}, 3.581699901378366*^9, {
+   3.5817000911806087`*^9, 3.581700092444667*^9}, {3.58170038744565*^9, 
+   3.581700393501135*^9}, {3.5817006446150007`*^9, 3.581700720740518*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"f", "[", "t_", "]"}], ":=", 
+  RowBox[{"Cos", "[", 
+   SuperscriptBox["t", "2"], "]"}]}]], "Input",
+ CellChangeTimes->{{3.581701762933016*^9, 3.581701820130342*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"f", "[", "x", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "2"}], "}"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "1.25"}], ",", "1.25"}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5812667270789757`*^9, 3.5812668944050694`*^9}, {
+   3.581266926948004*^9, 3.581266976578205*^9}, {3.581267085336474*^9, 
+   3.581267199829692*^9}, {3.581267367953918*^9, 3.581267372744327*^9}, {
+   3.581267408848702*^9, 3.581267411119084*^9}, {3.58126746235911*^9, 
+   3.581267469726203*^9}, {3.581267574580345*^9, 3.5812676452660522`*^9}, {
+   3.58126795988083*^9, 3.581267983519969*^9}, {3.5812680190084753`*^9, 
+   3.581268050454398*^9}, {3.581268097654386*^9, 3.581268102110301*^9}, {
+   3.5812693580073557`*^9, 3.581269369854138*^9}, {3.581271270863723*^9, 
+   3.5812712952616453`*^9}, {3.581271374779931*^9, 3.581271376915936*^9}, 
+   3.5812714557703876`*^9, 3.581271493800899*^9, {3.5812717048836117`*^9, 
+   3.5812717087955923`*^9}, {3.581271787762577*^9, 3.581271789289444*^9}, {
+   3.5813416171427193`*^9, 3.581341631596177*^9}, {3.5813439285639772`*^9, 
+   3.581343939169743*^9}, {3.581356876894699*^9, 3.581356944156927*^9}, {
+   3.58135708193781*^9, 3.581357084513652*^9}, {3.581423015608548*^9, 
+   3.5814230597979527`*^9}, {3.581423202507163*^9, 3.58142322292175*^9}, {
+   3.5814292396181498`*^9, 3.581429241072316*^9}, {3.5814582921953173`*^9, 
+   3.581458410753293*^9}, 3.581458455338107*^9, {3.5814586588286533`*^9, 
+   3.581458660379569*^9}, {3.581526867908676*^9, 3.5815268972459784`*^9}, {
+   3.5815269574795094`*^9, 3.581526983599942*^9}, {3.581530962762611*^9, 
+   3.581531007339761*^9}, {3.581608014735619*^9, 3.581608031313178*^9}, {
+   3.5816081101925573`*^9, 3.581608196079507*^9}, {3.581616723530081*^9, 
+   3.581616749162986*^9}, {3.5816292110805693`*^9, 3.581629304318973*^9}, {
+   3.58163287526645*^9, 3.581632923284101*^9}, {3.5816942648993587`*^9, 
+   3.581694294844863*^9}, {3.5816943281534433`*^9, 3.58169434701108*^9}, {
+   3.5816991025760803`*^9, 3.5816991586536493`*^9}, {3.581699858091386*^9, 
+   3.581699881837479*^9}, {3.581700725459197*^9, 3.581700768588628*^9}, {
+   3.581700807323949*^9, 3.581700851196044*^9}, {3.581701595481142*^9, 
+   3.5817016023358173`*^9}, {3.581701828993054*^9, 3.581701830225919*^9}}],
+
+Cell[TextData[StyleBox["c)Define a new function, g(x), using f(x) as the \
+integrand:",
+ FontFamily->"Courier"]], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdyWkow3EAxvG/iUiUxNxGzJEw5mhvmNzRNBo15xzJ1OTMEjLmzvCCN3KU
+hYy88UIiVykaEoo0R66ZkuRqi9/zf/H06enrLZEJyxgURbHIYPRY+9bqop5v
+FI5tQ8aQ/PKOaFNMXcGCrr3ae2JA2kcDLO8Qb1os6flvktFdWMQxU1kTVeYC
+2poTgRWTyD5tc4E7yjpZDDEoRlcHW7JKcnhEtbWxAg4/bIzkEytZnGn4zkye
+hdcT43NwsM/VWEj09Xq1KiJaJtbbwf0Ob0dIOXf7QIPK5AtXnP4U8DMhTgmz
+3ZO4pcQeATsWRi1PJUCfI10qbFs9zqsk+qVrJPA3xWEGps2HqGGoVPMkJcrP
+RM/Q1rThUYUu+wqGDfFrEVDdLOTBPb7Uvpc4YaZkQ30hIwwedmbRyqvFTf1E
+zxpHBW3jpBZyxYEXUMFh6uCFePMGjrgtPEJla6sBZvYm+Q8QWaYf2nKuVkT/
+/IVcqG1ZL4G88IIyeN4YKYWGrgza9G/RCzy47aH9B0J3DGs=
+  "]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"g", "[", "x_", "]"}], ":=", 
+  RowBox[{
+   SubsuperscriptBox["\[Integral]", "0", "x"], 
+   RowBox[{
+    RowBox[{"f", "[", "t", "]"}], 
+    RowBox[{"\[DifferentialD]", "t", " "}]}]}]}]], "Input",
+ CellChangeTimes->{{3.5812667270789757`*^9, 3.5812668944050694`*^9}, {
+   3.581266926948004*^9, 3.581266976578205*^9}, {3.581267085336474*^9, 
+   3.581267199829692*^9}, {3.581267367953918*^9, 3.581267372744327*^9}, {
+   3.581267408848702*^9, 3.581267411119084*^9}, {3.58126746235911*^9, 
+   3.581267469726203*^9}, {3.581267574580345*^9, 3.5812676452660522`*^9}, {
+   3.58126795988083*^9, 3.581267983519969*^9}, {3.5812680190084753`*^9, 
+   3.581268050454398*^9}, {3.581268097654386*^9, 3.581268102110301*^9}, {
+   3.5812693580073557`*^9, 3.581269369854138*^9}, {3.581271270863723*^9, 
+   3.5812712952616453`*^9}, {3.581271374779931*^9, 3.581271376915936*^9}, 
+   3.5812714557703876`*^9, 3.581271493800899*^9, {3.5812717048836117`*^9, 
+   3.5812717087955923`*^9}, {3.581271787762577*^9, 3.581271789289444*^9}, {
+   3.5813416171427193`*^9, 3.581341631596177*^9}, {3.5813439285639772`*^9, 
+   3.581343939169743*^9}, {3.581356876894699*^9, 3.581356944156927*^9}, {
+   3.58135708193781*^9, 3.581357084513652*^9}, {3.581423015608548*^9, 
+   3.5814230597979527`*^9}, {3.581423202507163*^9, 3.58142322292175*^9}, {
+   3.5814292396181498`*^9, 3.581429241072316*^9}, {3.5814582921953173`*^9, 
+   3.581458410753293*^9}, 3.581458455338107*^9, {3.5814586588286533`*^9, 
+   3.581458660379569*^9}, {3.581526867908676*^9, 3.5815268972459784`*^9}, {
+   3.5815269574795094`*^9, 3.581526983599942*^9}, {3.581530962762611*^9, 
+   3.581531007339761*^9}, {3.581608014735619*^9, 3.581608031313178*^9}, {
+   3.5816081101925573`*^9, 3.581608196079507*^9}, {3.581616723530081*^9, 
+   3.581616749162986*^9}, {3.5816292110805693`*^9, 3.581629304318973*^9}, {
+   3.58163287526645*^9, 3.581632923284101*^9}, {3.5816942648993587`*^9, 
+   3.581694294844863*^9}, {3.5816943281534433`*^9, 3.58169434701108*^9}, {
+   3.5816991025760803`*^9, 3.5816991586536493`*^9}, {3.581699858091386*^9, 
+   3.581699881837479*^9}, {3.581699943687007*^9, 3.58169994792906*^9}, {
+   3.581700912872501*^9, 3.5817009403361607`*^9}, {3.581701434356394*^9, 
+   3.581701470381041*^9}, {3.581701525378265*^9, 3.581701572184085*^9}, {
+   3.581701618169725*^9, 3.581701651470367*^9}, {3.5817016864700413`*^9, 
+   3.58170170730123*^9}, {3.5817018476908073`*^9, 3.5817018840167933`*^9}}],
+
+Cell[TextData[StyleBox["Test its functionality:",
+ FontFamily->"Courier"]], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGBQBGIQbT6j6dCuda8c/wTNOAyimSZW3X4MpLkTGe6C6Lj2
+E8VPgbSG15cyEJ3WEn2Qdf0rxw9J04+C6ARDxgmcQHoCsz+YLrrszyEOpNWu
+NkiC6CNtJfkWQFrL4n4JiK4LTg63AtLLOP9kgOhJz/ZPjgXSWQqGi0D0J3H3
+FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
+bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
+2iQQ/ctDeCmI9lqltwxE62evfZENpKuuhb0E0bx/98vmgOTzv+uA6DKnPcYg
+ellNkBWIPuGYLdgFpOcztqmB6FfxTAYg+nxrMJiuKoiu7AHSckWizWC6fME5
+EG0SrXkLRDcbit8H0beiDz4E0ZOl1zwH0W319W9AdECXm3ovkFb4+xNMp5mc
+CwPzY9dEgOhzdfuSQbSVUVwqiL5ebpoNot+0+4Jpnx9hr0H0mUedYPpcuKls
+H5C+f++REogGAFSaFXQ=
+  "]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"g", "[", "1", "]"}], "//", "N"}]], "Input",
+ CellChangeTimes->{{3.581701718633511*^9, 3.581701721892042*^9}, {
+   3.5817018954320307`*^9, 3.581701903463923*^9}, 3.581702364100335*^9}],
+
+Cell[TextData[StyleBox["d)Plot g\[CloseCurlyQuote](x) and f(x) in the same \
+window:",
+ FontFamily->"Courier"]], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGBQBGIQbT6j6dCuda8c/wTNOAyimSZW3X4MpLkTGe6C6Lj2
+E8VPgbSG15cyEJ3WEn2Qdf0rxw9J04+C6ARDxgmcQHoCsz+YLrrszyEOpNWu
+NkiC6CNtJfkWQFrL4n4JiK4LTg63AtLLOP9kgOhJz/ZPjgXSWQqGi0D0J3H3
+FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
+bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
+2iQQ/ctDeCmI9lqltwxE62evfZENpKuuhb0E0bx/98vmgOTzv+uA6DKnPcYg
+ellNkBWIPuGYLdgFpOcztqmB6FfxTAYg+nxrMJiuKoiu7AHSckWizWC6fME5
+EG0SrXkLRDcbit8H0beiDz4E0ZOl1zwH0W319W9AdECXm3ovkFb4+xNMp5mc
+CwPzY9dEgOhzdfuSQbSVUVwqiL5ebpoNot+0+4Jpnx9hr0H0mUedYLro7ev3
+IPq4pdQnEA0AZk8Wfw==
+  "]],
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"g", "'"}], "[", "x", "]"}], ",", 
+     RowBox[{"f", "[", "x", "]"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "2"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5817019176721287`*^9, 3.581701919095155*^9}, {
+  3.5817020352284317`*^9, 3.58170207690814*^9}}],
+
+Cell[TextData[{
+ StyleBox["What do you notice? Ask ",
+  FontFamily->"Courier"],
+ StyleBox["Mathematica",
+  FontFamily->"Courier",
+  FontSlant->"Italic"],
+ StyleBox[" to onfirm your observation:",
+  FontFamily->"Courier"]
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdyX0o43EAx/GfXZhESezOs+WGS8eYp/3D5DmaRqPmcR6SqWmesoSMec7w
+B/8IVxbykH/8IRF3lxXmruvuijQPeZp5SPLUFt/P749Prz69faVyUSmDoig2
+GYwcad1YnjcKzKKR75AxoNw/IdoXUQcwv0NXfUoMSH2og2VtknXrBaPgTjr8
+ExZyrTR2RM0HIa3ij5DJInL+tnyCP9Q18ijilyhDDWzKLM7mE7V25nI4eLY2
+lEes8OF+g/espCl4ODY6Dft73MwFRD/va2Yh0Sah1hFutfm6QOpjJxuaNBY/
+uOT6poKP8bFqmOWRyCshdgk5MTBicSIesn8ZUmDL8u/cCuLntDkpfE12noSp
+M1+1MFg2dyEjKv+JL6GDZc2zEl3+FATr4lbCoLZRxIc6gcypmzhmpeZAYwEj
+BO62Z9IqqyQNvUQvhYuKtn5cD3mSwD2o4rIMcE+yfgSH3GfPobq52QQzuhP9
++4g+lhfaMp5eTP+82Ryob1othvzQ/FL4vz5cBk0d6bRpz+IruH3cRau4vrqF
+m9Fu93BnIugV3kTaWuA7I84gCw==
+  "]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"g", "'"}], "[", "x", "]"}], "\[Equal]", 
+  RowBox[{"f", "[", "x", "]"}]}]], "Input",
+ CellChangeTimes->{{3.581702066826408*^9, 3.581702067475513*^9}, {
+  3.581702122946189*^9, 3.5817021277701483`*^9}}],
+
+Cell[TextData[{
+ StyleBox["e) Now it is time to generalize. Suppose that f is a continuous \
+function on\na closed interval [a, b]. If we define a new function:\n",
+  FontFamily->"Courier"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"g", "(", "x", ")"}], "=", 
+    RowBox[{
+     SubsuperscriptBox["\[Integral]", 
+      RowBox[{"t", "=", "a"}], 
+      RowBox[{"t", "=", "x"}]], 
+     RowBox[{
+      RowBox[{"f", "(", "t", ")"}], 
+      RowBox[{"\[DifferentialD]", "t"}]}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", ",
+ StyleBox[" conjecture an expression for g\[CloseCurlyQuote](x).\n\nThe \
+result is one of the two parts of the Fundamental Theorem of Calculus.",
+  FontFamily->"Courier"]
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdyVtIUwEcx/HjxBtRkKIzrbxwnBdEnc3UvdTEO8ZiyjSWt5kiWzCZpjTD
+SbNjaunUB30RU2iUaOGLDyKKpiiks4gUFFkpXprTQqRMNur/Ow8/Pvz4hql1
+ikoBwzAsDSb3P52bfGeXORX9H6Cg27C5Q14oZ7ZgSetS7S4ZlXtaD6taVLMe
+7+2yX+q+BVgmdjP7kGZ3Oa/+i9xbSIq+Nl+B81ydLoWMSbHVwab8ikIpafFx
+VsOevZneYlITKh6GJ8KsN/Db4MBb2NUR5Cwl2ZAj7zLSM+PRJfixJcwfMoHP
+w6HD7GLhRMA/E/ydfpuDBVczJQ/INrnoFrw5PpQOwz/ZcmDz5Of7GjIib0wN
+z7P9XsPckTgLjNeOHWhJw5ryB7zomrn2EF33JxbWp03dgJYnCilckmkvt5OD
+bpwI2ksFCXD1WT6voUb1+AV5Xe9v4m14ZYUSVfQGNImFNrihmv0Oe4NH9yFn
+NDrg3fbMyJdkqOsvb5XEquR/8WgRtDZNV0BpYkklXG9I0kJH6x3evDPlIVze
+buPVHx3+hIupQSdwZSj2HB4ne7ngPQ3r0UluuzcKoXH4mIXclG8E/A8gWS+8
+
+  "]]
+}, Open  ]],
+
+Cell[TextData[StyleBox["Related Exercises/Notes:",
+ FontFamily->"Courier",
+ FontSize->14,
+ FontWeight->"Plain"]], "Section",
+ CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
+  3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
+  3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
+  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+
+Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+ FontFamily->"Courier",
+ FontSize->10,
+ FontWeight->"Plain"]], "Section",
+ CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
+  3.581346408075123*^9, 3.5813464207760553`*^9}},
+ TextAlignment->Center]
+}, Open  ]]
+},
+WindowSize->{1429, 1271},
+WindowMargins->{{155, Automatic}, {Automatic, 17}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+CellLabelAutoDelete->True,
+Magnification:>FEPrivate`If[
+  FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 2., 2. Inherited],
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
+2010)",
+StyleDefinitions->"Default.nb",
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 264, 5, 110, "Title"],
+Cell[846, 29, 1071, 16, 132, "Subtitle"],
+Cell[1920, 47, 1158, 25, 64, "Subsection"],
+Cell[CellGroupData[{
+Cell[3103, 76, 223, 5, 54, "Section"],
+Cell[3329, 83, 705, 13, 82, "Text"],
+Cell[4037, 98, 2185, 36, 54, "Input"],
+Cell[6225, 136, 816, 14, 112, "Text"],
+Cell[7044, 152, 805, 20, 54, "Input"],
+Cell[7852, 174, 903, 20, 82, "Text"],
+Cell[8758, 196, 851, 30, 158, "Input"],
+Cell[9612, 228, 129, 2, 54, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9778, 235, 272, 6, 118, "Section"],
+Cell[10053, 243, 2158, 45, 152, "Text"],
+Cell[12214, 290, 2097, 33, 64, "Input"],
+Cell[14314, 325, 630, 12, 52, "Text"],
+Cell[14947, 339, 2004, 28, 54, "Input"],
+Cell[16954, 369, 602, 11, 52, "Text"],
+Cell[17559, 382, 1592, 39, 369, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19188, 426, 298, 6, 118, "Section"],
+Cell[19489, 434, 1863, 32, 91, "Text"],
+Cell[21355, 468, 200, 5, 64, "Input"],
+Cell[21558, 475, 2371, 37, 54, "Input"],
+Cell[23932, 514, 701, 13, 52, "Text"],
+Cell[24636, 529, 2455, 37, 88, "Input"],
+Cell[27094, 568, 696, 13, 52, "Text"],
+Cell[27793, 583, 218, 4, 54, "Input"],
+Cell[28014, 589, 733, 14, 52, "Text"],
+Cell[28750, 605, 390, 11, 54, "Input"],
+Cell[29143, 618, 853, 20, 52, "Text"],
+Cell[29999, 640, 248, 6, 54, "Input"],
+Cell[30250, 648, 1381, 33, 183, "Text"]
+}, Open  ]],
+Cell[31646, 684, 386, 7, 122, "Section"],
+Cell[32035, 693, 263, 6, 50, "Section"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<enrollment>
+
+	<oneyear>
+	<mathdepartment>
+	
+		<calculus>
+			<name>AP Calculus AB</name>
+			<level>AP</level>
+			<number>27</number>
+				
+			<name>AP Calculus BC</name>
+			<level>AP</level>
+			<number>7</number>
+			
+			<name>Calculus</name>
+			<level>Regular</level>
+			<number>39</number>
+			
+			<name>Abstract Mathematics (Discrete, Independent)</name>
+			<level>Independent</level>
+			<number>1</number>
+
+		</calculus>
+		
+		<precalculus>
+			<name>Honors Precalculus</name>
+			<level>Honors</level>
+			<number>34</number>
+				
+			<name>Intro to Precalculus</name>
+			<level>Intro</level>
+			<number>19</number>
+				
+			<name>Precalculus</name>
+			<level>Regular</level>
+			<number>73</number>
+		</precalculus>
+		
+		<algebratwo>
+			<name>Algebra II</name>
+			<level>Regular</level>
+			<number>70</number>
+			
+			<name>Algebra II Modified-A</name>
+			<level>Modified</level>
+			<number>21</number>
+			
+			<name>Algebra II Modified-B</name>
+			<level>Modified</level>
+			<number>10</number>
+			
+			<name>Honors Algebra II</name>
+			<level>Honors</level>
+			<number>10</number>
+		</algebratwo>
+		
+		<algebraone>
+			<name>Algebra I</name>
+			<level>Regular</level>
+			<number>23</number>
+			
+			<name>Topics in Algebra</name>
+			<level>Intro</level>
+			<number>3</number>
+		</algebraone>
+		
+		<geometry>
+			<name>Geometry</name>
+			<level>Regular</level>
+			<number>48</number>
+				
+			<name>Topics in Geometry</name>
+			<level>Intro</level>
+			<number>18</number>
+		
+			<name>Honors Geometry</name>
+			<level>Honors</level>
+			<number>18</number>
+		</geometry>
+		
+		<statistics>
+			<name>AP(Adv) Statistics</name>
+			<level>AP</level>
+			<number>5</number>
+				
+			<name>Statistics</name>
+			<level>Regular</level>
+			<number>17</number>
+		</statistics>
+		
+	</mathdepartment>
+</oneyear>
+	
+	
+	<twoyear>
+	<mathdepartment>
+	
+		<calculus>
+			<name>AP Calculus AB</name>
+			<level>AP</level>
+			<number>30</number>
+				
+			<name>AP Calculus BC</name>
+			<level>AP</level>
+			<number>8</number>
+				
+			<name>Calculus</name>
+			<level>Regular</level>
+			<number>40</number>
+			
+			<name>Abstract Mathematics (Discrete, Independent)</name>
+			<level>Independent</level>
+			<number>0</number>
+
+		</calculus>
+		
+		<precalculus>
+			<name>Honors Precalculus</name>
+			<level>Honors</level>
+			<number>27</number>
+				
+			<name>Intro to Precalculus</name>
+			<level>Intro</level>
+			<number>25</number>
+			
+			<name>Precalculus</name>
+			<level>Regular</level>
+			<number>60</number>
+		</precalculus>
+		
+		<algebratwo>
+			<name>Algebra II</name>
+			<level>Regular</level>
+			<number>66</number>
+			
+			<name>Algebra II Modified-A</name>
+			<level>Modified</level>
+			<number>14</number>
+			
+			<name>Algebra II Modified-B</name>
+			<level>Modified</level>
+			<number>13</number>
+			
+			<name>Honors Algebra II</name>
+			<level>Honors</level>
+			<number>27</number>
+		</algebratwo>
+		
+		<algebraone>
+			<name>Algebra I</name>
+			<level>Regular</level>
+			<number>21</number>
+				
+			<name>Topics in Algebra</name>
+			<level>Intro</level>
+			<number>8</number>
+		</algebraone>
+		
+		<geometry>
+			<name>Geometry</name>
+			<level>Regular</level>
+			<number>46</number>
+				
+			<name>Topics in Geometry</name>
+			<level>Intro</level>
+			<number>10</number>
+			
+			<name>Honors Geometry</name>
+			<level>Honors</level>
+			<number>7</number>
+		</geometry>
+		
+		<statistics>
+			<name>AP(Adv) Statistics</name>
+			<level>AP</level>
+			<number>8</number>
+				
+			<name>Statistics</name>
+			<level>Regular</level>
+			<number>23</number>
+		</statistics>
+		
+	</mathdepartment>
+</twoyear>
+
+
+	<threeyear>
+	<mathdepartment>
+	
+		<calculus>
+			<name>AP Calculus AB</name>
+			<level>AP</level>
+			<number>13</number>
+				
+			<name>AP Calculus BC</name>
+			<level>AP</level>
+			<number>15</number>
+			
+			<name>Calculus</name>
+			<level>Regular</level>
+			<number>53</number>
+			
+			<name>Abstract Mathematics (Discrete, Independent)</name>
+			<level>Independent</level>
+			<number>2</number>
+
+		</calculus>
+		
+		<precalculus>
+			<name>Honors Precalculus</name>
+			<level>Honors</level>
+			<number>36</number>
+				
+			<name>Intro to Precalculus</name>
+			<level>Intro</level>
+			<number>11</number>
+				
+			<name>Precalculus</name>
+			<level>Regular</level>
+			<number>82</number>
+		</precalculus>
+		
+		<algebratwo>
+			<name>Algebra II</name>
+			<level>Regular</level>
+			<number>59</number>
+		
+			<name>Algebra II Modified-A</name>
+			<level>Modified</level>
+			<number>13</number>
+			
+			<name>Algebra II Modified-B</name>
+			<level>Modified</level>
+			<number>11</number>
+			
+			<name>Honors Algebra II</name>
+			<level>Honors</level>
+			<number>18</number>
+		</algebratwo>
+		
+		<algebraone>
+			<name>Algebra I</name>
+			<level>Regular</level>
+			<number>30</number>
+				
+			<name>Topics in Algebra</name>
+			<level>Intro</level>
+			<number>11</number>
+		</algebraone>
+		
+		<geometry>
+			<name>Geometry</name>
+			<level>Regular</level>
+			<number>36</number>
+				
+			<name>Topics in Geometry</name>
+			<level>Intro</level>
+			<number>4</number>
+			
+			<name>Honors Geometry</name>
+			<level>Honors</level>
+			<number>6</number>
+		</geometry>
+		
+		<statistics>
+			<name>AP(Adv) Statistics</name>
+			<level>AP</level>
+			<number>6</number>
+				
+			<name>Statistics</name>
+			<level>Regular</level>
+			<number>28</number>
+		</statistics>
+		
+	</mathdepartment>
+</threeyear>
+
+
+	<fouryear>
+	<mathdepartment>
+	
+		<calculus>
+			<name>AP Calculus AB</name>
+			<level>AP</level>
+			<number>25</number>
+				
+			<name>AP Calculus BC</name>
+			<level>AP</level>
+			<number>5</number>
+				
+			<name>Calculus</name>
+			<level>Regular</level>
+			<number>53</number>
+			
+			<name>Abstract Mathematics (Discrete, Independent)</name>
+			<level>Independent</level>
+			<number>5</number>
+
+		</calculus>
+		
+		<precalculus>
+			<name>Honors Precalculus</name>
+			<level>Honors</level>
+			<number>36</number>
+				
+			<name>Intro to Precalculus</name>
+			<level>Intro</level>
+			<number>12</number>
+				
+			<name>Precalculus</name>
+			<level>Regular</level>
+			<number>65</number>
+		</precalculus>
+		
+		<algebratwo>
+			<name>Algebra II</name>
+			<level>Regular</level>
+			<number>59</number>
+			
+			<name>Algebra II Modified-A</name>
+			<level>Modified</level>
+			<number>14</number>
+			
+			<name>Algebra II Modified-B</name>
+			<level>Modified</level>
+			<number>8</number>
+			
+			<name>Honors Algebra II</name>
+			<level>Honors</level>
+			<number>18</number>
+		</algebratwo>
+		
+		<algebraone>
+			<name>Algebra I</name>
+			<level>Regular</level>
+			<number>26</number>
+			
+			<name>Topics in Algebra</name>
+			<level>Intro</level>
+			<number>6</number>
+		</algebraone>
+		
+		<geometry>
+			<name>Geometry</name>
+			<level>Regular</level>
+			<number>42</number>
+				
+			<name>Topics in Geometry</name>
+			<level>Intro</level>
+			<number>13</number>
+			
+			<name>Honors Geometry</name>
+			<level>Honors</level>
+			<number>14</number>
+		</geometry>
+		
+		<statistics>
+			<name>AP(Adv) Statistics</name>
+			<level>AP</level>
+			<number>17</number>
+				
+			<name>Statistics</name>
+			<level>Regular</level>
+			<number>34</number>
+		</statistics>
+		
+	</mathdepartment>
+</fouryear>
+
+</enrollment>

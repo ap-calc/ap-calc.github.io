@@ -1,0 +1,10 @@
+var n = new Date();
+document.write('<!-- Footer --> <footer class="container-fluid bg-3 text-center"> <hr> <a href="https://denis.network/" target="_blank">denis.network </a> | 2006 - ' + n.getFullYear() + '</footer>');
+
+
+
+
+
+
+
+
