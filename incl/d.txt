@@ -1,1 +1,1 @@
-document.write('denis.network');
+document.write('ap-calc.github.io');

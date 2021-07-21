@@ -1,2 +1,2 @@
-document.write('<title>denis.network</title>');
+document.write('<title>ap-calc.github.io</title>');
 
