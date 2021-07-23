@@ -90,13 +90,24 @@
 	shuffle(unrated);
 
     shuffledRoster= goalies.concat(defense1, offense1, defense2, offense2, defense3, offense3,unrated);
+	
     var m=0;
 	while(m < shuffledRoster.length) {
 		teamA.push(shuffledRoster[m]);
 		teamB.push(shuffledRoster[m+1]);
 		m = m + 2;
 	}
+	teamA.sort(function(a, b){
+	    if(a.firstname < b.firstname) { return -1; }
+	    if(a.firstname > b.firstname) { return 1; }
+	    return 0;
+	})
 	
+	teamB.sort(function(a, b){
+	    if(a.firstname < b.firstname) { return -1; }
+	    if(a.firstname > b.firstname) { return 1; }
+	    return 0;
+	})
 
 /*    for(id in shuffledRoster){
  	   document.getElementById("output").innerHTML += shuffledRoster[id].firstname + " ";
