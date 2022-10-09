@@ -35,19 +35,18 @@
 
 <button type="button"  onclick=newQuestion();> New Question</button> 
 <button onclick="clearboth();"> Hide/Show Text</button>
-<button onclick="w3.toggleShow('#feedback')"> Hide/Show Answer</button>
+<button onclick="toggleBoth();"> Hide/Show Answer</button>
 
 <!-- Audio answer -->
 <!-- <button> Play/Hide Answer</button> -->
 
-
-<div id="prompt"></div>
-
 <hr>
+<h2> <b>Question</b> </h2>
+<div id="prompt"></div>
 <div id="audioq"></div>
 
 <hr>
-
+<h2> <b>Feedback</b> </h2>
 <div id="feedback" style="display: none;">  </div>
 <div id="audioa" style="display: none;">  </div>
 
@@ -62,7 +61,10 @@ let current=0;
 document.getElementById('prompt').innerHTML = "<h2>"+ obj.bank[current].question + "</h2>";
 document.getElementById('audioq').innerHTML ='<audio controls autoplay><source src="dat/0a.mp3" type="audio/mpeg"></audio>';
 document.getElementById('feedback').innerHTML = "<h3>"+ obj.bank[current].answers + "</h3>";
+document.getElementById('audioa').innerHTML ='<audio controls><source src="dat/'+current+'b.mp3" type="audio/mpeg"></audio>';
 w3.hide('#prompt');
+w3.hide('#audioa');
+
 
 
 function newQuestion(){
@@ -72,11 +74,11 @@ function newQuestion(){
   document.getElementById('prompt').innerHTML = "<h2>"+ obj.bank[current].question + "</h2>";
   document.getElementById('audioq').innerHTML ='<audio controls autoplay><source src="dat/'+current+'a.mp3" type="audio/mpeg"></audio>';
   document.getElementById('feedback').innerHTML = "<h3>"+ obj.bank[current].answers + "</h3>";
+  document.getElementById('audioa').innerHTML ='<audio controls><source src="dat/'+current+'b.mp3" type="audio/mpeg"></audio>';
   
   w3.hide('#feedback');
   w3.hide('#prompt');
-
-
+  w3.hide('#audioa');
 
 }
 
@@ -84,12 +86,12 @@ function clearboth(){
 w3.toggleShow('#prompt');
 w3.hide('#feedback');
 
-
 }
 
-
-
-
+function toggleBoth(){
+  w3.toggleShow('#feedback')
+  w3.toggleShow('#audioa');
+}
 </script>
 
 
