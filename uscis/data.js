@@ -41,7 +41,7 @@
     '{ "id" : 38, "question" : "How many justices are on the Supreme Court?", "answers" : "Nine." },'+
     '{ "id" : 39, "question" : "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?", "answers" : "to print money. to declare war. to create an army. to make treaties." },'+
     '{ "id" : 40, "question" : "Who is the Chief Justice of the United States now?", "answers" : "(Justice John) Roberts" },'+
-    '{ "id" : 41, "question" : "Under our Constitution, some powers belong to the states. What is one power of the states? ", "answers" : "provide schooling and education. provide protection (police). provide safety (fire departments). give driver licenses. approve zoning and land use.." },'+
+    '{ "id" : 41, "question" : "Under our Constitution, some powers belong to the states. What is one power of the states? ", "answers" : "provide schooling and education. provide protection (police). provide safety (fire departments). give driver licenses. approve zoning and land use." },'+
     '{ "id" : 42, "question" : "Who is the Governor of your state now?", "answers" : "(answer varies)" },'+
     '{ "id" : 43, "question" : "What is the capital of your state?", "answers" : "(answer varies)" },'+
     '{ "id" : 44, "question" : "What are the two major political parties in the United States?", "answers" : "Democratic and Republican." },'+
