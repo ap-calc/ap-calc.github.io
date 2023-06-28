@@ -12,11 +12,51 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="../scripts/w3.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="data.js"> </script>
 
 
  <link rel="stylesheet" type="text/css" href="../style/style.css">
 
+  <script>
+// Load Google's charting functions
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  
+  // Set the columns for the Google Chart in the first line of the array
+  var mystats = [['Month', 'Distance']]; 
+  // Loop through the JSON array, set up the value pair & push to the end of condArray
+  for(i=0; i<mydata.length; i++) {
+    if (mydata[i].year == 2022) 
+     mystats.push([mydata[i].month, mydata[i].distance]);
+  }
+ 
+  // Set the Google Chart options (title, width, height, and colors can be set)
+  var options = {
+    title: 'Miles per Month: Year 2022',
+    'width': 550,
+    'height': 400,
+    is3D: true
+  };
+  
+  // Convert condArray into the DataTable that Google Charts needs and put it in a var
+  var data = google.visualization.arrayToDataTable(mystats)
+
+  // Display chart inside of the empty div element using the DataTable and Options set
+  const chart = new google.visualization.PieChart(document.getElementById('2022piechart'));
+  chart.draw(data, options);
+
+  //Display bar chart
+  const chart1 = new google.visualization.BarChart(document.getElementById('2022barchart'));
+  chart1.draw(data, options);
+
+}
+</script>
+
+  
 </head>
 
 
@@ -32,7 +72,7 @@
   </div>
 </nav>
 <center>
-<h2> Visualizing my running statistics </h2>
+<h2> Running Stats with Charts.js </h2>
  
 
     <!-- Chart 0-->
@@ -147,12 +187,14 @@ new Chart("chart2", {
     }
 } //end options
 });
-
-
-
-
-
 </script>
+
+  <center><h2> Running Stats with Google Charts</h2></center>
+
+ 
+<center>  <div id="2022piechart"></div></center>
+<center>  <div id="2022barchart"></div></center>
+  
  
 <!-- Project Page: Footer-->
 <script src="../incl/f.txt"></script>
