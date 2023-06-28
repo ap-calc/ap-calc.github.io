@@ -140,9 +140,7 @@ const mydata = [
     {
       "year": 2023,
       "month": "Jun",
-      "distance": 118.89,
-      "time": 1010.48
+      "distance": 121.89,
+      "time": 1034
     }
   ];
-
-  console.log(mydata[0].distance)
