@@ -35,23 +35,28 @@
 
 //convert data to array
 const mydata = [['year','1 - one','2 - two','3 - three','4 - four','5 - five', 'enrollment']]
+const mydata_bc = [['year','1 - one','2 - two','3 - three','4 - four','5 - five', 'enrollment']]
 
 for (i = 0; i < abdata.length; i++) {
-
   mydata.push([abdata[i].year,abdata[i].one,abdata[i].two,abdata[i].three,abdata[i].four,abdata[i].five, abdata[i].total]);
-
 }
+
+for (i = 0; i < bcdata.length; i++) {
+  mydata_bc.push([bcdata[i].year,bcdata[i].one,bcdata[i].two,bcdata[i].three,bcdata[i].four,bcdata[i].five, bcdata[i].total]);
+}
+
 
   // Load the Visualization API and the piechart package.
 google.charts.load('current', {'packages':['corechart']});
 
 
 
-// Call ComboChart function
-google.charts.setOnLoadCallback(drawComboChart);
+// Call ComboChart functions
+google.charts.setOnLoadCallback(drawABChart);
+google.charts.setOnLoadCallback(drawBCChart);
 
-//Combo Chart function:
-function drawComboChart() {
+//Combo Chart function for AB:
+function drawABChart() {
 // Some raw data (not necessarily accurate)
 var data = google.visualization.arrayToDataTable(mydata);
 
@@ -64,22 +69,39 @@ var data = google.visualization.arrayToDataTable(mydata);
           series: {5: {type: 'line'}}
         };
 
-        var chart = new google.visualization.ComboChart(document.getElementById('combochart1'));
+        var chart = new google.visualization.ComboChart(document.getElementById('abchart'));
         chart.draw(data, options);
 
-} //end ComboChart() function
+} //end drawABChart() function
+
+
+//Combo Chart function for BC:
+function drawBCChart() {
+// Some raw data (not necessarily accurate)
+var data = google.visualization.arrayToDataTable(mydata_bc);
+
+        var options = {
+          title : 'AP Calculus BC - Score Distribution (2006 - present)',
+          vAxis: {title: '# of students'},
+          hAxis: {title: 'Year', ticks: [2006,  2008,  2010,  2012,  2014, 2015, 2016, 2017, 2018, 2020, 2022]},
+          seriesType: 'bars',
+          series: {5: {type: 'line'}}
+        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('bcchart'));
+        chart.draw(data, options);
+
+} //end drawBCChart() function
+
+
 
 
 
 
 </script>
 
-<center> <div id="combochart1" style="width: 900px; height: 500px;"></div> </center>
-
-
-<hr>
-
-
+<center> <div id="abchart" style="width: 900px; height: 500px;"></div> 
+ <div id="bcchart" style="width: 900px; height: 500px;"></div> </center>
 
 
 </body>
