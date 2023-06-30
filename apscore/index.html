@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- import w3.js -->
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+  <!-- importat MathJax--> 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+ 
+  <!-- Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167578046-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-167578046-1');
+</script>
+
+   <!--Load the AJAX API-->
+   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+   <!-- Load data file -->
+   <script src="apdata.js"></script>
+
+</head>
+
+<script>
+
+//convert data to array
+const mydata = [['year','1 - one','2 - two','3 - three','4 - four','5 - five', 'enrollment']]
+
+for (i = 0; i < abdata.length; i++) {
+
+  mydata.push([abdata[i].year,abdata[i].one,abdata[i].two,abdata[i].three,abdata[i].four,abdata[i].five, abdata[i].total]);
+
+}
+
+  // Load the Visualization API and the piechart package.
+google.charts.load('current', {'packages':['corechart']});
+
+
+
+// Call ComboChart function
+google.charts.setOnLoadCallback(drawComboChart);
+
+//Combo Chart function:
+function drawComboChart() {
+// Some raw data (not necessarily accurate)
+var data = google.visualization.arrayToDataTable(mydata);
+
+
+        var options = {
+          title : 'AP Calculus AB - Score Distribution (2006 - present)',
+          vAxis: {title: '# of students'},
+          hAxis: {title: 'Year', ticks: [2006,  2008,  2010,  2012,  2014, 2015, 2016, 2017, 2018, 2020, 2022]},
+          seriesType: 'bars',
+          series: {5: {type: 'line'}}
+        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('combochart1'));
+        chart.draw(data, options);
+
+} //end ComboChart() function
+
+
+
+
+</script>
+
+<center> <div id="combochart1" style="width: 900px; height: 500px;"></div> </center>
+
+
+<hr>
+
+
+
+
+</body>
+
+
+<body>
+
+
+</body>
+</html>
