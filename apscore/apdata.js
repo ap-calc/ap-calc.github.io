@@ -344,3 +344,21 @@ const bcdata = [
     "avg": 4.333
   }
 ];
+
+//create arrays
+const mydata_ab = [['year','1 - one','2 - two','3 - three','4 - four','5 - five']]
+const mydata_bc = [['year','1 - one','2 - two','3 - three','4 - four','5 - five']]
+const mydata = [['year','1 - one','2 - two','3 - three','4 - four','5 - five']]
+
+for (i = 0; i < abdata.length; i++) {
+
+    mydata_ab.push([abdata[i].year+"",abdata[i].one,abdata[i].two,abdata[i].three,abdata[i].four,abdata[i].five]);
+     
+}
+
+for (i = 0; i < bcdata.length; i++) {
+  mydata_bc.push([bcdata[i].year+"",bcdata[i].one,bcdata[i].two,bcdata[i].three,bcdata[i].four,bcdata[i].five]);
+  mydata.push([abdata[i].year+"",abdata[i].one + bcdata[i].one,abdata[i].two+bcdata[i].two,abdata[i].three+bcdata[i].three,abdata[i].four + bcdata[i].four,abdata[i].five + bcdata[i].five]);
+
+}
+
