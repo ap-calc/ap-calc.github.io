@@ -178,8 +178,7 @@ const abdata= [
       "five": 3,
       "total": 3,
       "avg": 5.0
-    }
-];
+    }];
 
 
 const bcdata = [
@@ -360,7 +359,7 @@ const bcdata = [
     "four": 1,
     "five": 3,
     "total": 4,
-    "avg": 4.750
+    "avg": 4.75
 }];
 
 //create arrays
