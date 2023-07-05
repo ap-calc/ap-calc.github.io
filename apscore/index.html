@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Project Page: Title -->
+<script src="../incl/t.txt"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+
+   <!--Load the AJAX API-->
+   <script src="https://www.gstatic.com/charts/loader.js"></script>
+   <!-- Load data file -->
+   <script src="apdata.js"></script>
+
+
+
+<script>
+ // Load the Visualization API and the controls package.
+ google.charts.load('current', {'packages':['corechart', 'controls','bar']});
+
+
+
+// Call functions
+google.charts.setOnLoadCallback(drawABChart);
+google.charts.setOnLoadCallback(drawBCChart);
+google.charts.setOnLoadCallback(drawStackedChart);
+
+
+//Combo Chart function for AB:
+function drawABChart() {
+// Some raw data (not necessarily accurate)
+var data = google.visualization.arrayToDataTable(mydata_ab);
+
+
+        var options = {
+          title : 'AP Calculus AB - Score Distribution (2006 - present)',
+          vAxis: {title: '# of students'},
+          hAxis: {title: 'Year', ticks: [2006,  2008,  2010,  2012,  2014,  2016, 2018, 2020, 2022]},
+          seriesType: 'bars',
+          
+        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('abchart'));
+        chart.draw(data, options);
+
+} //end drawABChart() function
+
+
+//Combo Chart function for BC:
+function drawBCChart() {
+// Some raw data (not necessarily accurate)
+var data = google.visualization.arrayToDataTable(mydata_bc);
+
+        var options = {
+          title : 'AP Calculus BC - Score Distribution (2006 - present)',
+          vAxis: {title: '# of students'},
+          hAxis: {title: 'Year', ticks: [2006,  2008,  2010,  2012,  2014,  2016, 2018, 2020, 2022]},
+          seriesType: 'bars',
+          
+        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('bcchart'));
+        chart.draw(data, options);
+
+} //end drawBCChart() function
+
+//Stacked Chart
+function drawStackedChart() {
+      var data = google.visualization.arrayToDataTable(mydata);
+
+   
+      var options = {
+          chart: {
+            title: 'AP Calculus AB and BC Scores',
+            subtitle: '2006-present',
+          },
+          bars: 'horizontal' 
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_ab'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+
+    }
+
+</script>
+  </head>
+  
+<body>
+<!-- Project Page: Domain and Name -->
+<nav class="navbar navbar-default">
+	<div class="container">
+		<p class="nav navbar-nav navbar-left"> <script src="../incl/d.txt"></script></p>
+		<p class="nav navbar-nav navbar-right"> project: ap scores </p>
+	</div>
+</nav>
+  
+  <center> <h2> AP SCORES - SUMMARY </h2> 
+
+    <!--- Stacked Chart - Both Levels-->
+<div id="barchart_ab" style="width: 900px; height: 500px;"></div>
+
+
+ <div id="abchart" style="width: 900px; height: 500px;"></div> 
+ <div id="bcchart" style="width: 900px; height: 500px;"></div> 
+</center>
+
+
+<!-- Project Page: Footer-->
+<script src="../incl/f.txt"></script>
+
+</body>
+</html>
