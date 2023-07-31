@@ -142,5 +142,11 @@ const mydata = [
       "month": "Jun",
       "distance": 130.89,
       "time": 1105.5
+    },
+    {
+      "year": 2023,
+      "month": "Jul",
+      "distance": 196.29,
+      "time": 1598.4
     }
   ];
