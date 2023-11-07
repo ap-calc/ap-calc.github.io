@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     18243,        431]
-NotebookOptionsPosition[     16823,        385]
-NotebookOutlinePosition[     17411,        407]
-CellTagsIndexPosition[     17368,        404]
+NotebookDataLength[     21107,        470]
+NotebookOptionsPosition[     18378,        424]
+NotebookOutlinePosition[     19002,        446]
+CellTagsIndexPosition[     18959,        443]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+  3.581265638393551*^9, 3.581265647393133*^9}, {3.90831198792906*^9, 
+  3.908311988714569*^9}},ExpressionUUID->"3ca651df-99fb-4565-9f24-\
+a830f04d9d4d"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Extrema",
  FontFamily->"Courier",
@@ -38,7 +40,9 @@ Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Extrema",
   3.581346902200821*^9}, {3.581356844736968*^9, 3.581356847805273*^9}, {
   3.58142290580647*^9, 3.581422910504772*^9}, {3.581458210863021*^9, 
   3.581458216212624*^9}, {3.581526828560207*^9, 3.581526834722445*^9}, {
-  3.5816029171095037`*^9, 3.581602918219096*^9}}],
+  3.5816029171095037`*^9, 
+  3.581602918219096*^9}},ExpressionUUID->"54286fba-44a5-4ace-ab72-\
+f602a0d534ee"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -61,7 +65,8 @@ Cell[TextData[{
   3.581423092757098*^9, 3.5814231073314962`*^9}, {3.5814582294217*^9, 
   3.581458272722952*^9}, {3.581526852562292*^9, 3.5815268630097103`*^9}, {
   3.58153080162568*^9, 3.5815308067517967`*^9}, {3.581602924931485*^9, 
-  3.581602925803113*^9}}],
+  3.581602925803113*^9}},ExpressionUUID->"5b2f44ce-ebb6-40ef-8d18-\
+48e13faadd6f"],
 
 Cell[CellGroupData[{
 
@@ -70,7 +75,9 @@ Cell[TextData[StyleBox["Task 1",
  FontSize->12,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
-  3.581266715599557*^9, 3.5812667166632633`*^9}}],
+  3.581266715599557*^9, 
+  3.5812667166632633`*^9}},ExpressionUUID->"6b44ffb1-42a6-4b7b-847d-\
+1cd215c024c4"],
 
 Cell[TextData[{
  StyleBox["Local extrema occur at critical points of f(x), where f\
@@ -88,7 +95,9 @@ exercise we will use ",
   3.5813569836340523`*^9}, {3.581423114859912*^9, 3.5814231487308273`*^9}, {
   3.581430912037277*^9, 3.581430914469185*^9}, {3.581458498494561*^9, 
   3.581458636026019*^9}, {3.581526907641451*^9, 3.581526950975606*^9}, {
-  3.581530811103942*^9, 3.581530951876178*^9}}],
+  3.581530811103942*^9, 
+  3.581530951876178*^9}},ExpressionUUID->"cc2f93b5-7868-4863-94bd-\
+f925e37026a9"],
 
 Cell[BoxData[
  RowBox[{
@@ -116,7 +125,8 @@ Cell[BoxData[
    3.581458410753293*^9}, 3.581458455338107*^9, {3.5814586588286533`*^9, 
    3.581458660379569*^9}, {3.581526867908676*^9, 3.5815268972459784`*^9}, {
    3.5815269574795094`*^9, 3.581526983599942*^9}, {3.581530962762611*^9, 
-   3.581531007339761*^9}}],
+   3.581531007339761*^9}},ExpressionUUID->"a7bd15b8-e81e-4173-8338-\
+8479adc42d9f"],
 
 Cell[TextData[{
  StyleBox["The graph of f(x) is a cubic that starts in the second quadrant \
@@ -134,7 +144,9 @@ the\norigin (local min) and somewhere in the first quadrant (local max):",
   3.581458636026019*^9}, {3.581459675257535*^9, 3.5814596882413483`*^9}, {
   3.581527022558951*^9, 3.581527040893448*^9}, {3.581527086013204*^9, 
   3.581527088676154*^9}, {3.5815310172747307`*^9, 3.581531063457364*^9}, {
-  3.581531158488*^9, 3.581531203717636*^9}}],
+  3.581531158488*^9, 
+  3.581531203717636*^9}},ExpressionUUID->"6f86b9bd-cc3d-4197-a247-\
+711b757c8a46"],
 
 Cell[BoxData[
  RowBox[{"Plot", "[", 
@@ -154,7 +166,9 @@ Cell[BoxData[
   3.5814308867184772`*^9}, {3.581458815742074*^9, 3.581459050123472*^9}, {
   3.581459085627563*^9, 3.5814591252417727`*^9}, {3.5814591623293533`*^9, 
   3.5814591773836803`*^9}, {3.581527059745811*^9, 3.581527093484914*^9}, {
-  3.581531066777958*^9, 3.581531131400982*^9}}],
+  3.581531066777958*^9, 
+  3.581531131400982*^9}},ExpressionUUID->"5aa676e2-b4be-4e55-8ac6-\
+4f68eef8bf47"],
 
 Cell[TextData[{
  StyleBox["f(x) is a polynomial and therefore differentiable everywhere. \
@@ -167,8 +181,8 @@ f\[CloseCurlyQuote](x) equal zero.\n", "Text",
  StyleBox[" can identify the ", "Text",
   FontFamily->"Courier"],
  Cell[BoxData[
-  FormBox["x", TraditionalForm]],
-  FormatType->"TraditionalForm"],
+  FormBox["x", TraditionalForm]],ExpressionUUID->
+  "2840debe-6c61-446a-8e65-5654301f04fe"],
  StyleBox["-coordinates of the critical points:", "Text",
   FontFamily->"Courier"]
 }], "Text",
@@ -180,7 +194,9 @@ f\[CloseCurlyQuote](x) equal zero.\n", "Text",
    3.581527022558951*^9, 3.581527040893448*^9}, {3.581527086013204*^9, 
    3.581527088676154*^9}, {3.58152713294036*^9, 3.5815272575038233`*^9}, {
    3.581527694469367*^9, 3.581527697317089*^9}, {3.581531216629836*^9, 
-   3.581531321914673*^9}, 3.581703281929203*^9}],
+   3.581531321914673*^9}, 
+   3.581703281929203*^9},ExpressionUUID->"99146a5f-44e1-4e97-92e4-\
+d0fca29a62a6"],
 
 Cell[BoxData[
  RowBox[{"Reduce", "[", 
@@ -191,20 +207,22 @@ Cell[BoxData[
   "]"}]], "Input",
  CellChangeTimes->{{3.581527260183136*^9, 3.5815272660088167`*^9}, {
   3.581527377478465*^9, 3.581527398581539*^9}, {3.581527528475408*^9, 
-  3.5815275288504333`*^9}, {3.581531328939517*^9, 3.58153134363545*^9}}],
+  3.5815275288504333`*^9}, {3.581531328939517*^9, 
+  3.58153134363545*^9}},ExpressionUUID->"e9d29044-ce3a-43dc-bf9a-\
+0911cb582ec7"],
 
 Cell[TextData[{
  StyleBox["Read the result as ", "Text",
   FontFamily->"Courier"],
  Cell[BoxData[
-  FormBox["x", TraditionalForm]],
-  FormatType->"TraditionalForm"],
+  FormBox["x", TraditionalForm]],ExpressionUUID->
+  "885499c3-d937-44ba-a636-7b8d22b9ff32"],
  StyleBox[" equals 0 or ", "Text",
   FontFamily->"Courier"],
  Cell[BoxData[
   FormBox[
-   FractionBox["4", "3"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   FractionBox["4", "3"], TraditionalForm]],ExpressionUUID->
+  "45ac17e2-f6d4-4b79-9cc6-a9a6b02a7f54"],
  StyleBox[". Alternatively, we can use the\nSolve command and then use it to \
 evaluate the y-values:", "Text",
   FontFamily->"Courier"]
@@ -219,7 +237,8 @@ evaluate the y-values:", "Text",
   3.581527546498247*^9, 3.581527576263885*^9}, {3.5815276157110453`*^9, 
   3.581527637814414*^9}, {3.581531360259227*^9, 3.581531375089327*^9}, {
   3.581531438343996*^9, 3.581531465071526*^9}, {3.581703257377317*^9, 
-  3.5817032712283373`*^9}}],
+  3.5817032712283373`*^9}},ExpressionUUID->"c3939a5e-f087-41a1-a5c6-\
+f48ced4926ae"],
 
 Cell[BoxData[
  RowBox[{"Solve", "[", 
@@ -229,7 +248,9 @@ Cell[BoxData[
      RowBox[{"f", "'"}], "[", "x", "]"}], "\[Equal]", "0"}], ",", "x"}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.581527580383515*^9, 3.581527609936162*^9}, {
-  3.581531474431912*^9, 3.581531484415847*^9}}],
+  3.581531474431912*^9, 
+  3.581531484415847*^9}},ExpressionUUID->"74185340-d2da-46a4-aed2-\
+09d2fd9b3e34"],
 
 Cell[TextData[StyleBox["After executing the command above, define the set of \
 critical points.\n(Note that, generally, the resulting points aren\
@@ -243,7 +264,9 @@ critical points.\n(Note that, generally, the resulting points aren\
   3.581527022558951*^9, 3.581527040893448*^9}, {3.581527086013204*^9, 
   3.581527088676154*^9}, {3.58152713294036*^9, 3.5815272575038233`*^9}, {
   3.581527324943528*^9, 3.581527345621683*^9}, {3.581527653167512*^9, 
-  3.5815276640538073`*^9}, {3.5815315034388103`*^9, 3.581531621949099*^9}}],
+  3.5815276640538073`*^9}, {3.5815315034388103`*^9, 
+  3.581531621949099*^9}},ExpressionUUID->"ecb2ab16-e4b7-40c3-a64d-\
+74262b040f57"],
 
 Cell[BoxData[
  RowBox[{"points", "=", 
@@ -251,7 +274,9 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"x", ",", 
      RowBox[{"f", "[", "x", "]"}]}], "}"}], "/.", "%"}]}]], "Input",
- CellChangeTimes->{{3.581531572036631*^9, 3.581531612893105*^9}}],
+ CellChangeTimes->{{3.581531572036631*^9, 
+  3.581531612893105*^9}},ExpressionUUID->"d373cae6-ece5-440d-9c29-\
+ef1a44933680"],
 
 Cell[TextData[StyleBox["Here is a graph of f(x) and the critical points \
 highlighted.", "Text",
@@ -265,7 +290,9 @@ highlighted.", "Text",
   3.581527088676154*^9}, {3.58152713294036*^9, 3.5815272575038233`*^9}, {
   3.581527324943528*^9, 3.581527345621683*^9}, {3.581527653167512*^9, 
   3.5815276640538073`*^9}, {3.5815315034388103`*^9, 3.581531688810001*^9}, {
-  3.5815318535825233`*^9, 3.5815318886047773`*^9}}],
+  3.5815318535825233`*^9, 
+  3.5815318886047773`*^9}},ExpressionUUID->"08bed5d3-a880-4aa9-8336-\
+6f08561c63be"],
 
 Cell[BoxData[
  RowBox[{"Plot", "[", 
@@ -279,7 +306,9 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"PointSize", "[", "0.03", "]"}], ",", "Blue", ",", 
       RowBox[{"Point", "[", "points", "]"}]}], "}"}]}]}], "]"}]], "Input",
- CellChangeTimes->{{3.581531706851968*^9, 3.5815318003127413`*^9}}],
+ CellChangeTimes->{{3.581531706851968*^9, 
+  3.5815318003127413`*^9}},ExpressionUUID->"1e338d46-3728-4ad9-ad6a-\
+f7514d47e610"],
 
 Cell[TextData[StyleBox["We conclude this task by determining whether each \
 point is a max, min, or\nneither. Since of f(x) is twice differentiable, we \
@@ -294,13 +323,17 @@ can use the second \nderivative test:", "Text",
    3.581527088676154*^9}, {3.58152713294036*^9, 3.5815272575038233`*^9}, {
    3.581527324943528*^9, 3.581527345621683*^9}, {3.581527653167512*^9, 
    3.5815276640538073`*^9}, {3.5815315034388103`*^9, 3.581531688810001*^9}, 
-   3.5815318535825233`*^9, {3.581531896284792*^9, 3.5815319568672047`*^9}}],
+   3.5815318535825233`*^9, {3.581531896284792*^9, 
+   3.5815319568672047`*^9}},ExpressionUUID->"8c541fcd-89b1-4c23-bdd1-\
+9aa5a73d0c95"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{
    RowBox[{"f", "''"}], "[", "0", "]"}], ">", "0"}]], "Input",
- CellChangeTimes->{{3.5815319661538067`*^9, 3.581531975883401*^9}}],
+ CellChangeTimes->{{3.5815319661538067`*^9, 
+  3.581531975883401*^9}},ExpressionUUID->"5604871d-06fd-473c-9107-\
+a6757c853d16"],
 
 Cell[TextData[StyleBox["And also test the other critical point to confirm a \
 local minimum:", "Text",
@@ -315,14 +348,17 @@ local minimum:", "Text",
   3.581527324943528*^9, 3.581527345621683*^9}, {3.581527653167512*^9, 
   3.5815276640538073`*^9}, {3.5815315034388103`*^9, 3.581531688810001*^9}, {
   3.5815318535825233`*^9, 3.5815318886047773`*^9}, {3.581532009722719*^9, 
-  3.5815320246573467`*^9}}],
+  3.5815320246573467`*^9}},ExpressionUUID->"9ba69f02-9c41-45cc-b99f-\
+33216aba0085"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{
    RowBox[{"f", "''"}], "[", 
    RowBox[{"4", "/", "3"}], "]"}], "<", "0"}]], "Input",
- CellChangeTimes->{{3.581532025965474*^9, 3.581532032242077*^9}}],
+ CellChangeTimes->{{3.581532025965474*^9, 
+  3.581532032242077*^9}},ExpressionUUID->"9470d6eb-3e3d-440e-935e-\
+f9c8c5fecd65"],
 
 Cell[TextData[{
  StyleBox["Note that we could have also used the first derivative test here, \
@@ -332,21 +368,21 @@ by\nobserving the sign change of ", "Text",
   FormBox[
    RowBox[{
     RowBox[{"f", "'"}], 
-    RowBox[{"(", "x", ")"}]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    RowBox[{"(", "x", ")"}]}], TraditionalForm]],ExpressionUUID->
+  "a646343c-d99e-4aaf-9f1c-12c4bbc6b292"],
  StyleBox[" at ", "Text",
   FontFamily->"Courier"],
  Cell[BoxData[
   FormBox[
-   RowBox[{"x", "=", "0"}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   RowBox[{"x", "=", "0"}], TraditionalForm]],ExpressionUUID->
+  "36ed614f-8b72-4e99-94fd-c537a4820cb0"],
  StyleBox[" and ", "Text",
   FontFamily->"Courier"],
  Cell[BoxData[
   FormBox[
    RowBox[{"x", "=", 
-    FractionBox["4", "3"]}], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+    FractionBox["4", "3"]}], TraditionalForm]],ExpressionUUID->
+  "a0a77bc5-7ef9-494e-bfe5-367e50e57118"],
  StyleBox[". Feel free to try it!", "Text",
   FontFamily->"Courier"]
 }], "Text",
@@ -362,7 +398,8 @@ by\nobserving the sign change of ", "Text",
   3.5815318535825233`*^9, 3.5815318886047773`*^9}, {3.581532009722719*^9, 
   3.5815320246573467`*^9}, {3.581532055729657*^9, 3.5815321037597113`*^9}, {
   3.581532285341037*^9, 3.581532285635024*^9}, {3.581703209296365*^9, 
-  3.5817032408758507`*^9}}]
+  3.5817032408758507`*^9}},ExpressionUUID->"d6354b1f-a125-4845-98f8-\
+a3e56c752ae2"]
 }, Open  ]],
 
 Cell[TextData[StyleBox["Related Exercises/Notes:",
@@ -372,15 +409,17 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
   3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+  3.581351448726061*^9, 
+  3.5813514696435127`*^9}},ExpressionUUID->"e5a32f09-fc28-470f-b83a-\
+d7d3f341fabc"],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.908311992848377*^9},
+ TextAlignment->Center,ExpressionUUID->"94746637-b9be-4395-becf-c1729e618c85"]
 }, Open  ]]
 },
 WindowSize->{1715, 1260},
@@ -390,10 +429,10 @@ PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 2., 2. Inherited],
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"fa0f5efc-c0ee-4ae4-a310-86dadd46b496"
 ]
 (* End of Notebook Content *)
 
@@ -407,34 +446,33 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 110, "Title"],
-Cell[846, 29, 686, 11, 132, "Subtitle"],
-Cell[1535, 42, 808, 21, 64, "Subsection"],
+Cell[579, 22, 352, 7, 112, "Title",ExpressionUUID->"3ca651df-99fb-4565-9f24-a830f04d9d4d"],
+Cell[934, 31, 746, 13, 135, "Subtitle",ExpressionUUID->"54286fba-44a5-4ace-ab72-f602a0d534ee"],
+Cell[1683, 46, 865, 22, 81, "Subsection",ExpressionUUID->"5b2f44ce-ebb6-40ef-8d18-48e13faadd6f"],
 Cell[CellGroupData[{
-Cell[2368, 67, 223, 5, 54, "Section"],
-Cell[2594, 74, 800, 16, 142, "Text"],
-Cell[3397, 92, 1606, 26, 59, "Input"],
-Cell[5006, 120, 889, 16, 112, "Text"],
-Cell[5898, 138, 867, 18, 54, "Input"],
-Cell[6768, 158, 1184, 24, 112, "Text"],
-Cell[7955, 184, 380, 9, 54, "Input"],
-Cell[8338, 195, 1232, 26, 98, "Text"],
-Cell[9573, 223, 281, 8, 54, "Input"],
-Cell[9857, 233, 889, 12, 82, "Text"],
-Cell[10749, 247, 224, 6, 54, "Input"],
-Cell[10976, 255, 837, 12, 52, "Text"],
-Cell[11816, 269, 450, 12, 54, "Input"],
-Cell[12269, 283, 973, 13, 112, "Text"],
-Cell[13245, 298, 165, 4, 54, "Input"],
-Cell[13413, 304, 894, 13, 52, "Text"],
-Cell[14310, 319, 187, 5, 54, "Input"],
-Cell[14500, 326, 1640, 38, 98, "Text"]
+Cell[2573, 72, 283, 7, 55, "Section",ExpressionUUID->"6b44ffb1-42a6-4b7b-847d-1cd215c024c4"],
+Cell[2859, 81, 860, 18, 209, "Text",ExpressionUUID->"cc2f93b5-7868-4863-94bd-f925e37026a9"],
+Cell[3722, 101, 1663, 27, 59, "Input",ExpressionUUID->"a7bd15b8-e81e-4173-8338-8479adc42d9f"],
+Cell[5388, 130, 949, 18, 209, "Text",ExpressionUUID->"6f86b9bd-cc3d-4197-a247-711b757c8a46"],
+Cell[6340, 150, 927, 20, 59, "Input",ExpressionUUID->"5aa676e2-b4be-4e55-8ac6-4f68eef8bf47"],
+Cell[7270, 172, 1270, 26, 179, "Text",ExpressionUUID->"99146a5f-44e1-4e97-92e4-d0fca29a62a6"],
+Cell[8543, 200, 440, 11, 59, "Input",ExpressionUUID->"e9d29044-ce3a-43dc-bf9a-0911cb582ec7"],
+Cell[8986, 213, 1339, 27, 113, "Text",ExpressionUUID->"c3939a5e-f087-41a1-a5c6-f48ced4926ae"],
+Cell[10328, 242, 341, 10, 59, "Input",ExpressionUUID->"74185340-d2da-46a4-aed2-09d2fd9b3e34"],
+Cell[10672, 254, 949, 14, 172, "Text",ExpressionUUID->"ecb2ab16-e4b7-40c3-a64d-74262b040f57"],
+Cell[11624, 270, 284, 8, 59, "Input",ExpressionUUID->"d373cae6-ece5-440d-9c29-ef1a44933680"],
+Cell[11911, 280, 897, 14, 61, "Text",ExpressionUUID->"08bed5d3-a880-4aa9-8336-6f08561c63be"],
+Cell[12811, 296, 510, 14, 59, "Input",ExpressionUUID->"1e338d46-3728-4ad9-ad6a-f7514d47e610"],
+Cell[13324, 312, 1034, 15, 209, "Text",ExpressionUUID->"8c541fcd-89b1-4c23-bdd1-9aa5a73d0c95"],
+Cell[14361, 329, 225, 6, 59, "Input",ExpressionUUID->"5604871d-06fd-473c-9107-a6757c853d16"],
+Cell[14589, 337, 951, 14, 61, "Text",ExpressionUUID->"9ba69f02-9c41-45cc-b99f-33216aba0085"],
+Cell[15543, 353, 247, 7, 59, "Input",ExpressionUUID->"9470d6eb-3e3d-440e-935e-f9c8c5fecd65"],
+Cell[15793, 362, 1772, 39, 150, "Text",ExpressionUUID->"d6354b1f-a125-4845-98f8-a3e56c752ae2"]
 }, Open  ]],
-Cell[16155, 367, 386, 7, 122, "Section"],
-Cell[16544, 376, 263, 6, 50, "Section"]
+Cell[17580, 404, 446, 9, 91, "Section",ExpressionUUID->"e5a32f09-fc28-470f-b83a-d7d3f341fabc"],
+Cell[18029, 415, 333, 6, 51, "Section",ExpressionUUID->"94746637-b9be-4395-becf-c1729e618c85"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

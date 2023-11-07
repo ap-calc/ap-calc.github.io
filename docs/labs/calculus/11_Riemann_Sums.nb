@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     19785,        494]
-NotebookOptionsPosition[     18242,        445]
-NotebookOutlinePosition[     18831,        467]
-CellTagsIndexPosition[     18788,        464]
+NotebookDataLength[     22957,        525]
+NotebookOptionsPosition[     19940,        476]
+NotebookOutlinePosition[     20565,        498]
+CellTagsIndexPosition[     20522,        495]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+   3.581265638393551*^9, 3.581265647393133*^9}, 
+   3.908312085551961*^9},ExpressionUUID->"50a26183-d434-4924-800d-\
+ec88a1563e2f"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Riemann Sums",
  FontFamily->"Courier",
@@ -41,7 +43,9 @@ Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Riemann Sums",
    3.581602866005961*^9, 3.5816028683644753`*^9}, {3.581607865887494*^9, 
    3.581607869181218*^9}, {3.581616520785335*^9, 3.581616523855226*^9}, {
    3.581629090092915*^9, 3.581629098426585*^9}, 3.5816296555026207`*^9, {
-   3.581632004245171*^9, 3.581632007521744*^9}}],
+   3.581632004245171*^9, 
+   3.581632007521744*^9}},ExpressionUUID->"2b755e62-40e6-4770-9f90-\
+56f0da846246"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -67,7 +71,9 @@ Cell[TextData[{
   3.58160286273313*^9}, {3.581607873045598*^9, 3.581607884140876*^9}, {
   3.581616528335464*^9, 3.581616540982501*^9}, {3.5816291134667473`*^9, 
   3.581629119122018*^9}, {3.581629692211686*^9, 3.581629701211341*^9}, {
-  3.581632734921468*^9, 3.58163274031953*^9}}],
+  3.581632734921468*^9, 
+  3.58163274031953*^9}},ExpressionUUID->"a94e1706-ba8f-41ff-a086-\
+7630ced2ff5e"],
 
 Cell[CellGroupData[{
 
@@ -76,7 +82,9 @@ Cell[TextData[StyleBox["Task 1",
  FontSize->12,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
-  3.581266715599557*^9, 3.5812667166632633`*^9}}],
+  3.581266715599557*^9, 
+  3.5812667166632633`*^9}},ExpressionUUID->"36ad5220-cd38-4304-b184-\
+d28eacbf8ff3"],
 
 Cell[TextData[StyleBox["Recall that a Riemann Sum is an approximation of the \
 definite integral, often\nset up as a sum of areas of rectangles (left, \
@@ -92,7 +100,7 @@ FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
 bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
 2iQQ/ctDeCmI9lqltwxE62evfZENpKuuhb0E0bx/98vmgOTzv+uA6DKnPcYg
 ellNkBWIBgA8ZK2c
-  "]],
+  "],ExpressionUUID->"0a7b763b-f1c4-437c-959c-e53c766573a3"],
 
 Cell[BoxData[
  RowBox[{"Sum", "[", 
@@ -122,7 +130,9 @@ Cell[BoxData[
    3.581531007339761*^9}, {3.581608014735619*^9, 3.581608031313178*^9}, {
    3.5816081101925573`*^9, 3.581608196079507*^9}, {3.581616723530081*^9, 
    3.581616749162986*^9}, {3.5816292110805693`*^9, 3.581629304318973*^9}, {
-   3.58163287526645*^9, 3.581632923284101*^9}}],
+   3.58163287526645*^9, 
+   3.581632923284101*^9}},ExpressionUUID->"def6f3a5-5b6f-4a96-9210-\
+f86b3a332f22"],
 
 Cell[TextData[StyleBox["Alternatively, we can also use the Sigma operation \
 from the palette:",
@@ -135,7 +145,7 @@ FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
 bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
 2iQQ/ctDeCmI9lqltwxE62evfZENpKuuhb0E0bx/98vmgOTzv+uA6DKnPcYg
 ellNkBWIPpUjaQeiNfd9tgfRAFrktc8=
-  "]],
+  "],ExpressionUUID->"b3da656f-076e-45fe-80e7-4b9ea60270d8"],
 
 Cell[BoxData[
  RowBox[{
@@ -144,7 +154,8 @@ Cell[BoxData[
   SuperscriptBox["i", "2"]}]], "Input",
  CellChangeTimes->{{3.581629353684641*^9, 3.581629440849183*^9}, {
   3.581629499690452*^9, 3.581629512633417*^9}, {3.581633036027581*^9, 
-  3.5816331001205473`*^9}}],
+  3.5816331001205473`*^9}},ExpressionUUID->"a919cbbd-4ea1-441e-8d13-\
+9f58bbe4002a"],
 
 Cell[TextData[{
  StyleBox["The definition of a right-hand Riemann sum using n rectangles on a \
@@ -158,7 +169,7 @@ closed \ninterval [a, b], is given by: ",
     RowBox[{
      RowBox[{"f", "[", 
       SubscriptBox["x", "i"], "]"}], "\[CapitalDelta]x"}]}], 
-   TraditionalForm]]],
+   TraditionalForm]],ExpressionUUID->"a51e2ede-1385-40e2-b92e-7a5f1e70d660"],
  ", ",
  StyleBox["d where:\nn = number of rectangles\n",
   FontFamily->"Courier"],
@@ -171,7 +182,8 @@ closed \ninterval [a, b], is given by: ",
    RowBox[{
     SubscriptBox["x", "i"], "=", 
     RowBox[{"a", "+", 
-     RowBox[{"i", "*", "\[CapitalDelta]x"}]}]}], TraditionalForm]}]],
+     RowBox[{"i", "*", "\[CapitalDelta]x"}]}]}], TraditionalForm]}],
+  ExpressionUUID->"ca3cea61-9aab-49b7-9bda-8a8e275228ba"],
  " "
 }], "Text",
  CellChangeTimes->CompressedData["
@@ -184,7 +196,7 @@ bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
 ellNkBWIPpUjaQeiNfd9tgfRR+f99gHRE2cvDwXRa2TvRoHoK+e3FoPoxa0F
 1WB90uvAdFpbZT2IDuOWbgDRLF7zpoPoR74Q+keY/+I+IL0hHEIDAKqP6h8=
 
-  "]],
+  "],ExpressionUUID->"5ca05b36-6ea3-4bee-b0fd-591be14655c7"],
 
 Cell[TextData[StyleBox["In the following example we are going to estimate the \
 definite integral of Sin[x]\non the interval [1, 4].",
@@ -205,7 +217,9 @@ definite integral of Sin[x]\non the interval [1, 4].",
    3.58163274999964*^9, 3.581632871732335*^9}, {3.581632925883113*^9, 
    3.581632978577716*^9}, {3.58163300879453*^9, 3.581633023616963*^9}, {
    3.581633562332499*^9, 3.581633590810519*^9}, {3.581633626826069*^9, 
-   3.5816336272579727`*^9}, 3.581635233570621*^9}],
+   3.5816336272579727`*^9}, 
+   3.581635233570621*^9},ExpressionUUID->"17eb6278-e0f4-40fb-abcd-\
+c1df0364a193"],
 
 Cell[BoxData[{
  RowBox[{
@@ -216,7 +230,8 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"b", "=", "4"}], ";"}]}], "Input",
  CellChangeTimes->{{3.5816335948617973`*^9, 3.581633621234749*^9}, 
-   3.581635229516253*^9}],
+   3.581635229516253*^9},ExpressionUUID->"793e044d-0150-4d7b-b21f-\
+315fc29d10f6"],
 
 Cell[TextData[{
  StyleBox["Next, we introduce functions for ",
@@ -226,7 +241,8 @@ Cell[TextData[{
   FontFamily->"Courier"],
  Cell[BoxData[
   FormBox[
-   SubscriptBox["x", "i"], TraditionalForm]]],
+   SubscriptBox["x", "i"], TraditionalForm]],ExpressionUUID->
+  "19cbfbf4-8b60-4665-afec-bedcfb89808b"],
  StyleBox[", and use them to define functions for\nthe left and right hand \
 Riemann sums:",
   FontFamily->"Courier"]
@@ -240,7 +256,7 @@ bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
 2iQQ/ctDeCmI9lqltwxE62evfZENpKuuhb0E0bx/98vmgOTzv+uA6DKnPcYg
 ellNkBWIPpUjaQeiNfd9tgfRVxd7NYPoY+9vtoFojfyobhAd4JgBpteEaPeD
 aKvmB1NBtI2J4mIQvacjehmIBgA+idfB
-  "]],
+  "],ExpressionUUID->"b93035ed-9278-4e44-84c3-90ff2cff9d1c"],
 
 Cell[BoxData[
  RowBox[{
@@ -249,7 +265,9 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"(", 
      RowBox[{"b", "-", "a"}], ")"}], "/", "n"}]}], ";"}]], "Input",
- CellChangeTimes->{{3.581633739184176*^9, 3.581633758712031*^9}}],
+ CellChangeTimes->{{3.581633739184176*^9, 
+  3.581633758712031*^9}},ExpressionUUID->"0ef6408b-a367-47e7-b912-\
+784c9c16106d"],
 
 Cell[BoxData[{
  RowBox[{
@@ -286,7 +304,9 @@ Cell[BoxData[{
      RowBox[{"\[CapitalDelta]x", "[", "n", "]"}]}]}], "//", 
    "N"}]}], "\[IndentingNewLine]"}], "Input",
  CellChangeTimes->{{3.5816337627477713`*^9, 3.581633809166381*^9}, {
-  3.581633851165378*^9, 3.581633947333955*^9}}],
+  3.581633851165378*^9, 
+  3.581633947333955*^9}},ExpressionUUID->"b1acc71f-1df3-4c13-ab3c-\
+4e5919103756"],
 
 Cell[TextData[StyleBox["We compute the two sums for f(x)=Sin[x] on [1, 4], \
 using fifty subdivisions:",
@@ -301,13 +321,15 @@ C0UxxdmtxGFBEgfmrE3zYMKxowwO2E7qO4iJ5csS+F0aNgf5ixkWmClbvpUR
 VWfVdzDkdzNWjq/4SIfKwvUsaOkTsuGhnJYPUzZeOdA+y1fD/adzLUxW1Oph
 BVfqdUmUZoBstXMc5mXTZ+G6rs4C3WNvViipcu3Cmq+2Kxj/Y/L6ad0TdRJ5
 nh+v/56n9XY=
-  "]],
+  "],ExpressionUUID->"b4e39813-a90b-446f-8ba0-a37c1f3d8bea"],
 
 Cell[BoxData[{
  RowBox[{"rightRiemann", "[", "50", "]"}], "\[IndentingNewLine]", 
  RowBox[{"leftRiemann", "[", "50", "]"}]}], "Input",
  CellChangeTimes->{{3.581634051462945*^9, 3.5816340932232723`*^9}, {
-  3.5816342687483463`*^9, 3.581634269770792*^9}}],
+  3.5816342687483463`*^9, 
+  3.581634269770792*^9}},ExpressionUUID->"956aff40-8613-4021-89b6-\
+15fc68ed0efc"],
 
 Cell[TextData[StyleBox[", and then compare them with the definite integral, \
 after converting to\ndecimal form, as shown below.",
@@ -322,7 +344,7 @@ sDKqSNhCHJHG58KMzbkCyDtxlMLBrdNaJTGubI2GvyUhi1CykmqGaR1rrg5i
 30X1Awzy2KJV6Mx3CuzNt6ZDc79MBI9UETkwcfs9F54vSDTw4OVSBxOYGgMs
 F7d7Xa1MNkKR5mYSZgu5C9CqV5jhx8SnBdJVTjuU/7Teev9OvQv+A43u69Y=
 
-  "]],
+  "],ExpressionUUID->"25541881-8652-40eb-8732-3d4c8ac8752a"],
 
 Cell[BoxData[
  RowBox[{
@@ -331,12 +353,16 @@ Cell[BoxData[
    RowBox[{"Sin", "[", "x", "]"}], 
    RowBox[{"\[DifferentialD]", "x"}]}]}]], "Input",
  CellChangeTimes->{{3.581634099073414*^9, 3.581634110703405*^9}, 
-   3.581634271555581*^9, {3.581635248099559*^9, 3.5816352482433777`*^9}}],
+   3.581634271555581*^9, {3.581635248099559*^9, 
+   3.5816352482433777`*^9}},ExpressionUUID->"ac53c258-250a-4ea0-a543-\
+7f032988c13a"],
 
 Cell[BoxData[
  RowBox[{"N", "[", 
   RowBox[{"%", ",", "6"}], "]"}]], "Input",
- CellChangeTimes->{{3.581634293101302*^9, 3.5816343013223057`*^9}}],
+ CellChangeTimes->{{3.581634293101302*^9, 
+  3.5816343013223057`*^9}},ExpressionUUID->"31fe11a7-f3c8-4c34-a6b8-\
+97bfe8df5e06"],
 
 Cell[TextData[StyleBox["To obtain a plot of the net area, type and execute \
 the following:",
@@ -351,7 +377,7 @@ Jb5pMZXEbnFIEoxdnhDCwP2LTNhuPCiqIQZnLcjhd4b7NBTNRTIwqnbhtpbY
 clxwB11+TX51+MrPCNicshINmVaaD3frWIkwdPU1CR5NidRw++lEA7nKQh3M
 EVRbnZeE90C++nIQJsRwpuCKVsbAt4F3A5Tnmzeh9EtxBdk/vVbdhn7S6omV
 soBs2Od+ngsTD8Zo+A8DYvuW
-  "]],
+  "],ExpressionUUID->"2ece69bd-5b5b-48cf-a4a0-398b8c852d9a"],
 
 Cell[BoxData[
  RowBox[{"Plot", "[", 
@@ -361,7 +387,8 @@ Cell[BoxData[
     RowBox[{"x", ",", "1", ",", "4"}], "}"}], ",", 
    RowBox[{"Filling", "\[Rule]", "Axis"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.581635178764682*^9, 3.581635203164845*^9}, 
-   3.581635264316165*^9}],
+   3.581635264316165*^9},ExpressionUUID->"5d06a25d-f057-4dd2-bdc2-\
+85b42cd8473b"],
 
 Cell[TextData[StyleBox["Are the approximations close to the definite integral\
 \[CloseCurlyQuote]s value? Explain how\none can improve the estimate.\n\nWe \
@@ -378,7 +405,7 @@ vtX6Qz7TnRhw1M6Cm8pGWSwxOPaiEbbllBfQRL2DqQr23q72lRCrfSLG4Jt7
 x/kP0Mm86i1Fl32Hwubk5UiobxXQcFfKSoBBK++J8EjHk8PtlxMlDJQVqmE2
 t8rqdG6IBtJy4wCMj+Lo4LKqSA8/+j8XoDjvZhMW/EourX+d6h7eLQqfYC9n
 /hd2Sq/jaok+gwoanv9YEiC9e5UM/wF/rAeY
-  "]],
+  "],ExpressionUUID->"a948df85-45eb-4452-85fc-c161bdaf7d96"],
 
 Cell[BoxData[{
  RowBox[{
@@ -406,7 +433,9 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{"Center", ",", 
        RowBox[{"2", "\[Rule]", "True"}]}], "}"}]}]}], "]"}]}]}], "Input",
- CellChangeTimes->{{3.581634512427148*^9, 3.581634658396353*^9}}],
+ CellChangeTimes->{{3.581634512427148*^9, 
+  3.581634658396353*^9}},ExpressionUUID->"c0edbf9d-cd36-4210-96ed-\
+5ffa415aa343"],
 
 Cell[TextData[StyleBox["Your turn: write two new functions that compute the \
 Midpoint and Trapezoidal\nSums. Feel free to use a new function as an \
@@ -422,7 +451,7 @@ eySHlxI7hP5xMGJuJBGy9y/SYMvygbSC6Jeuk8GfVOdxKJgKoWFopc5YSWw8
 zrmHDr8GTwW68isYNiTowyDdJOLBHQUzFgasvMXBozGBCm49n6ohR5nbCTP5
 crPT4qAuyFNd9sPocNYY1GvyaPje97EIZdk3G1DyXXZl/qs1Rni3VPAIe1gL
 33D+JMOpiiiN2WPCf0bh/aI=
-  "]]
+  "],ExpressionUUID->"ba743a74-c8da-45cf-8781-feeff973d992"]
 }, Open  ]],
 
 Cell[TextData[StyleBox["Related Exercises/Notes:",
@@ -432,15 +461,17 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
   3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+  3.581351448726061*^9, 
+  3.5813514696435127`*^9}},ExpressionUUID->"052a17cd-9e57-481a-9fd1-\
+96506247897b"],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.908312089718351*^9},
+ TextAlignment->Center,ExpressionUUID->"08f8092d-34db-4695-ab0c-75380dd2f3e5"]
 }, Open  ]]
 },
 WindowSize->{1715, 1260},
@@ -450,10 +481,10 @@ PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 2., 2. Inherited],
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"3c1b48c0-ca31-4e62-807a-68f218c06736"
 ]
 (* End of Notebook Content *)
 
@@ -467,37 +498,36 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 110, "Title"],
-Cell[846, 29, 918, 14, 132, "Subtitle"],
-Cell[1767, 45, 1034, 24, 64, "Subsection"],
+Cell[579, 22, 331, 7, 112, "Title",ExpressionUUID->"50a26183-d434-4924-800d-ec88a1563e2f"],
+Cell[913, 31, 979, 16, 135, "Subtitle",ExpressionUUID->"2b755e62-40e6-4770-9f90-56f0da846246"],
+Cell[1895, 49, 1094, 26, 81, "Subsection",ExpressionUUID->"a94e1706-ba8f-41ff-a086-7630ced2ff5e"],
 Cell[CellGroupData[{
-Cell[2826, 73, 223, 5, 54, "Section"],
-Cell[3052, 80, 805, 14, 142, "Text"],
-Cell[3860, 96, 1843, 28, 64, "Input"],
-Cell[5706, 126, 572, 11, 52, "Text"],
-Cell[6281, 139, 297, 7, 107, "Input"],
-Cell[6581, 148, 1337, 38, 195, "Text"],
-Cell[7921, 188, 1396, 19, 82, "Text"],
-Cell[9320, 209, 341, 9, 115, "Input"],
-Cell[9664, 220, 860, 22, 82, "Text"],
-Cell[10527, 244, 254, 7, 54, "Input"],
-Cell[10784, 253, 1120, 35, 271, "Input"],
-Cell[11907, 290, 682, 13, 52, "Text"],
-Cell[12592, 305, 253, 4, 85, "Input"],
-Cell[12848, 311, 696, 13, 82, "Text"],
-Cell[13547, 326, 309, 7, 89, "Input"],
-Cell[13859, 335, 145, 3, 54, "Input"],
-Cell[14007, 340, 683, 13, 52, "Text"],
-Cell[14693, 355, 309, 8, 54, "Input"],
-Cell[15005, 365, 856, 15, 172, "Text"],
-Cell[15864, 382, 942, 26, 115, "Input"],
-Cell[16809, 410, 750, 14, 82, "Text"]
+Cell[3014, 79, 283, 7, 55, "Section",ExpressionUUID->"36ad5220-cd38-4304-b184-d28eacbf8ff3"],
+Cell[3300, 88, 860, 14, 283, "Text",ExpressionUUID->"0a7b763b-f1c4-437c-959c-e53c766573a3"],
+Cell[4163, 104, 1904, 30, 65, "Input",ExpressionUUID->"def6f3a5-5b6f-4a96-9210-f86b3a332f22"],
+Cell[6070, 136, 627, 11, 61, "Text",ExpressionUUID->"b3da656f-076e-45fe-80e7-4b9ea60270d8"],
+Cell[6700, 149, 354, 8, 109, "Input",ExpressionUUID->"a919cbbd-4ea1-441e-8d13-9f58bbe4002a"],
+Cell[7057, 159, 1505, 39, 280, "Text",ExpressionUUID->"5ca05b36-6ea3-4bee-b0fd-591be14655c7"],
+Cell[8565, 200, 1457, 21, 135, "Text",ExpressionUUID->"17eb6278-e0f4-40fb-abcd-c1df0364a193"],
+Cell[10025, 223, 398, 10, 142, "Input",ExpressionUUID->"793e044d-0150-4d7b-b21f-315fc29d10f6"],
+Cell[10426, 235, 973, 23, 82, "Text",ExpressionUUID->"b93035ed-9278-4e44-84c3-90ff2cff9d1c"],
+Cell[11402, 260, 314, 9, 59, "Input",ExpressionUUID->"0ef6408b-a367-47e7-b912-784c9c16106d"],
+Cell[11719, 271, 1180, 37, 304, "Input",ExpressionUUID->"b1acc71f-1df3-4c13-ab3c-4e5919103756"],
+Cell[12902, 310, 737, 13, 98, "Text",ExpressionUUID->"b4e39813-a90b-446f-8ba0-a37c1f3d8bea"],
+Cell[13642, 325, 313, 6, 101, "Input",ExpressionUUID->"956aff40-8613-4021-89b6-15fc68ed0efc"],
+Cell[13958, 333, 751, 13, 135, "Text",ExpressionUUID->"25541881-8652-40eb-8732-3d4c8ac8752a"],
+Cell[14712, 348, 370, 9, 88, "Input",ExpressionUUID->"ac53c258-250a-4ea0-a543-7f032988c13a"],
+Cell[15085, 359, 205, 5, 59, "Input",ExpressionUUID->"31fe11a7-f3c8-4c34-a6b8-97bfe8df5e06"],
+Cell[15293, 366, 738, 13, 61, "Text",ExpressionUUID->"2ece69bd-5b5b-48cf-a4a0-398b8c852d9a"],
+Cell[16034, 381, 366, 9, 59, "Input",ExpressionUUID->"5d06a25d-f057-4dd2-bdc2-85b42cd8473b"],
+Cell[16403, 392, 911, 15, 283, "Text",ExpressionUUID->"a948df85-45eb-4452-85fc-c161bdaf7d96"],
+Cell[17317, 409, 1002, 28, 142, "Input",ExpressionUUID->"c0edbf9d-cd36-4210-96ed-5ffa415aa343"],
+Cell[18322, 439, 805, 14, 135, "Text",ExpressionUUID->"ba743a74-c8da-45cf-8781-feeff973d992"]
 }, Open  ]],
-Cell[17574, 427, 386, 7, 122, "Section"],
-Cell[17963, 436, 263, 6, 50, "Section"]
+Cell[19142, 456, 446, 9, 91, "Section",ExpressionUUID->"052a17cd-9e57-481a-9fd1-96506247897b"],
+Cell[19591, 467, 333, 6, 51, "Section",ExpressionUUID->"08f8092d-34db-4695-ab0c-75380dd2f3e5"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     14510,        353]
-NotebookOptionsPosition[     13212,        307]
-NotebookOutlinePosition[     13801,        329]
-CellTagsIndexPosition[     13758,        326]
+NotebookDataLength[     16509,        379]
+NotebookOptionsPosition[     14238,        333]
+NotebookOutlinePosition[     14863,        355]
+CellTagsIndexPosition[     14820,        352]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+   3.581265638393551*^9, 3.581265647393133*^9}, 
+   3.908312068893004*^9},ExpressionUUID->"a4a0ad1d-b5cf-45cc-88e3-\
+f99b27811e44"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Integrals",
  FontFamily->"Courier",
@@ -40,7 +42,9 @@ Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Integrals",
    3.581458216212624*^9}, {3.581526828560207*^9, 3.581526834722445*^9}, {
    3.581602866005961*^9, 3.5816028683644753`*^9}, {3.581607865887494*^9, 
    3.581607869181218*^9}, {3.581616520785335*^9, 3.581616523855226*^9}, {
-   3.581629090092915*^9, 3.581629098426585*^9}, 3.5816296555026207`*^9}],
+   3.581629090092915*^9, 3.581629098426585*^9}, 
+   3.5816296555026207`*^9},ExpressionUUID->"6ccb76c6-2b13-43af-8b3b-\
+514d7cd7f5aa"],
 
 Cell[CellGroupData[{
 
@@ -49,7 +53,9 @@ Cell[TextData[StyleBox["Task 1",
  FontSize->12,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
-  3.581266715599557*^9, 3.5812667166632633`*^9}}],
+  3.581266715599557*^9, 
+  3.5812667166632633`*^9}},ExpressionUUID->"0595128f-7718-4f3f-98b3-\
+fae5b00f9972"],
 
 Cell[CellGroupData[{
 
@@ -76,7 +82,9 @@ Cell[TextData[{
   3.58153080162568*^9, 3.5815308067517967`*^9}, {3.581602838548444*^9, 
   3.58160286273313*^9}, {3.581607873045598*^9, 3.581607884140876*^9}, {
   3.581616528335464*^9, 3.581616540982501*^9}, {3.5816291134667473`*^9, 
-  3.581629119122018*^9}, {3.581629692211686*^9, 3.581629701211341*^9}}],
+  3.581629119122018*^9}, {3.581629692211686*^9, 
+  3.581629701211341*^9}},ExpressionUUID->"e42a3a18-d84b-429d-8de2-\
+44f9c429c046"],
 
 Cell[TextData[StyleBox["Find the indefinite integral symbol in the Basic Math \
 Assistant palette (Advanced\ntab), and try a few examples:",
@@ -88,7 +96,7 @@ NkiC6CNtJfkWQFrL4n4JiK4LTg63AtLLOP9kgOhJz/ZPjgXSWQqGi0D0J3H3
 FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
 bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
 2iQQ/ctDeCmI9lqltwxEZ+Q+fpcNpOMaSt6DaACDzZ2U
-  "]],
+  "],ExpressionUUID->"cb0006d6-83f7-4e2b-a14b-7ccba50dac5e"],
 
 Cell[BoxData[
  RowBox[{"\[Integral]", 
@@ -119,7 +127,9 @@ Cell[BoxData[
    3.5815269574795094`*^9, 3.581526983599942*^9}, {3.581530962762611*^9, 
    3.581531007339761*^9}, {3.581608014735619*^9, 3.581608031313178*^9}, {
    3.5816081101925573`*^9, 3.581608196079507*^9}, {3.581616723530081*^9, 
-   3.581616749162986*^9}, {3.5816292110805693`*^9, 3.581629304318973*^9}}],
+   3.581616749162986*^9}, {3.5816292110805693`*^9, 
+   3.581629304318973*^9}},ExpressionUUID->"b2684b05-5f01-4682-a935-\
+db43bc81d9a6"],
 
 Cell[BoxData[{
  RowBox[{"\[Integral]", 
@@ -132,7 +142,9 @@ Cell[BoxData[{
    RowBox[{"Sec", "[", "x", "]"}], 
    RowBox[{"\[DifferentialD]", "x"}]}]}]}], "Input",
  CellChangeTimes->{{3.581629353684641*^9, 3.581629440849183*^9}, {
-  3.581629499690452*^9, 3.581629512633417*^9}}]
+  3.581629499690452*^9, 
+  3.581629512633417*^9}},ExpressionUUID->"a14e61eb-0139-4c25-bb53-\
+e802c2d700a4"]
 }, Open  ]]
 }, Open  ]],
 
@@ -143,7 +155,9 @@ Cell[TextData[StyleBox["Task 2",
  FontSize->12,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
-   3.581266715599557*^9, 3.5812667166632633`*^9}, 3.5816296763809032`*^9}],
+   3.581266715599557*^9, 3.5812667166632633`*^9}, 
+   3.5816296763809032`*^9},ExpressionUUID->"7f1b4d30-47a0-4ee0-8771-\
+06a1cfc4f255"],
 
 Cell[CellGroupData[{
 
@@ -170,7 +184,9 @@ Cell[TextData[{
   3.58153080162568*^9, 3.5815308067517967`*^9}, {3.581602838548444*^9, 
   3.58160286273313*^9}, {3.581607873045598*^9, 3.581607884140876*^9}, {
   3.581616528335464*^9, 3.581616540982501*^9}, {3.5816291134667473`*^9, 
-  3.581629119122018*^9}, {3.581629680020241*^9, 3.581629688963498*^9}}],
+  3.581629119122018*^9}, {3.581629680020241*^9, 
+  3.581629688963498*^9}},ExpressionUUID->"4483e07c-4a37-4e3b-8b76-\
+6916681a2313"],
 
 Cell[TextData[StyleBox["Find the definite integral symbol in the Basic Math \
 Assistant palette (Advanced tab),\nand try a few examples:",
@@ -187,7 +203,9 @@ Assistant palette (Advanced tab),\nand try a few examples:",
    3.5816089919715223`*^9, 3.581609010008418*^9}, {3.581616546190958*^9, 
    3.581616633197209*^9}, {3.581616677052882*^9, 3.581616718994157*^9}, {
    3.581629158554016*^9, 3.581629205415545*^9}, {3.581629711731338*^9, 
-   3.581629731538733*^9}, 3.581629985629078*^9}],
+   3.581629731538733*^9}, 
+   3.581629985629078*^9},ExpressionUUID->"4eaac8e6-ddde-4705-b749-\
+a5df630048bc"],
 
 Cell[BoxData[
  RowBox[{
@@ -220,7 +238,9 @@ Cell[BoxData[
    3.581531007339761*^9}, {3.581608014735619*^9, 3.581608031313178*^9}, {
    3.5816081101925573`*^9, 3.581608196079507*^9}, {3.581616723530081*^9, 
    3.581616749162986*^9}, {3.5816292110805693`*^9, 3.581629304318973*^9}, {
-   3.581629750339386*^9, 3.5816297840986423`*^9}}],
+   3.581629750339386*^9, 
+   3.5816297840986423`*^9}},ExpressionUUID->"8d2c05fd-efd7-4742-b709-\
+211627a6118f"],
 
 Cell[BoxData[{
  RowBox[{
@@ -242,7 +262,9 @@ Cell[BoxData[{
    RowBox[{"\[DifferentialD]", "x"}]}]}]}], "Input",
  CellChangeTimes->{{3.581629353684641*^9, 3.581629440849183*^9}, {
   3.581629499690452*^9, 3.581629512633417*^9}, {3.5816298149640617`*^9, 
-  3.581629961791156*^9}, {3.581630110843919*^9, 3.581630143922675*^9}}],
+  3.581629961791156*^9}, {3.581630110843919*^9, 
+  3.581630143922675*^9}},ExpressionUUID->"b4e8fc0b-0d8c-4bb1-8984-\
+22559adfa0a2"],
 
 Cell[TextData[StyleBox["We can plot and shade the signed area that represents \
 the last example above:",
@@ -255,7 +277,7 @@ FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
 bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
 2iQQLZ/+fSGI9rUtXAKiMxRNjoDon/I9p0C0VsQu3mwgnVd+BkwDAHugpCc=
 
-  "]],
+  "],ExpressionUUID->"a228b0df-5cdc-4cf1-9505-0d3348512748"],
 
 Cell[BoxData[
  RowBox[{"Plot", "[", 
@@ -269,7 +291,9 @@ Cell[BoxData[
       RowBox[{"-", "\[Pi]"}], "4"], ",", 
      FractionBox["\[Pi]", "2"]}], "}"}], ",", 
    RowBox[{"Filling", "\[Rule]", "Axis"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.581630038519348*^9, 3.5816301372913523`*^9}}],
+ CellChangeTimes->{{3.581630038519348*^9, 
+  3.5816301372913523`*^9}},ExpressionUUID->"bde7299e-ce12-408f-bc11-\
+86c40a7a58f9"],
 
 Cell[TextData[StyleBox["Is the signed area positive or negative? Does this \
 match with Mathematica\[CloseCurlyQuote]s numerical\ncomputation of the \
@@ -283,7 +307,7 @@ FSD6wfy5K0F0f7fUn3ggrSL/liMBSLO5lvKB6NMtiqIgmkGiQwlEv5nwVwVE
 bxP73wyiv7k4tIHoEBk3kxQg3emvZg+izTYudAHRShfue4Lohl0XY7KAtKrP
 2iQQLZ/+fSGI9rUtXAKiMxRNjoDon/I9p0C0psOqOyC6fMP+hyAaAIlopdQ=
 
-  "]]
+  "],ExpressionUUID->"2d3be13b-969d-4717-86b3-58dcf8e62e7a"]
 }, Open  ]]
 }, Open  ]],
 
@@ -294,15 +318,17 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
   3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+  3.581351448726061*^9, 
+  3.5813514696435127`*^9}},ExpressionUUID->"ad191442-1438-4e98-9a48-\
+dd9673f29c3d"],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.90831207284186*^9},
+ TextAlignment->Center,ExpressionUUID->"3d6be214-e9ed-4c2a-a2a7-0ebc0df4a7ff"]
 }, Open  ]]
 },
 WindowSize->{1715, 1260},
@@ -312,10 +338,10 @@ PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 2., 2. Inherited],
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"be74ea6a-98ce-4199-9e95-afe59eed29c3"
 ]
 (* End of Notebook Content *)
 
@@ -329,34 +355,33 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 110, "Title"],
-Cell[846, 29, 865, 13, 132, "Subtitle"],
+Cell[579, 22, 331, 7, 112, "Title",ExpressionUUID->"a4a0ad1d-b5cf-45cc-88e3-f99b27811e44"],
+Cell[913, 31, 926, 15, 135, "Subtitle",ExpressionUUID->"6ccb76c6-2b13-43af-8b3b-514d7cd7f5aa"],
 Cell[CellGroupData[{
-Cell[1736, 46, 223, 5, 118, "Section"],
+Cell[1864, 50, 283, 7, 87, "Section",ExpressionUUID->"0595128f-7718-4f3f-98b3-fae5b00f9972"],
 Cell[CellGroupData[{
-Cell[1984, 55, 1015, 23, 64, "Subsection"],
-Cell[3002, 80, 567, 10, 82, "Text"],
-Cell[3572, 92, 1846, 29, 85, "Input"],
-Cell[5421, 123, 399, 11, 152, "Input"]
+Cell[2172, 61, 1075, 25, 81, "Subsection",ExpressionUUID->"e42a3a18-d84b-429d-8de2-44f9c429c046"],
+Cell[3250, 88, 622, 10, 135, "Text",ExpressionUUID->"cb0006d6-83f7-4e2b-a14b-7ccba50dac5e"],
+Cell[3875, 100, 1907, 31, 86, "Input",ExpressionUUID->"b2684b05-5f01-4682-a935-db43bc81d9a6"],
+Cell[5785, 133, 459, 13, 158, "Input",ExpressionUUID->"a14e61eb-0139-4c25-bb53-e802c2d700a4"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5869, 140, 248, 5, 118, "Section"],
+Cell[6293, 152, 309, 7, 87, "Section",ExpressionUUID->"7f1b4d30-47a0-4ee0-8771-06a1cfc4f255"],
 Cell[CellGroupData[{
-Cell[6142, 149, 993, 23, 64, "Subsection"],
-Cell[7138, 174, 1104, 15, 82, "Text"],
-Cell[8245, 191, 1929, 31, 89, "Input"],
-Cell[10177, 224, 736, 20, 178, "Input"],
-Cell[10916, 246, 549, 11, 52, "Text"],
-Cell[11468, 259, 422, 12, 83, "Input"],
-Cell[11893, 273, 624, 12, 82, "Text"]
+Cell[6627, 163, 1053, 25, 81, "Subsection",ExpressionUUID->"4483e07c-4a37-4e3b-8b76-6916681a2313"],
+Cell[7683, 190, 1165, 17, 135, "Text",ExpressionUUID->"4eaac8e6-ddde-4705-b749-a5df630048bc"],
+Cell[8851, 209, 1990, 33, 88, "Input",ExpressionUUID->"8d2c05fd-efd7-4742-b709-211627a6118f"],
+Cell[10844, 244, 796, 22, 181, "Input",ExpressionUUID->"b4e8fc0b-0d8c-4bb1-8984-22559adfa0a2"],
+Cell[11643, 268, 604, 11, 98, "Text",ExpressionUUID->"a228b0df-5cdc-4cf1-9505-0d3348512748"],
+Cell[12250, 281, 482, 14, 83, "Input",ExpressionUUID->"bde7299e-ce12-408f-bc11-86c40a7a58f9"],
+Cell[12735, 297, 679, 12, 135, "Text",ExpressionUUID->"2d3be13b-969d-4717-86b3-58dcf8e62e7a"]
 }, Open  ]]
 }, Open  ]],
-Cell[12544, 289, 386, 7, 122, "Section"],
-Cell[12933, 298, 263, 6, 50, "Section"]
+Cell[13441, 313, 446, 9, 91, "Section",ExpressionUUID->"ad191442-1438-4e98-9a48-dd9673f29c3d"],
+Cell[13890, 324, 332, 6, 51, "Section",ExpressionUUID->"3d6be214-e9ed-4c2a-a2a7-0ebc0df4a7ff"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

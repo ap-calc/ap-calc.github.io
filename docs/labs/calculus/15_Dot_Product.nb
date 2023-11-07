@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     25539,        546]
-NotebookOptionsPosition[     24104,        498]
-NotebookOutlinePosition[     24593,        518]
-CellTagsIndexPosition[     24550,        515]
+NotebookDataLength[     28453,        579]
+NotebookOptionsPosition[     25606,        531]
+NotebookOutlinePosition[     26131,        551]
+CellTagsIndexPosition[     26088,        548]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+  3.581265638393551*^9, 3.581265647393133*^9}, {3.908312188580131*^9, 
+  3.908312189258177*^9}},ExpressionUUID->"36420ebd-f189-42ac-b1eb-\
+766dcaad4fbb"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Dot Product",
  FontFamily->"Courier",
@@ -44,7 +46,9 @@ Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Dot Product",
    3.581632004245171*^9, 3.581632007521744*^9}, {3.581694055074936*^9, 
    3.5816940579924173`*^9}, {3.581696836497075*^9, 3.5816968451504107`*^9}, {
    3.581698714022531*^9, 3.581698715631257*^9}, {3.581777069356966*^9, 
-   3.581777073394075*^9}, {3.5886618498815517`*^9, 3.588661852924423*^9}}],
+   3.581777073394075*^9}, {3.5886618498815517`*^9, 
+   3.588661852924423*^9}},ExpressionUUID->"f7941b27-d8aa-4bfb-9606-\
+6d54d5ae4d4c"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -69,7 +73,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 5q50DpCebtklA6L13t/h7QLSTforBED0KsaK6B4gLRBREwOibWru7NoApEva
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+ofy3Ff9B4D+mfMfTAMA
 Jiu1Ew==
-  "]],
+  "],ExpressionUUID->"53b8093b-c4f5-4b27-8879-31c4f0e9b1d9"],
 
 Cell[CellGroupData[{
 
@@ -78,7 +82,9 @@ Cell[TextData[StyleBox["Task 1",
  FontSize->12,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
-  3.581266715599557*^9, 3.5812667166632633`*^9}}],
+  3.581266715599557*^9, 
+  3.5812667166632633`*^9}},ExpressionUUID->"1b16ff61-1991-4ca4-9aab-\
+70d4688c4500"],
 
 Cell[TextData[StyleBox["A vector in 2-space is represented as a list of \
 length 2. For higher dimension spaces, simply define a vector as a longer \
@@ -94,7 +100,7 @@ sMAvI76S7BVyk2GCYSYNhpyYs2Hb+mmxnAzLXZLC7yz3OZizGKWH0YqlRwWp
 uSx8gi42o78Sv+orEjakbsRBfYuIDw8FCrc+ctpOy4WWMlYMNHXl/6upETcN
 kAG1Hh2Q67fNHySVpeIUGM6eMq6SsuMrE5zn8S6g09TmJSz5ccg737AIbIYJ
 MQxSqhvhCkfSAoWG5pfhLeo5evAK/wDWpPtp
-  "]],
+  "],ExpressionUUID->"e75215b1-a1fc-4a7b-b4a5-439b26bde357"],
 
 Cell[BoxData[
  RowBox[{
@@ -128,7 +134,9 @@ Cell[BoxData[
    3.58163287526645*^9, 3.581632923284101*^9}, {3.5816942648993587`*^9, 
    3.581694294844863*^9}, {3.5816943281534433`*^9, 3.58169434701108*^9}, {
    3.5816991025760803`*^9, 3.5816991586536493`*^9}, {3.581773441025317*^9, 
-   3.581773468167568*^9}, {3.588661990565235*^9, 3.5886620028263903`*^9}}],
+   3.581773468167568*^9}, {3.588661990565235*^9, 
+   3.5886620028263903`*^9}},ExpressionUUID->"d32524ad-02a3-44b8-818d-\
+d7a58431e933"],
 
 Cell[TextData[StyleBox["Scalar multiplication in 3-space works as one would \
 expect:",
@@ -143,14 +151,16 @@ Jb8ku5EckwvzYc7mUhFMOrkth/3bpzWtZHKFQwu/y8JWoMyeboMZOseTjjRe
 Vj3D4B93rB7f8JUGuwtdWdDWq5DAQ6kudJy0+pmE0KthZULPsPJfY5uqZ5KM
 a+cNQiF/RzJF6tWqApjCWXRvkM3HVx64KhJdQGcg+xfaleEN5y6v1DVarIN/
 hEbnaw==
-  "]],
+  "],ExpressionUUID->"1d0ff4a6-87bf-4ff2-a375-50243e53cd2d"],
 
 Cell[BoxData[
  RowBox[{"3", 
   RowBox[{"{", 
    RowBox[{
     RowBox[{"-", "1"}], ",", "1", ",", "1"}], "}"}]}]], "Input",
- CellChangeTimes->{{3.5886620757644*^9, 3.588662109798359*^9}}],
+ CellChangeTimes->{{3.5886620757644*^9, 
+  3.588662109798359*^9}},ExpressionUUID->"8b5c6092-e2db-4da0-b082-\
+644ea820e5c8"],
 
 Cell[TextData[StyleBox["We can also define a few vectors and perform \
 operations on them, such as, for\nexample, a linear combination:",
@@ -174,14 +184,15 @@ operations on them, such as, for\nexample, a linear combination:",
    3.581699273081849*^9}, {3.581699394086892*^9, 3.581699408573721*^9}, {
    3.581700568648821*^9, 3.5817006073995333`*^9}, 3.58177350111876*^9, {
    3.581773807533708*^9, 3.5817738333332853`*^9}, {3.581773976897744*^9, 
-   3.581774057991506*^9}, {3.5886621139167137`*^9, 3.588662148139463*^9}}],
+   3.581774057991506*^9}, {3.5886621139167137`*^9, 
+   3.588662148139463*^9}},ExpressionUUID->"0ad0102d-3940-467f-995b-\
+3b95216ad58c"],
 
 Cell[BoxData[{
  RowBox[{
   RowBox[{"u", "=", 
    RowBox[{"{", 
-    RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+    RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"v", "=", 
    RowBox[{"{", 
@@ -191,7 +202,9 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"2", "u"}], "+", 
   RowBox[{"3", "v"}]}]}], "Input",
- CellChangeTimes->{{3.588662152333537*^9, 3.588662194837125*^9}}]
+ CellChangeTimes->{{3.588662152333537*^9, 
+  3.588662194837125*^9}},ExpressionUUID->"a346cac7-54fb-49cd-896e-\
+bf03c1294701"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -202,7 +215,8 @@ Cell[TextData[StyleBox["Task 2",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
-  3.581699482068055*^9}}],
+  3.581699482068055*^9}},ExpressionUUID->"e62a1a03-b03f-4869-ac56-\
+084e2a1288af"],
 
 Cell[TextData[{
  StyleBox["Mathematica",
@@ -235,7 +249,8 @@ place a period in between them:",
    3.581774174860319*^9, 3.581774298369541*^9}, {3.5817743714557743`*^9, 
    3.581774379999298*^9}, {3.588662269075189*^9, 3.588662312135104*^9}, {
    3.588872641718484*^9, 3.588872642387156*^9}, {3.588873150676856*^9, 
-   3.588873151997048*^9}}],
+   3.588873151997048*^9}},ExpressionUUID->"e5d3a31a-2962-4155-b9b6-\
+79e92699db71"],
 
 Cell[BoxData[
  RowBox[{
@@ -243,7 +258,9 @@ Cell[BoxData[
    RowBox[{"a", ",", "b"}], "}"}], ".", 
   RowBox[{"{", 
    RowBox[{"c", ",", "d"}], "}"}]}]], "Input",
- CellChangeTimes->{{3.588662315999834*^9, 3.588662323352891*^9}}],
+ CellChangeTimes->{{3.588662315999834*^9, 
+  3.588662323352891*^9}},ExpressionUUID->"a7d4e199-502b-462a-9f3e-\
+01820eac8833"],
 
 Cell[TextData[StyleBox["Feel free to try it it with two specific vectors in \
 3-space.\n\nThe norm (or length) of a vector is determined using the Norm \
@@ -269,14 +286,18 @@ command:",
    3.581699956375984*^9, 3.581699966447681*^9}, {3.581700340942082*^9, 
    3.581700343582169*^9}, {3.581774670425403*^9, 3.581774716310892*^9}, {
    3.581774788285108*^9, 3.581774889594425*^9}, 3.581775010744265*^9, {
-   3.5886623468140783`*^9, 3.588662402892191*^9}}],
+   3.5886623468140783`*^9, 
+   3.588662402892191*^9}},ExpressionUUID->"a1cf0077-9074-4fce-ba0c-\
+d0ac9c26fb36"],
 
 Cell[BoxData[
  RowBox[{"Norm", "[", 
   RowBox[{"{", 
    RowBox[{"x", ",", "y", ",", "z"}], "}"}], "]"}]], "Input",
  CellChangeTimes->{{3.5817747196727657`*^9, 3.5817747806316853`*^9}, {
-  3.5886624093294373`*^9, 3.5886624148219843`*^9}}],
+  3.5886624093294373`*^9, 
+  3.5886624148219843`*^9}},ExpressionUUID->"56a3ae4c-4773-40fd-8cba-\
+2dd8a177134d"],
 
 Cell[TextData[{
  StyleBox["To find the angle between two vectors we first define them, and \
@@ -315,7 +336,8 @@ then ask\n",
    3.5817750695819817`*^9}, {3.581775118140727*^9, 3.581775162907715*^9}, {
    3.581775253329262*^9, 3.5817753962937813`*^9}, {3.5817754296062517`*^9, 
    3.581775516501936*^9}, 3.581775661519722*^9, {3.588662486955215*^9, 
-   3.5886625277766533`*^9}}],
+   3.5886625277766533`*^9}},ExpressionUUID->"5cd320c8-8e97-4771-8253-\
+34bf5eeca812"],
 
 Cell[BoxData[{
  RowBox[{
@@ -324,8 +346,7 @@ Cell[BoxData[{
     RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], ";", 
   RowBox[{"v", "=", 
    RowBox[{"{", 
-    RowBox[{"1", ",", "0", ",", "0"}], "}"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+    RowBox[{"1", ",", "0", ",", "0"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"ArcCos", "[", 
    FractionBox[
@@ -335,7 +356,8 @@ Cell[BoxData[{
      RowBox[{"Norm", "[", "v", "]"}]}]], "]"}], "//", "N"}]}], "Input",
  CellChangeTimes->{{3.5817751656354713`*^9, 3.581775208212111*^9}, 
    3.581775240388608*^9, 3.581775646632835*^9, {3.5886625326957693`*^9, 
-   3.588662590113364*^9}}],
+   3.588662590113364*^9}},ExpressionUUID->"63959378-f742-4b0d-b4bd-\
+2d6c8ca22b02"],
 
 Cell[TextData[StyleBox["The output is in radian measure, so we convert the \
 result (%) to degrees:",
@@ -361,12 +383,16 @@ result (%) to degrees:",
    3.581700343582169*^9}, {3.581774670425403*^9, 3.581774716310892*^9}, {
    3.581774788285108*^9, 3.581774889594425*^9}, 3.581775010744265*^9, 
    3.58177552052483*^9, {3.588662605861495*^9, 3.588662623669517*^9}, {
-   3.588872656196188*^9, 3.588872706817375*^9}}],
+   3.588872656196188*^9, 
+   3.588872706817375*^9}},ExpressionUUID->"26a68b83-c324-4d7a-9d14-\
+07deb476b1f3"],
 
 Cell[BoxData[
  RowBox[{"%", " ", "/", " ", "Degree"}]], "Input",
  CellChangeTimes->{{3.5817755221338263`*^9, 3.581775524963254*^9}, {
-  3.5886626320623283`*^9, 3.58866263603089*^9}}],
+  3.5886626320623283`*^9, 
+  3.58866263603089*^9}},ExpressionUUID->"f52b83b0-64aa-4a0d-8a23-\
+4211a807bc0b"],
 
 Cell[TextData[{
  StyleBox["We conclude this task by showing how ",
@@ -398,7 +424,8 @@ Cell[TextData[{
    3.581700343582169*^9}, {3.581774670425403*^9, 3.581774716310892*^9}, {
    3.581774788285108*^9, 3.581774889594425*^9}, 3.581775010744265*^9, {
    3.58177552052483*^9, 3.581775606576123*^9}, {3.588662691147558*^9, 
-   3.58866270997112*^9}}],
+   3.58866270997112*^9}},ExpressionUUID->"36606008-52b0-4083-b4be-\
+96a620999b46"],
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -422,7 +449,9 @@ Cell[BoxData[
           RowBox[{"-", "1"}], ",", "3"}], "}"}]}], "}"}], "]"}]}], "}"}], ",", 
    RowBox[{"Axes", "\[Rule]", "True"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.5817756083129377`*^9, 3.5817756356010637`*^9}, {
-  3.588662713723699*^9, 3.588662841058065*^9}}],
+  3.588662713723699*^9, 
+  3.588662841058065*^9}},ExpressionUUID->"1c3522fb-4146-4e29-ac00-\
+42e624906a62"],
 
 Cell[TextData[StyleBox["Note that rendering vectors in 3-space requires the \
 Graphics3D package. For \nexample, to plot vectors (1, 1, 1) and (-1, 1, -1) \
@@ -451,7 +480,8 @@ execute the following:",
    3.58177552052483*^9, 3.581775606576123*^9}, {3.588662691147558*^9, 
    3.58866270997112*^9}, {3.588662921487144*^9, 3.5886629446679573`*^9}, {
    3.588872783154952*^9, 3.588872784497445*^9}, {3.588873090619213*^9, 
-   3.588873137581756*^9}}],
+   3.588873137581756*^9}},ExpressionUUID->"f7f500b2-2859-45c2-8544-\
+bde0af17946b"],
 
 Cell[BoxData[
  RowBox[{"Graphics3D", "[", 
@@ -475,7 +505,8 @@ Cell[BoxData[
           RowBox[{"-", "1"}], ",", "1", ",", 
           RowBox[{"-", "1"}]}], "}"}]}], "}"}], "]"}]}], "}"}], ",", 
    RowBox[{"Axes", "\[Rule]", "True"}], ",", 
-   RowBox[{"Boxed", "\[Rule]", "False"}]}], "]"}]], "Input"]
+   RowBox[{"Boxed", "\[Rule]", "False"}]}], "]"}]], "Input",ExpressionUUID->\
+"2363a531-32fe-444e-9650-32d9ba84685f"]
 }, Open  ]],
 
 Cell[TextData[StyleBox["Related Exercises/Notes:",
@@ -485,15 +516,17 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
   3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+  3.581351448726061*^9, 
+  3.5813514696435127`*^9}},ExpressionUUID->"38c56c2d-47de-4d6c-b541-\
+1456585f9f0d"],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.908312194278675*^9},
+ TextAlignment->Center,ExpressionUUID->"651e495e-2463-41d4-8c5b-3ab58456fc7b"]
 }, Open  ]]
 },
 WindowSize->{693, 712},
@@ -501,10 +534,10 @@ WindowMargins->{{Automatic, 286}, {Automatic, 0}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"19a4f04c-3f54-4667-b16f-5b652049850e"
 ]
 (* End of Notebook Content *)
 
@@ -518,38 +551,37 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 55, "Title"],
-Cell[846, 29, 1165, 17, 66, "Subtitle"],
-Cell[2014, 48, 792, 23, 32, "Subsection"],
+Cell[579, 22, 353, 7, 56, "Title",ExpressionUUID->"36420ebd-f189-42ac-b1eb-766dcaad4fbb"],
+Cell[935, 31, 1226, 19, 69, "Subtitle",ExpressionUUID->"f7941b27-d8aa-4bfb-9606-6d54d5ae4d4c"],
+Cell[2164, 52, 847, 23, 41, "Subsection",ExpressionUUID->"53b8093b-c4f5-4b27-8879-31c4f0e9b1d9"],
 Cell[CellGroupData[{
-Cell[2831, 75, 223, 5, 29, "Section"],
-Cell[3057, 82, 809, 14, 56, "Text"],
-Cell[3869, 98, 2113, 32, 27, "Input"],
-Cell[5985, 132, 661, 13, 26, "Text"],
-Cell[6649, 147, 185, 5, 27, "Input"],
-Cell[6837, 154, 1644, 22, 41, "Text"],
-Cell[8484, 178, 444, 15, 58, "Input"]
+Cell[3036, 79, 283, 7, 30, "Section",ExpressionUUID->"1b16ff61-1991-4ca4-9aab-70d4688c4500"],
+Cell[3322, 88, 864, 14, 69, "Text",ExpressionUUID->"e75215b1-a1fc-4a7b-b4a5-439b26bde357"],
+Cell[4189, 104, 2174, 34, 30, "Input",ExpressionUUID->"d32524ad-02a3-44b8-818d-d7a58431e933"],
+Cell[6366, 140, 716, 13, 31, "Text",ExpressionUUID->"1d0ff4a6-87bf-4ff2-a375-50243e53cd2d"],
+Cell[7085, 155, 245, 7, 30, "Input",ExpressionUUID->"8b5c6092-e2db-4da0-b082-644ea820e5c8"],
+Cell[7333, 164, 1705, 24, 69, "Text",ExpressionUUID->"0ad0102d-3940-467f-995b-3b95216ad58c"],
+Cell[9041, 190, 501, 16, 73, "Input",ExpressionUUID->"a346cac7-54fb-49cd-896e-bf03c1294701"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8965, 198, 272, 6, 59, "Section"],
-Cell[9240, 206, 1961, 31, 41, "Text"],
-Cell[11204, 239, 209, 6, 27, "Input"],
-Cell[11416, 247, 1718, 24, 56, "Text"],
-Cell[13137, 273, 237, 5, 27, "Input"],
-Cell[13377, 280, 2309, 37, 41, "Text"],
-Cell[15689, 319, 610, 18, 62, "Input"],
-Cell[16302, 339, 1724, 24, 26, "Text"],
-Cell[18029, 365, 182, 3, 27, "Input"],
-Cell[18214, 370, 1812, 30, 26, "Text"],
-Cell[20029, 402, 730, 22, 27, "Input"],
-Cell[20762, 426, 1929, 27, 41, "Text"],
-Cell[22694, 455, 727, 22, 43, "Input"]
+Cell[9579, 211, 329, 7, 44, "Section",ExpressionUUID->"e62a1a03-b03f-4869-ac56-084e2a1288af"],
+Cell[9911, 220, 2018, 32, 50, "Text",ExpressionUUID->"e5d3a31a-2962-4155-b9b6-79e92699db71"],
+Cell[11932, 254, 269, 8, 30, "Input",ExpressionUUID->"a7d4e199-502b-462a-9f3e-01820eac8833"],
+Cell[12204, 264, 1779, 26, 88, "Text",ExpressionUUID->"a1cf0077-9074-4fce-ba0c-d0ac9c26fb36"],
+Cell[13986, 292, 297, 7, 30, "Input",ExpressionUUID->"56a3ae4c-4773-40fd-8cba-2dd8a177134d"],
+Cell[14286, 301, 2366, 38, 69, "Text",ExpressionUUID->"5cd320c8-8e97-4771-8253-34bf5eeca812"],
+Cell[16655, 341, 664, 18, 68, "Input",ExpressionUUID->"63959378-f742-4b0d-b4bd-2d6c8ca22b02"],
+Cell[17322, 361, 1785, 26, 50, "Text",ExpressionUUID->"26a68b83-c324-4d7a-9d14-07deb476b1f3"],
+Cell[19110, 389, 242, 5, 30, "Input",ExpressionUUID->"f52b83b0-64aa-4a0d-8a23-4211a807bc0b"],
+Cell[19355, 396, 1869, 31, 50, "Text",ExpressionUUID->"36606008-52b0-4083-b4be-96a620999b46"],
+Cell[21227, 429, 790, 24, 52, "Input",ExpressionUUID->"1c3522fb-4146-4e29-ac00-42e624906a62"],
+Cell[22020, 455, 1986, 28, 88, "Text",ExpressionUUID->"f7f500b2-2859-45c2-8544-bde0af17946b"],
+Cell[24009, 485, 784, 23, 52, "Input",ExpressionUUID->"2363a531-32fe-444e-9650-32d9ba84685f"]
 }, Open  ]],
-Cell[23436, 480, 386, 7, 61, "Section"],
-Cell[23825, 489, 263, 6, 29, "Section"]
+Cell[24808, 511, 446, 9, 46, "Section",ExpressionUUID->"38c56c2d-47de-4d6c-b541-1456585f9f0d"],
+Cell[25257, 522, 333, 6, 29, "Section",ExpressionUUID->"651e495e-2463-41d4-8c5b-3ab58456fc7b"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     15141,        360]
-NotebookOptionsPosition[     13953,        320]
-NotebookOutlinePosition[     14541,        342]
-CellTagsIndexPosition[     14498,        339]
+NotebookDataLength[     17340,        389]
+NotebookOptionsPosition[     15176,        349]
+NotebookOutlinePosition[     15800,        371]
+CellTagsIndexPosition[     15757,        368]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+   3.581265638393551*^9, 3.581265647393133*^9}, 
+   3.9083120507467327`*^9},ExpressionUUID->"b30c1c5e-a6d4-4b16-8fe9-\
+7dbb3fa4a10f"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Differential Equations",
  FontFamily->"Courier",
@@ -39,7 +41,9 @@ Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Differential Equations",
   3.58142290580647*^9, 3.581422910504772*^9}, {3.581458210863021*^9, 
   3.581458216212624*^9}, {3.581526828560207*^9, 3.581526834722445*^9}, {
   3.581602866005961*^9, 3.5816028683644753`*^9}, {3.581607865887494*^9, 
-  3.581607869181218*^9}, {3.581616520785335*^9, 3.581616523855226*^9}}],
+  3.581607869181218*^9}, {3.581616520785335*^9, 
+  3.581616523855226*^9}},ExpressionUUID->"c234a99e-dad0-4e25-98be-\
+684cf86ec2fe"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -63,7 +67,9 @@ Cell[TextData[{
   3.581458272722952*^9}, {3.581526852562292*^9, 3.5815268630097103`*^9}, {
   3.58153080162568*^9, 3.5815308067517967`*^9}, {3.581602838548444*^9, 
   3.58160286273313*^9}, {3.581607873045598*^9, 3.581607884140876*^9}, {
-  3.581616528335464*^9, 3.581616540982501*^9}}],
+  3.581616528335464*^9, 
+  3.581616540982501*^9}},ExpressionUUID->"55057aaa-fa26-4c2f-985e-\
+b1e9c672c4b9"],
 
 Cell[CellGroupData[{
 
@@ -72,7 +78,9 @@ Cell[TextData[StyleBox["Task 1",
  FontSize->12,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
-  3.581266715599557*^9, 3.5812667166632633`*^9}}],
+  3.581266715599557*^9, 
+  3.5812667166632633`*^9}},ExpressionUUID->"1f3e3d47-1aed-4c26-8929-\
+6b22552d5ffd"],
 
 Cell[TextData[{
  StyleBox["Consider the differential equation ",
@@ -80,15 +88,16 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    RowBox[{
-    FractionBox["dy", "dt"], "=", "ky"}], TraditionalForm]]],
+    FractionBox["dy", "dt"], "=", "ky"}], TraditionalForm]],ExpressionUUID->
+  "8ad69f2e-c9ff-41fd-83ff-af8511f2222c"],
  ", w",
  StyleBox["here k is constant. By separation of\nvariables, we know that the \
 general solution is y(t) = A ",
   FontFamily->"Courier"],
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["e", "kt"], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+   SuperscriptBox["e", "kt"], TraditionalForm]],ExpressionUUID->
+  "41e4364d-39af-4d13-b6f8-0cb91ece0e33"],
  ".\n",
  StyleBox["Mathematica",
   FontSlant->"Italic"],
@@ -98,7 +107,8 @@ general solution is y(t) = A ",
   FormBox[
    RowBox[{
     FractionBox["dy", "dt"], "=", 
-    RowBox[{"0.2", "y"}]}], TraditionalForm]]],
+    RowBox[{"0.2", "y"}]}], TraditionalForm]],ExpressionUUID->
+  "21a88221-7721-4eb7-a516-c00b45593ff1"],
  ", using the DSolve command:"
 }], "Text",
  CellChangeTimes->{{3.581269524081081*^9, 3.58126953276013*^9}, {
@@ -111,7 +121,9 @@ general solution is y(t) = A ",
   3.581607904829536*^9, 3.5816080074100513`*^9}, {3.5816080516646757`*^9, 
   3.58160810504746*^9}, {3.5816082122529297`*^9, 3.5816082319239407`*^9}, {
   3.5816089919715223`*^9, 3.581609010008418*^9}, {3.581616546190958*^9, 
-  3.581616633197209*^9}, {3.581616677052882*^9, 3.581616718994157*^9}}],
+  3.581616633197209*^9}, {3.581616677052882*^9, 
+  3.581616718994157*^9}},ExpressionUUID->"06dcd6a7-98f3-4c88-9ff6-\
+3df7d54718be"],
 
 Cell[BoxData[
  RowBox[{"DSolve", "[", 
@@ -144,7 +156,8 @@ Cell[BoxData[
    3.5815269574795094`*^9, 3.581526983599942*^9}, {3.581530962762611*^9, 
    3.581531007339761*^9}, {3.581608014735619*^9, 3.581608031313178*^9}, {
    3.5816081101925573`*^9, 3.581608196079507*^9}, {3.581616723530081*^9, 
-   3.581616749162986*^9}}],
+   3.581616749162986*^9}},ExpressionUUID->"83f2d410-6025-4a8b-adde-\
+b77ea9983711"],
 
 Cell[TextData[StyleBox["The result represents the set of solutions, a family \
 of curves where each member is \nuniquely defined by the constant C[1]. Below \
@@ -161,7 +174,8 @@ increments of 0.5.", "Text",
   3.581531158488*^9, 3.581531203717636*^9}, {3.581603191845522*^9, 
   3.5816032654666033`*^9}, {3.581603395088097*^9, 3.581603428982057*^9}, {
   3.581608245932345*^9, 3.581608259579241*^9}, {3.581616771697945*^9, 
-  3.581616952899932*^9}}],
+  3.581616952899932*^9}},ExpressionUUID->"7108a663-ec1b-421c-af65-\
+8bbde7b7cf53"],
 
 Cell[BoxData[
  RowBox[{"solutions", "=", 
@@ -186,7 +200,9 @@ Cell[BoxData[
   3.581531066777958*^9, 3.581531131400982*^9}, {3.5816032684920588`*^9, 
   3.581603315066223*^9}, {3.581608263428091*^9, 3.581608275227952*^9}, {
   3.5816169561889544`*^9, 3.581616971214737*^9}, {3.581617007042553*^9, 
-  3.581617033803534*^9}, {3.581617073171805*^9, 3.5816170990581923`*^9}}],
+  3.581617033803534*^9}, {3.581617073171805*^9, 
+  3.5816170990581923`*^9}},ExpressionUUID->"8a37bb58-55e9-44e2-821d-\
+5110e787c61f"],
 
 Cell[TextData[StyleBox["To obtain a plot of these thirteen solutions, enter \
 and execute the following:", "Text",
@@ -202,7 +218,9 @@ and execute the following:", "Text",
   3.5816032654666033`*^9}, {3.581603395088097*^9, 3.581603428982057*^9}, {
   3.581608245932345*^9, 3.581608259579241*^9}, {3.581608531733419*^9, 
   3.5816086502012997`*^9}, {3.581617135191955*^9, 3.5816171505116177`*^9}, {
-  3.581628505954445*^9, 3.581628520040742*^9}}],
+  3.581628505954445*^9, 
+  3.581628520040742*^9}},ExpressionUUID->"159af922-055f-4e9e-9c31-\
+7274dd671337"],
 
 Cell[BoxData[
  RowBox[{"Plot", "[", 
@@ -210,10 +228,14 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"t", ",", "0", ",", "20"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.581608651664283*^9, 3.581608686554339*^9}, {
-  3.581617153969747*^9, 3.581617174967647*^9}}],
+  3.581617153969747*^9, 
+  3.581617174967647*^9}},ExpressionUUID->"cdaf4cdb-7cea-4ad0-945a-\
+1d0d631afebb"],
 
 Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.581617217029949*^9, 3.581617217055861*^9}}],
+ CellChangeTimes->{{3.581617217029949*^9, 
+  3.581617217055861*^9}},ExpressionUUID->"8f459590-4345-498d-a535-\
+e5b6c1b1db01"],
 
 Cell[TextData[{
  StyleBox["Next, we use the DSolve command to solve an initial value problem, \
@@ -225,7 +247,8 @@ and then plot the \nsolution curve. The differential equation is ", "Text",
   FormBox[
    RowBox[{
     FractionBox["dy", "dx"], "=", 
-    RowBox[{"x", "+", "y"}]}], TraditionalForm]]],
+    RowBox[{"x", "+", "y"}]}], TraditionalForm]],ExpressionUUID->
+  "353cbd76-3492-4960-914d-232b6fb2849c"],
  " ",
  StyleBox[" with initial condition (0,1).", "Text",
   FontFamily->"Courier"],
@@ -238,7 +261,7 @@ NkiC6F22GbNBtMJO9rkg+u2ji7UWIP50mQYQrZ1zoBVE8y0WbQPRM05pFFqB
 9C16VwaiN8093wSiH3wr6wDRLXy/18UC6ax3ejtA9MaLSSdANHPu/DMg+ujV
 vWoJQFqls0gDRGtXlHuBaJ5Ct0gQ/U4wPAFEs1h4pYBoL4bFHSlAetln8V4Q
 rVQTMDkTSEs+vjAbROvdtvkKoi/8v8CQBaQBmZGfcg==
-  "]],
+  "],ExpressionUUID->"f85cae2d-14ab-413a-a40d-2bb5a9068ec1"],
 
 Cell[BoxData[{
  RowBox[{
@@ -261,7 +284,8 @@ Cell[BoxData[{
   3.5816276869119453`*^9, 3.581627732894021*^9}, {3.5816277879014883`*^9, 
   3.58162778964487*^9}, {3.5816278641238327`*^9, 3.5816278651708508`*^9}, {
   3.581628016663375*^9, 3.581628017123999*^9}, {3.5816282644729013`*^9, 
-  3.581628275017125*^9}}],
+  3.581628275017125*^9}},ExpressionUUID->"6fe7dcaf-ccad-414f-a817-\
+b16c6b279b81"],
 
 Cell[TextData[StyleBox["", "Text",
  FontFamily->"Courier"]], "Text",
@@ -278,7 +302,8 @@ Cell[TextData[StyleBox["", "Text",
    3.5816086502012997`*^9}, {3.5816087067209387`*^9, 3.581608738319338*^9}, {
    3.5816172210937853`*^9, 3.5816172567484922`*^9}, {3.581627546515153*^9, 
    3.581627614527722*^9}, {3.581628088868745*^9, 3.581628098419526*^9}, 
-   3.581628297911357*^9}],
+   3.581628297911357*^9},ExpressionUUID->"125449a8-78d9-4fbb-ad83-\
+d7e799356e93"],
 
 Cell[BoxData[
  RowBox[{"Plot", "[", 
@@ -297,7 +322,9 @@ Cell[BoxData[
  CellChangeTimes->{{3.5816277399133787`*^9, 3.581627741581297*^9}, {
   3.58162779621992*^9, 3.581627808355842*^9}, {3.581627872290496*^9, 
   3.5816279839678*^9}, {3.581628175620129*^9, 3.581628245641958*^9}, {
-  3.581628283048835*^9, 3.581628288632703*^9}}]
+  3.581628283048835*^9, 
+  3.581628288632703*^9}},ExpressionUUID->"34f50676-db06-4718-85dc-\
+fc7ffb41aa01"]
 }, Open  ]],
 
 Cell[TextData[StyleBox["Related Exercises/Notes:",
@@ -307,15 +334,17 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
   3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+  3.581351448726061*^9, 
+  3.5813514696435127`*^9}},ExpressionUUID->"6a3123e2-a1f7-4510-a6e9-\
+69f6a7a5be91"],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.9083120553837967`*^9},
+ TextAlignment->Center,ExpressionUUID->"0bc35bb6-9ddd-4ef3-b5f8-88356f7ddfba"]
 }, Open  ]]
 },
 WindowSize->{1715, 1260},
@@ -325,10 +354,10 @@ PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 2., 2. Inherited],
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"0be269fe-8432-4264-8417-4d9bdde3cfcc"
 ]
 (* End of Notebook Content *)
 
@@ -342,28 +371,27 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 110, "Title"],
-Cell[846, 29, 796, 12, 132, "Subtitle"],
-Cell[1645, 43, 898, 22, 64, "Subsection"],
+Cell[579, 22, 333, 7, 112, "Title",ExpressionUUID->"b30c1c5e-a6d4-4b16-8fe9-7dbb3fa4a10f"],
+Cell[915, 31, 856, 14, 135, "Subtitle",ExpressionUUID->"c234a99e-dad0-4e25-98be-684cf86ec2fe"],
+Cell[1774, 47, 958, 24, 81, "Subsection",ExpressionUUID->"55057aaa-fa26-4c2f-985e-b1e9c672c4b9"],
 Cell[CellGroupData[{
-Cell[2568, 69, 223, 5, 54, "Section"],
-Cell[2794, 76, 1544, 37, 153, "Text"],
-Cell[4341, 115, 1867, 31, 54, "Input"],
-Cell[6211, 148, 1042, 15, 112, "Text"],
-Cell[7256, 165, 1230, 23, 54, "Input"],
-Cell[8489, 190, 995, 14, 52, "Text"],
-Cell[9487, 206, 263, 6, 54, "Input"],
-Cell[9753, 214, 92, 1, 54, "Input"],
-Cell[9848, 217, 856, 23, 100, "Text"],
-Cell[10707, 242, 830, 21, 85, "Input"],
-Cell[11540, 265, 1052, 15, 52, "Text"],
-Cell[12595, 282, 675, 17, 54, "Input"]
+Cell[2757, 75, 283, 7, 55, "Section",ExpressionUUID->"1f3e3d47-1aed-4c26-8929-6b22552d5ffd"],
+Cell[3043, 84, 1745, 41, 263, "Text",ExpressionUUID->"06dcd6a7-98f3-4c88-9ff6-3df7d54718be"],
+Cell[4791, 127, 1924, 32, 59, "Input",ExpressionUUID->"83f2d410-6025-4a8b-adde-b77ea9983711"],
+Cell[6718, 161, 1099, 16, 209, "Text",ExpressionUUID->"7108a663-ec1b-421c-af65-8bbde7b7cf53"],
+Cell[7820, 179, 1290, 25, 59, "Input",ExpressionUUID->"8a37bb58-55e9-44e2-821d-5110e787c61f"],
+Cell[9113, 206, 1055, 16, 98, "Text",ExpressionUUID->"159af922-055f-4e9e-9c31-7274dd671337"],
+Cell[10171, 224, 323, 8, 59, "Input",ExpressionUUID->"cdaf4cdb-7cea-4ad0-945a-1d0d631afebb"],
+Cell[10497, 234, 152, 3, 59, "Input",ExpressionUUID->"8f459590-4345-498d-a535-e5b6c1b1db01"],
+Cell[10652, 239, 969, 24, 199, "Text",ExpressionUUID->"f85cae2d-14ab-413a-a40d-2bb5a9068ec1"],
+Cell[11624, 265, 887, 22, 101, "Input",ExpressionUUID->"6fe7dcaf-ccad-414f-a817-b16c6b279b81"],
+Cell[12514, 289, 1109, 16, 61, "Text",ExpressionUUID->"125449a8-78d9-4fbb-ad83-d7e799356e93"],
+Cell[13626, 307, 735, 19, 59, "Input",ExpressionUUID->"34f50676-db06-4718-85dc-fc7ffb41aa01"]
 }, Open  ]],
-Cell[13285, 302, 386, 7, 122, "Section"],
-Cell[13674, 311, 263, 6, 50, "Section"]
+Cell[14376, 329, 446, 9, 91, "Section",ExpressionUUID->"6a3123e2-a1f7-4510-a6e9-69f6a7a5be91"],
+Cell[14825, 340, 335, 6, 51, "Section",ExpressionUUID->"0bc35bb6-9ddd-4ef3-b5f8-88356f7ddfba"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)
