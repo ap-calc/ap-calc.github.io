@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     31629,        684]
-NotebookOptionsPosition[     29859,        626]
-NotebookOutlinePosition[     30450,        648]
-CellTagsIndexPosition[     30407,        645]
+NotebookDataLength[     35153,        726]
+NotebookOptionsPosition[     31749,        668]
+NotebookOutlinePosition[     32375,        690]
+CellTagsIndexPosition[     32332,        687]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+   3.581265638393551*^9, 3.581265647393133*^9}, 
+   3.908312284471293*^9},ExpressionUUID->"f138f737-71c8-4bbe-bf41-\
+5d56a89b53dc"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Partial Derivatives, \
 Tangent Planes",
@@ -49,7 +51,8 @@ Tangent Planes",
    3.589236874604916*^9, 3.589236875202207*^9}, {3.589870859384839*^9, 
    3.589870864719035*^9}, {3.590005008862859*^9, 3.590005009396494*^9}, {
    3.593739318017055*^9, 3.593739324114998*^9}, {3.5955762143169193`*^9, 
-   3.59557622248525*^9}}],
+   3.59557622248525*^9}},ExpressionUUID->"f2892baa-2638-4849-a270-\
+16d0905a9b66"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -76,7 +79,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0S/3vmhvfnYK0fJpuoOEB2xIbOC5dQrx5Si3EoQzZKa
 d+sTkE74UnYbRAMAfATXZw==
-  "]],
+  "],ExpressionUUID->"6041096c-d439-4734-ba64-24ff3cfc5f9b"],
 
 Cell[CellGroupData[{
 
@@ -86,7 +89,8 @@ Cell[TextData[StyleBox["Task 1",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.594303088409164*^9, 
-  3.5943030890562487`*^9}}],
+  3.5943030890562487`*^9}},ExpressionUUID->"070b1bc5-a267-4718-805d-\
+120d66f4f246"],
 
 Cell[TextData[{
  StyleBox["In ",
@@ -108,7 +112,7 @@ ellNkBWIPuGYLdgFpOcztqmB6FfxTAYg+nxrMJiuKoiu7AHSckWizSBaTeag
 VS+QzomLdgDRmhzz9m8A0mlnb5wH0Ss0NK6CaLZ5e6+B6NjfLAFX9rxy/Ltx
 TjSIVsgpKQfR6zkTakC012Yd97d7Xzm6uqt7gegnxc6+SvuB4T9nawCIniG8
 NwxE/78THgGirVQye5qPvXLcMjGxH0QDANrXEhk=
-  "]],
+  "],ExpressionUUID->"1c8f5338-037c-4273-bba0-5f0d6e752548"],
 
 Cell[BoxData[
  RowBox[{
@@ -149,7 +153,9 @@ Cell[BoxData[
    3.589237334694792*^9, 3.589237351046542*^9}, {3.589870217340852*^9, 
    3.5898702463410673`*^9}, {3.593739390532539*^9, 3.593739413475771*^9}, {
    3.5937394446334887`*^9, 3.593739458791*^9}, {3.593739526934896*^9, 
-   3.593739530928615*^9}, {3.595576273000304*^9, 3.595576276341443*^9}}],
+   3.593739530928615*^9}, {3.595576273000304*^9, 
+   3.595576276341443*^9}},ExpressionUUID->"b034bc7b-7bef-47be-a6a9-\
+0722e3ed23ed"],
 
 Cell[TextData[StyleBox["Or more conveniently:",
  FontFamily->"Courier"]], "Text",
@@ -164,7 +170,7 @@ ellNkBWIPuGYLdgFpOcztqmB6FfxTAYg+nxrMJiuKoiu7AHSckWizSBaTeag
 VS+QzomLdgDRmhzz9m8A0mlnb5wH0Ss0NK6C6PXszP9B9KpgkeQre1457ulw
 zQbRIp7H/d7ufeUYlHA2EETHyE2LVNr/yvGFoWwMiL4U0D+n+dgrx+NfvoLp
 BZdll4Hokgo/MA0AxhUK/A==
-  "]],
+  "],ExpressionUUID->"195c053e-df28-45ee-9e02-3d1a8c9caa46"],
 
 Cell[BoxData[{
  RowBox[{
@@ -180,7 +186,9 @@ Cell[BoxData[{
  CellChangeTimes->{{3.5886620757644*^9, 3.588662109798359*^9}, {
   3.58923739281164*^9, 3.589237416419742*^9}, {3.589870308158969*^9, 
   3.5898703301707783`*^9}, {3.593739501528327*^9, 3.593739548079397*^9}, {
-  3.595576285357417*^9, 3.595576288071587*^9}}],
+  3.595576285357417*^9, 
+  3.595576288071587*^9}},ExpressionUUID->"c4e76cf0-d3c4-4b5b-9f33-\
+b7e7aea17230"],
 
 Cell[TextData[{
  StyleBox["To differentiate f(x,y) with respect to x, we can use the ",
@@ -188,7 +196,8 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    FractionBox["\[PartialD]", 
-    RowBox[{"\[PartialD]", "\[Placeholder]"}]], TraditionalForm]]],
+    RowBox[{"\[PartialD]", "\[Placeholder]"}]], TraditionalForm]],
+  ExpressionUUID->"bff1c118-2a81-46e6-95bf-d2b7168a1240"],
  StyleBox[" from the Basic Math Assistant palette, or type and execute:",
   FontFamily->"Courier"]
 }], "Text",
@@ -217,7 +226,8 @@ Cell[TextData[{
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5943032068524837`*^9, 
    3.594303230659815*^9}, {3.595576295187693*^9, 3.5955763160744143`*^9}, {
    3.5955765817713003`*^9, 3.5955766236665773`*^9}, {3.5960630618914022`*^9, 
-   3.596063063017305*^9}}],
+   3.596063063017305*^9}},ExpressionUUID->"a81e9a89-6d3c-4791-9d14-\
+0ee06c399112"],
 
 Cell[BoxData[
  RowBox[{"D", "[", 
@@ -225,7 +235,9 @@ Cell[BoxData[
  CellChangeTimes->{{3.588662152333537*^9, 3.588662194837125*^9}, {
   3.5892374399792147`*^9, 3.58923745991391*^9}, {3.589870418247301*^9, 
   3.589870446759838*^9}, {3.59373961118738*^9, 3.593739636307563*^9}, {
-  3.5955763202281723`*^9, 3.59557632814078*^9}}],
+  3.5955763202281723`*^9, 
+  3.59557632814078*^9}},ExpressionUUID->"36e7e391-f86d-4e95-b860-\
+68eb8356a246"],
 
 Cell[TextData[StyleBox["As always, if the answer needs simplification, use \
 the Simplify command:",
@@ -253,15 +265,18 @@ the Simplify command:",
    3.589237428154524*^9, 3.589237437888071*^9}, {3.58923747732725*^9, 
    3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}, {
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5937396689448547`*^9, 
-   3.5937396912709293`*^9}, {3.595576359854045*^9, 3.5955763613857517`*^9}}],
+   3.5937396912709293`*^9}, {3.595576359854045*^9, 
+   3.5955763613857517`*^9}},ExpressionUUID->"76c6d0f6-6e74-4c31-aef0-\
+2331050d19d3"],
 
 Cell[BoxData[
  RowBox[{"Simplify", "[", "%", "]"}]], "Input",
- CellChangeTimes->{{3.5937396935328903`*^9, 3.593739696608651*^9}}],
+ CellChangeTimes->{{3.5937396935328903`*^9, 
+  3.593739696608651*^9}},ExpressionUUID->"5697a7f3-ba65-47aa-b504-\
+c89cd5be100e"],
 
 Cell[TextData[StyleBox["If you need to differentiate the first partial \
 derivative with respect y (or x again), simply refer to the previous answer:",
- 
  FontFamily->"Courier"]], "Text",
  CellChangeTimes->{{3.581269524081081*^9, 3.58126953276013*^9}, {
    3.581353691830201*^9, 3.581353704011846*^9}, {3.5813569582665243`*^9, 
@@ -287,12 +302,15 @@ derivative with respect y (or x again), simply refer to the previous answer:",
    3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}, {
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5937396689448547`*^9, 
    3.5937397331977*^9}, 3.594303096328783*^9, {3.595576371961598*^9, 
-   3.595576430331251*^9}}],
+   3.595576430331251*^9}},ExpressionUUID->"aeda3b61-f059-4856-ade7-\
+44a58373ad20"],
 
 Cell[BoxData[
  RowBox[{"D", "[", 
   RowBox[{"%", ",", " ", "y"}], "]"}]], "Input",
- CellChangeTimes->{{3.595576415024311*^9, 3.595576417729906*^9}}],
+ CellChangeTimes->{{3.595576415024311*^9, 
+  3.595576417729906*^9}},ExpressionUUID->"b1166e5a-673d-4e67-9b57-\
+c3717781bba2"],
 
 Cell[TextData[StyleBox["For higher order partial derivatives, we can also use \
 the following command, which takes the third derivative in the direction of \
@@ -322,14 +340,17 @@ x:",
    3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}, {
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5937396689448547`*^9, 
    3.5937397331977*^9}, 3.594303096328783*^9, {3.595576371961598*^9, 
-   3.5955764829100113`*^9}}],
+   3.5955764829100113`*^9}},ExpressionUUID->"346b1b8c-2be9-4b72-b4e8-\
+69602df679b2"],
 
 Cell[BoxData[
  RowBox[{"D", "[", 
   RowBox[{"f", ",", " ", 
    RowBox[{"{", 
     RowBox[{"x", ",", "3"}], "}"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.595576484788252*^9, 3.595576492799613*^9}}],
+ CellChangeTimes->{{3.595576484788252*^9, 
+  3.595576492799613*^9}},ExpressionUUID->"cba767ce-237f-4300-8def-\
+49a34c782768"],
 
 Cell[TextData[StyleBox["To evaluate a certain derivative at a particular \
 point, use the replacement rule as shown below:",
@@ -358,7 +379,9 @@ point, use the replacement rule as shown below:",
    3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}, {
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5937396689448547`*^9, 
    3.5937397331977*^9}, 3.594303096328783*^9, {3.595576371961598*^9, 
-   3.5955764829100113`*^9}, {3.595576543638179*^9, 3.595576562811234*^9}}],
+   3.5955764829100113`*^9}, {3.595576543638179*^9, 
+   3.595576562811234*^9}},ExpressionUUID->"54fb2fb2-e1fb-417f-8624-\
+06e8244f28b8"],
 
 Cell[BoxData[
  RowBox[{"%", " ", "/.", 
@@ -366,7 +389,9 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"x", "\[Rule]", "0"}], ",", " ", 
     RowBox[{"y", "\[Rule]", "1"}]}], "}"}]}]], "Input",
- CellChangeTimes->{{3.595576639441771*^9, 3.5955766497714357`*^9}}]
+ CellChangeTimes->{{3.595576639441771*^9, 
+  3.5955766497714357`*^9}},ExpressionUUID->"d3e128f7-37e5-4ac6-a24b-\
+b4a78cc72fff"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -377,7 +402,9 @@ Cell[TextData[StyleBox["Task 2",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
-  3.581699482068055*^9}, {3.594303255922751*^9, 3.594303269818185*^9}}],
+  3.581699482068055*^9}, {3.594303255922751*^9, 
+  3.594303269818185*^9}},ExpressionUUID->"4ad22df0-f74c-48fc-8589-\
+d21d837e45e4"],
 
 Cell[TextData[{
  StyleBox["The equation of the tangent plane to a surface z= f(x, y) at a \
@@ -402,7 +429,8 @@ point (a, b) is given by ",
        SubscriptBox["f", "y"], "(", 
        RowBox[{"a", ",", "b"}], ")"}], 
       RowBox[{"(", 
-       RowBox[{"y", "-", "b"}], ")"}]}]}]}], TraditionalForm]]],
+       RowBox[{"y", "-", "b"}], ")"}]}]}]}], TraditionalForm]],ExpressionUUID->
+  "63ba9e73-7349-49d1-8dfc-3fd36a2a9a11"],
  "."
 }], "Text",
  CellChangeTimes->{{3.581269524081081*^9, 3.58126953276013*^9}, {
@@ -434,7 +462,8 @@ point (a, b) is given by ",
    3.5937398102978487`*^9, 3.593739832652116*^9}, {3.594303279707136*^9, 
    3.5943033394161*^9}, {3.595576672903039*^9, 3.59557674724053*^9}, {
    3.595576868484641*^9, 3.595576900710719*^9}, {3.595577904471908*^9, 
-   3.595577918748871*^9}}],
+   3.595577918748871*^9}},ExpressionUUID->"8a324109-a67a-41e7-a1f9-\
+aae2c43eda26"],
 
 Cell[TextData[{
  StyleBox["Use ",
@@ -451,7 +480,8 @@ Cell[TextData[{
      RowBox[{"x", ",", "y"}], ")"}], "=", " ", 
     RowBox[{
      SuperscriptBox["x", "2"], "+", " ", 
-     SuperscriptBox["y", "2"]}]}], TraditionalForm]]],
+     SuperscriptBox["y", "2"]}]}], TraditionalForm]],ExpressionUUID->
+  "69899bc5-bd42-41e8-ae2f-4d6503ba7c3c"],
  StyleBox[" at (1, 1, 2). Plot the original surface and the plane in the same \
 window to verify your work. After defining f(x,y) as a function, we compute \
 the partial derivatives slopex and slopey at the given point, and then plot \
@@ -487,7 +517,9 @@ the tangent plane and the surface in the same viewing box:",
    3.5955769043209667`*^9, 3.595576978359085*^9}, {3.5955770347056437`*^9, 
    3.5955771000294*^9}, {3.595577292395384*^9, 3.595577320676065*^9}, {
    3.5955774014576273`*^9, 3.595577408455208*^9}, {3.596063107526678*^9, 
-   3.596063152493477*^9}, {3.596063566572802*^9, 3.596063609607431*^9}}],
+   3.596063152493477*^9}, {3.596063566572802*^9, 
+   3.596063609607431*^9}},ExpressionUUID->"ffc8eed9-ab83-4366-b58a-\
+a07e940aab08"],
 
 Cell[BoxData[{
  RowBox[{"Clear", "[", 
@@ -500,7 +532,9 @@ Cell[BoxData[{
     RowBox[{"x", "^", "2"}], "+", 
     RowBox[{"y", "^", "2"}]}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.596063183283167*^9, 3.5960631884460287`*^9}, {
-  3.596063487597912*^9, 3.5960635102697477`*^9}}],
+  3.596063487597912*^9, 
+  3.5960635102697477`*^9}},ExpressionUUID->"63a40636-b706-4580-8d9d-\
+8b6f70b022f1"],
 
 Cell[BoxData[
  RowBox[{"slopex", "=", 
@@ -511,7 +545,9 @@ Cell[BoxData[
     RowBox[{
      RowBox[{"x", "\[Rule]", "1"}], ",", 
      RowBox[{"y", "\[Rule]", "1"}]}], "}"}]}]}]], "Input",
- CellChangeTimes->{{3.596063333678123*^9, 3.5960634235763702`*^9}}],
+ CellChangeTimes->{{3.596063333678123*^9, 
+  3.5960634235763702`*^9}},ExpressionUUID->"0c055d9a-4537-4346-bb10-\
+3385430d77c0"],
 
 Cell[BoxData[
  RowBox[{"slopey", "=", " ", 
@@ -522,7 +558,9 @@ Cell[BoxData[
     RowBox[{
      RowBox[{"x", "\[Rule]", "1"}], ",", 
      RowBox[{"y", "\[Rule]", "1"}]}], "}"}]}]}]], "Input",
- CellChangeTimes->{{3.5960634171078663`*^9, 3.5960634420872507`*^9}}],
+ CellChangeTimes->{{3.5960634171078663`*^9, 
+  3.5960634420872507`*^9}},ExpressionUUID->"59839bfe-10ea-40aa-b061-\
+a01781694d00"],
 
 Cell[BoxData[
  RowBox[{"Plot3D", "[", 
@@ -548,7 +586,8 @@ Cell[BoxData[
      RowBox[{"-", "5"}], ",", "5"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.596063154295933*^9, 3.596063295846434*^9}, {
   3.596063451801989*^9, 3.596063460680367*^9}, {3.596063522175206*^9, 
-  3.596063526421974*^9}}]
+  3.596063526421974*^9}},ExpressionUUID->"aa2a833b-e254-4f36-952f-\
+1fff3c2f9c31"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -560,7 +599,9 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
    3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
    3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-   3.581351448726061*^9, 3.5813514696435127`*^9}, 3.595576992095945*^9}],
+   3.581351448726061*^9, 3.5813514696435127`*^9}, 
+   3.595576992095945*^9},ExpressionUUID->"1d0f85a3-f835-41a8-a4a5-\
+288f84343afe"],
 
 Cell[CellGroupData[{
 
@@ -589,7 +630,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0S/3vmhvfnYK0fJpuoOEK2o90F15vFXjhzzfuuB6JYr
 zqWfTr1ybFutUAmia5J3XQbRF7hZroJoAFxH4Yw=
-  "]],
+  "],ExpressionUUID->"50ec37db-0971-4ad6-93ca-0ac92efbdb58"],
 
 Cell[BoxData[
  FormBox[
@@ -611,30 +652,31 @@ Cell[BoxData[
   3.596063831271344*^9, 3.5960638531894703`*^9}, {3.596063890403007*^9, 
   3.5960639248977833`*^9}, {3.5960642061876993`*^9, 3.596064239652175*^9}, {
   3.596064272120678*^9, 3.596064272638996*^9}, {3.596064375011093*^9, 
-  3.59606437694718*^9}}]
+  3.59606437694718*^9}},ExpressionUUID->"77300e9c-93a0-4dbf-9e52-\
+960115f93835"]
 }, Open  ]]
 }, Open  ]],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.908312287895184*^9},
+ TextAlignment->Center,ExpressionUUID->"9e7cabb0-5014-4ad0-8487-c667aa415910"]
 }, Open  ]]
 },
 WindowSize->{1280, 705},
-WindowMargins->{{106, Automatic}, {Automatic, 141}},
+WindowMargins->{{Automatic, 54}, {-52, Automatic}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 1.5, 1.5 Inherited],
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"da0c49ba-52ee-487d-80ce-a88abe067bd6"
 ]
 (* End of Notebook Content *)
 
@@ -648,46 +690,45 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 82, "Title"],
-Cell[846, 29, 1438, 22, 99, "Subtitle"],
-Cell[2287, 53, 900, 25, 68, "Subsection"],
+Cell[579, 22, 331, 7, 84, "Title",ExpressionUUID->"f138f737-71c8-4bbe-bf41-5d56a89b53dc"],
+Cell[913, 31, 1495, 23, 102, "Subtitle",ExpressionUUID->"f2892baa-2638-4849-a270-16d0905a9b66"],
+Cell[2411, 56, 955, 25, 82, "Subsection",ExpressionUUID->"6041096c-d439-4734-ba64-24ff3cfc5f9b"],
 Cell[CellGroupData[{
-Cell[3212, 82, 274, 6, 41, "Section"],
-Cell[3489, 90, 868, 20, 39, "Text"],
-Cell[4360, 112, 2487, 39, 42, "Input"],
-Cell[6850, 153, 698, 13, 39, "Text"],
-Cell[7551, 168, 578, 14, 64, "Input"],
-Cell[8132, 184, 2227, 35, 77, "Text"],
-Cell[10362, 221, 337, 6, 40, "Input"],
-Cell[10702, 229, 1908, 26, 39, "Text"],
-Cell[12613, 257, 129, 2, 40, "Input"],
-Cell[12745, 261, 1981, 28, 62, "Text"],
-Cell[14729, 291, 148, 3, 40, "Input"],
-Cell[14880, 296, 1992, 28, 62, "Text"],
-Cell[16875, 326, 197, 5, 40, "Input"],
-Cell[17075, 333, 2000, 27, 39, "Text"],
-Cell[19078, 362, 237, 6, 40, "Input"]
+Cell[3391, 85, 331, 7, 43, "Section",ExpressionUUID->"070b1bc5-a267-4718-805d-120d66f4f246"],
+Cell[3725, 94, 923, 20, 46, "Text",ExpressionUUID->"1c8f5338-037c-4273-bba0-5f0d6e752548"],
+Cell[4651, 116, 2548, 41, 46, "Input",ExpressionUUID->"b034bc7b-7bef-47be-a6a9-0722e3ed23ed"],
+Cell[7202, 159, 753, 13, 46, "Text",ExpressionUUID->"195c053e-df28-45ee-9e02-3d1a8c9caa46"],
+Cell[7958, 174, 638, 16, 78, "Input",ExpressionUUID->"c4e76cf0-d3c4-4b5b-9f33-b7e7aea17230"],
+Cell[8599, 192, 2342, 37, 87, "Text",ExpressionUUID->"a81e9a89-6d3c-4791-9d14-0ee06c399112"],
+Cell[10944, 231, 397, 8, 46, "Input",ExpressionUUID->"36e7e391-f86d-4e95-b860-68eb8356a246"],
+Cell[11344, 241, 1969, 28, 46, "Text",ExpressionUUID->"76c6d0f6-6e74-4c31-aef0-2331050d19d3"],
+Cell[13316, 271, 189, 4, 46, "Input",ExpressionUUID->"5697a7f3-ba65-47aa-b504-c89cd5be100e"],
+Cell[13508, 277, 2036, 28, 74, "Text",ExpressionUUID->"aeda3b61-f059-4856-ade7-44a58373ad20"],
+Cell[15547, 307, 208, 5, 46, "Input",ExpressionUUID->"b1166e5a-673d-4e67-9b57-c3717781bba2"],
+Cell[15758, 314, 2049, 29, 74, "Text",ExpressionUUID->"346b1b8c-2be9-4b72-b4e8-69602df679b2"],
+Cell[17810, 345, 257, 7, 46, "Input",ExpressionUUID->"cba767ce-237f-4300-8def-49a34c782768"],
+Cell[18070, 354, 2061, 29, 74, "Text",ExpressionUUID->"54fb2fb2-e1fb-417f-8624-06e8244f28b8"],
+Cell[20134, 385, 297, 8, 46, "Input",ExpressionUUID->"d3e128f7-37e5-4ac6-a24b-b4a78cc72fff"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[19352, 373, 318, 6, 88, "Section"],
-Cell[19673, 381, 2873, 55, 65, "Text"],
-Cell[22549, 438, 2982, 51, 110, "Text"],
-Cell[25534, 491, 411, 11, 65, "Input"],
-Cell[25948, 504, 313, 9, 40, "Input"],
-Cell[26264, 515, 320, 9, 40, "Input"],
-Cell[26587, 526, 792, 24, 40, "Input"]
+Cell[20468, 398, 378, 8, 66, "Section",ExpressionUUID->"4ad22df0-f74c-48fc-8589-d21d837e45e4"],
+Cell[20849, 408, 2988, 57, 84, "Text",ExpressionUUID->"8a324109-a67a-41e7-a1f9-aae2c43eda26"],
+Cell[23840, 467, 3101, 54, 163, "Text",ExpressionUUID->"ffc8eed9-ab83-4366-b58a-a07e940aab08"],
+Cell[26944, 523, 471, 13, 78, "Input",ExpressionUUID->"63a40636-b706-4580-8d9d-8b6f70b022f1"],
+Cell[27418, 538, 373, 11, 46, "Input",ExpressionUUID->"0c055d9a-4537-4346-bb10-3385430d77c0"],
+Cell[27794, 551, 380, 11, 46, "Input",ExpressionUUID->"59839bfe-10ea-40aa-b061-a01781694d00"],
+Cell[28177, 564, 849, 25, 46, "Input",ExpressionUUID->"aa2a833b-e254-4f36-952f-1fff3c2f9c31"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[27416, 555, 411, 7, 91, "Section"],
+Cell[29063, 594, 472, 9, 69, "Section",ExpressionUUID->"1d0f85a3-f835-41a8-a4a5-288f84343afe"],
 Cell[CellGroupData[{
-Cell[27852, 566, 946, 25, 71, "Subsection"],
-Cell[28801, 593, 752, 20, 45, "Input"]
+Cell[29560, 607, 1001, 25, 85, "Subsection",ExpressionUUID->"50ec37db-0971-4ad6-93ca-0ac92efbdb58"],
+Cell[30564, 634, 809, 21, 44, "Input",ExpressionUUID->"77300e9c-93a0-4dbf-9e52-960115f93835"]
 }, Open  ]]
 }, Open  ]],
-Cell[29580, 617, 263, 6, 85, "Section"]
+Cell[31400, 659, 333, 6, 63, "Section",ExpressionUUID->"9e7cabb0-5014-4ad0-8487-c667aa415910"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     17317,        388]
-NotebookOptionsPosition[     16157,        347]
-NotebookOutlinePosition[     16646,        367]
-CellTagsIndexPosition[     16603,        364]
+NotebookDataLength[     19418,        411]
+NotebookOptionsPosition[     17231,        370]
+NotebookOutlinePosition[     17756,        390]
+CellTagsIndexPosition[     17713,        387]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+   3.581265638393551*^9, 3.581265647393133*^9}, 
+   3.9083122297471933`*^9},ExpressionUUID->"1fbcab7b-ad5a-4194-b18d-\
+60a0f6d43724"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Plotting Lines and Planes",
  FontFamily->"Courier",
@@ -46,7 +48,9 @@ Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Plotting Lines and Planes",
    3.581698714022531*^9, 3.581698715631257*^9}, {3.581777069356966*^9, 
    3.581777073394075*^9}, {3.5886618498815517`*^9, 3.588661852924423*^9}, {
    3.589236874604916*^9, 3.589236875202207*^9}, {3.589870859384839*^9, 
-   3.589870864719035*^9}, {3.590005008862859*^9, 3.590005009396494*^9}}],
+   3.589870864719035*^9}, {3.590005008862859*^9, 
+   3.590005009396494*^9}},ExpressionUUID->"7c1d2780-aeb7-421a-a26f-\
+03b6680d8de6"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -71,7 +75,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 5q50DpCebtklA6L13t/h7QLSTforBED0KsaK6B4gLRBREwOibWru7NoApEva
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0QDAJ73vAg=
-  "]],
+  "],ExpressionUUID->"350436d4-1431-4aef-bd3d-83a1989c97db"],
 
 Cell[CellGroupData[{
 
@@ -80,7 +84,9 @@ Cell[TextData[StyleBox["Task 1",
  FontSize->12,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
-  3.581266715599557*^9, 3.5812667166632633`*^9}}],
+  3.581266715599557*^9, 
+  3.5812667166632633`*^9}},ExpressionUUID->"2de18c98-e126-402d-b510-\
+43177a14c319"],
 
 Cell[TextData[StyleBox["To plot a line in 2-space using its parametric \
 equations:",
@@ -96,7 +102,7 @@ ellNkBWIPuGYLdgFpOcztqmB6FfxTAYg+nxrMJiuKoiu7AHSckWizSBaTeag
 VS+QzomLdgDRmhzz9m8A0mlnb5wH0Ss0NK6CaLZ5e6+B6NjfLAFX9rxy/Ltx
 TjSIVsgpKQfR6zkTakC012Yd97d7Xzm6uqt7gegnxc6+SvuB4T9nawCIniG8
 NwxE/78THgGiAfxsCag=
-  "]],
+  "],ExpressionUUID->"bf932d6f-4709-4536-b562-ddc945109617"],
 
 Cell[BoxData[
  RowBox[{"ParametricPlot", "[", 
@@ -136,7 +142,8 @@ Cell[BoxData[
    3.5816991025760803`*^9, 3.5816991586536493`*^9}, {3.581773441025317*^9, 
    3.581773468167568*^9}, {3.588661990565235*^9, 3.5886620028263903`*^9}, {
    3.589237334694792*^9, 3.589237351046542*^9}, {3.589870217340852*^9, 
-   3.5898702463410673`*^9}}],
+   3.5898702463410673`*^9}},ExpressionUUID->"48945b2a-0394-4e16-adf6-\
+f3f6223bedfe"],
 
 Cell[TextData[StyleBox["To plot a line in 3-space using parametric equations:",
  FontFamily->"Courier"]], "Text",
@@ -150,7 +157,7 @@ cRVkn0yUBOPXZ1Oh8OQ2C7abT1U1ZFjOsgZ+Z3rMw+ylKBOM1i4/aUn9ZcEz
 dP2xBtbi674iYXOKJRaaWuVSeMBq3fvJGTuDCHKlvBh43K34V1+nbBkkBfVe
 nVAUsCUdImtLlMkwnD9tXSOrjq6O4YJYfAFXnex/4ZLCs/zcwrGW3jQt9Mza
 z33d5Fi5+igPqgTjRUIrxz5JAlXwD4Xy92w=
-  "]],
+  "],ExpressionUUID->"caf0f906-f824-4200-b472-42cff911caed"],
 
 Cell[BoxData[
  RowBox[{"ParametricPlot3D", "[", 
@@ -166,7 +173,8 @@ Cell[BoxData[
      RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.5886620757644*^9, 3.588662109798359*^9}, {
   3.58923739281164*^9, 3.589237416419742*^9}, {3.589870308158969*^9, 
-  3.5898703301707783`*^9}}],
+  3.5898703301707783`*^9}},ExpressionUUID->"f0603557-fa5c-4138-80cd-\
+b5b0f5b7c4b9"],
 
 Cell[TextData[StyleBox["To plot two lines in 3-space, separate the list of \
 equations by commas:",
@@ -192,7 +200,9 @@ equations by commas:",
    3.581773807533708*^9, 3.5817738333332853`*^9}, {3.581773976897744*^9, 
    3.581774057991506*^9}, {3.5886621139167137`*^9, 3.588662148139463*^9}, {
    3.589237428154524*^9, 3.589237437888071*^9}, {3.58923747732725*^9, 
-   3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}}],
+   3.589237488898794*^9}, {3.589870346830491*^9, 
+   3.5898704067441063`*^9}},ExpressionUUID->"563552bf-f9ec-4bd6-824d-\
+51a2ce794b34"],
 
 Cell[BoxData[
  RowBox[{"ParametricPlot3D", "[", 
@@ -215,7 +225,8 @@ Cell[BoxData[
      RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.588662152333537*^9, 3.588662194837125*^9}, {
   3.5892374399792147`*^9, 3.58923745991391*^9}, {3.589870418247301*^9, 
-  3.589870446759838*^9}}]
+  3.589870446759838*^9}},ExpressionUUID->"9001e9b6-5e99-4dc8-93b3-\
+01a5d68debf0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -226,7 +237,8 @@ Cell[TextData[StyleBox["Task 2",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
-  3.581699482068055*^9}}],
+  3.581699482068055*^9}},ExpressionUUID->"247c7d1c-1330-46f6-a0d6-\
+ad73d5055ef4"],
 
 Cell[TextData[StyleBox["To plot a plane in 3-space using its general \
 equation, we solve and plot    z=f(x,y), with a specified domain for each \
@@ -257,7 +269,8 @@ independent variable x and y:",
    3.5892377376381483`*^9, 3.5892378162535543`*^9}, {3.589870510916089*^9, 
    3.5898705336241817`*^9}, {3.58987057695922*^9, 3.589870594646262*^9}, {
    3.589870801090763*^9, 3.589870815464855*^9}, {3.5900050610043573`*^9, 
-   3.590005067281046*^9}}],
+   3.590005067281046*^9}},ExpressionUUID->"4b92cbec-8a9d-4f93-9561-\
+74620fa24d8f"],
 
 Cell[BoxData[
  RowBox[{"plot1", "=", 
@@ -273,7 +286,9 @@ Cell[BoxData[
     RowBox[{"AxesLabel", "\[Rule]", 
      RowBox[{"{", 
       RowBox[{"x", ",", "y", ",", "z"}], "}"}]}]}], "]"}]}]], "Input",
- CellChangeTimes->{{3.589870596616097*^9, 3.5898706587372913`*^9}}],
+ CellChangeTimes->{{3.589870596616097*^9, 
+  3.5898706587372913`*^9}},ExpressionUUID->"fe950a07-be49-4390-9bca-\
+a3ae975b6f04"],
 
 Cell[BoxData[
  RowBox[{"plot2", "=", 
@@ -289,7 +304,9 @@ Cell[BoxData[
      RowBox[{"t", ",", 
       RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.5898705358505487`*^9, 3.5898705700650063`*^9}, {
-  3.589870666676166*^9, 3.589870683171502*^9}}],
+  3.589870666676166*^9, 
+  3.589870683171502*^9}},ExpressionUUID->"e8e27e54-f9ef-445c-9915-\
+6874a9a6f5de"],
 
 Cell[TextData[StyleBox["To show the different objects in the same plot, we \
 use the Show command:",
@@ -318,13 +335,17 @@ use the Show command:",
    3.589237537201008*^9}, {3.589237675805027*^9, 3.589237693833344*^9}, {
    3.5892377376381483`*^9, 3.5892378162535543`*^9}, {3.589870510916089*^9, 
    3.5898705336241817`*^9}, {3.58987057695922*^9, 3.589870594646262*^9}, {
-   3.589870801090763*^9, 3.589870845767839*^9}}],
+   3.589870801090763*^9, 
+   3.589870845767839*^9}},ExpressionUUID->"d5c17caa-b841-44a9-884e-\
+351a9f0abe00"],
 
 Cell[BoxData[
  RowBox[{"Show", "[", 
   RowBox[{"plot1", ",", "plot2"}], "]"}]], "Input",
  CellChangeTimes->{{3.589870686871353*^9, 3.589870725509593*^9}, {
-  3.589870765078651*^9, 3.589870771580866*^9}}]
+  3.589870765078651*^9, 
+  3.589870771580866*^9}},ExpressionUUID->"9d92ae69-12f9-4d35-af15-\
+6a98ca5e5341"]
 }, Open  ]],
 
 Cell[TextData[StyleBox["Related Exercises/Notes:",
@@ -334,15 +355,17 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
   3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+  3.581351448726061*^9, 
+  3.5813514696435127`*^9}},ExpressionUUID->"ae16b4e2-0c4d-4e36-9c73-\
+394b8250bef9"],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.9083122334052258`*^9},
+ TextAlignment->Center,ExpressionUUID->"87d6f351-061f-4ab7-bb37-833fecf30cf4"]
 }, Open  ]]
 },
 WindowSize->{693, 712},
@@ -350,10 +373,10 @@ WindowMargins->{{Automatic, 286}, {Automatic, 0}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"75d39764-fd3e-4148-a9e0-32fcabd5fd37"
 ]
 (* End of Notebook Content *)
 
@@ -367,31 +390,30 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 55, "Title"],
-Cell[846, 29, 1325, 19, 66, "Subtitle"],
-Cell[2174, 50, 782, 23, 32, "Subsection"],
+Cell[579, 22, 333, 7, 56, "Title",ExpressionUUID->"1fbcab7b-ad5a-4194-b18d-60a0f6d43724"],
+Cell[915, 31, 1386, 21, 69, "Subtitle",ExpressionUUID->"7c1d2780-aeb7-421a-a26f-03b6680d8de6"],
+Cell[2304, 54, 837, 23, 41, "Subsection",ExpressionUUID->"350436d4-1431-4aef-bd3d-83a1989c97db"],
 Cell[CellGroupData[{
-Cell[2981, 77, 223, 5, 29, "Section"],
-Cell[3207, 84, 732, 14, 26, "Text"],
-Cell[3942, 100, 2327, 38, 27, "Input"],
-Cell[6272, 140, 681, 12, 26, "Text"],
-Cell[6956, 154, 496, 14, 27, "Input"],
-Cell[7455, 170, 1753, 24, 26, "Text"],
-Cell[9211, 196, 706, 21, 27, "Input"]
+Cell[3166, 81, 283, 7, 30, "Section",ExpressionUUID->"2de18c98-e126-402d-b510-43177a14c319"],
+Cell[3452, 90, 787, 14, 31, "Text",ExpressionUUID->"bf932d6f-4709-4536-b562-ddc945109617"],
+Cell[4242, 106, 2384, 39, 30, "Input",ExpressionUUID->"48945b2a-0394-4e16-adf6-f3f6223bedfe"],
+Cell[6629, 147, 736, 12, 31, "Text",ExpressionUUID->"caf0f906-f824-4200-b472-42cff911caed"],
+Cell[7368, 161, 553, 15, 30, "Input",ExpressionUUID->"f0603557-fa5c-4138-80cd-b5b0f5b7c4b9"],
+Cell[7924, 178, 1814, 26, 50, "Text",ExpressionUUID->"563552bf-f9ec-4bd6-824d-51a2ce794b34"],
+Cell[9741, 206, 763, 22, 52, "Input",ExpressionUUID->"9001e9b6-5e99-4dc8-93b3-01a5d68debf0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9954, 222, 272, 6, 59, "Section"],
-Cell[10229, 230, 2083, 29, 41, "Text"],
-Cell[12315, 261, 505, 14, 27, "Input"],
-Cell[12823, 277, 489, 14, 27, "Input"],
-Cell[13315, 293, 1953, 27, 26, "Text"],
-Cell[15271, 322, 203, 4, 27, "Input"]
+Cell[10541, 233, 329, 7, 44, "Section",ExpressionUUID->"247c7d1c-1330-46f6-a0d6-ad73d5055ef4"],
+Cell[10873, 242, 2140, 30, 69, "Text",ExpressionUUID->"4b92cbec-8a9d-4f93-9561-74620fa24d8f"],
+Cell[13016, 274, 565, 16, 30, "Input",ExpressionUUID->"fe950a07-be49-4390-9bca-a3ae975b6f04"],
+Cell[13584, 292, 549, 16, 30, "Input",ExpressionUUID->"e8e27e54-f9ef-445c-9915-6874a9a6f5de"],
+Cell[14136, 310, 2014, 29, 50, "Text",ExpressionUUID->"d5c17caa-b841-44a9-884e-351a9f0abe00"],
+Cell[16153, 341, 263, 6, 30, "Input",ExpressionUUID->"9d92ae69-12f9-4d35-af15-6a98ca5e5341"]
 }, Open  ]],
-Cell[15489, 329, 386, 7, 61, "Section"],
-Cell[15878, 338, 263, 6, 29, "Section"]
+Cell[16431, 350, 446, 9, 46, "Section",ExpressionUUID->"ae16b4e2-0c4d-4e36-9c73-394b8250bef9"],
+Cell[16880, 361, 335, 6, 29, "Section",ExpressionUUID->"87d6f351-061f-4ab7-bb37-833fecf30cf4"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

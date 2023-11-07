@@ -10,23 +10,26 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     34659,        725]
-NotebookOptionsPosition[     32916,        669]
-NotebookOutlinePosition[     33505,        691]
-CellTagsIndexPosition[     33462,        688]
+NotebookDataLength[     38069,        764]
+NotebookOptionsPosition[     34687,        708]
+NotebookOutlinePosition[     35312,        730]
+CellTagsIndexPosition[     35269,        727]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
   3.581265638393551*^9, 3.581265647393133*^9}, {3.5983159196171837`*^9, 
-  3.598315954979281*^9}, {3.598316158294448*^9, 3.5983161796089067`*^9}}],
+  3.598315954979281*^9}, {3.598316158294448*^9, 3.5983161796089067`*^9}, {
+  3.908312323614951*^9, 
+  3.908312323893272*^9}},ExpressionUUID->"68076523-15d8-48fd-bad5-\
+5ba6650b2310"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: The Gradient; Directional \
 Derivatives",
@@ -51,7 +54,9 @@ Derivatives",
    3.589870864719035*^9}, {3.590005008862859*^9, 3.590005009396494*^9}, {
    3.593739318017055*^9, 3.593739324114998*^9}, {3.5955762143169193`*^9, 
    3.59557622248525*^9}, {3.598314785644636*^9, 3.598314787070552*^9}, {
-   3.59891801147593*^9, 3.598918021569766*^9}}],
+   3.59891801147593*^9, 
+   3.598918021569766*^9}},ExpressionUUID->"a00b26a5-7a0a-4700-9203-\
+37ca5c7784b4"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -78,7 +83,7 @@ nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0S/3vmhvfnYK0fJpuoOEB2xIbOC5dQrx5Si3EoQzZKa
 d+sTkE74UnYbRJ+aUrHS9vwrx/+K79eB6JIrOYYpF4DuvnbICEQDAKNv6a4=
 
-  "]],
+  "],ExpressionUUID->"97a25807-5db0-497a-97e2-defda6a46420"],
 
 Cell[CellGroupData[{
 
@@ -88,7 +93,8 @@ Cell[TextData[StyleBox["Task 1",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.594303088409164*^9, 
-  3.5943030890562487`*^9}}],
+  3.5943030890562487`*^9}},ExpressionUUID->"104ac330-b686-46b6-b2bd-\
+0209bc443801"],
 
 Cell[TextData[{
  StyleBox["In ",
@@ -111,7 +117,7 @@ VS+QzomLdgDRmhzz9m8A0mlnb5wH0Ss0NK6CaLZ5e6+B6NjfLAFX9rxy/Ltx
 TjSIVsgpKQfR6zkTakC012Yd97d7Xzm6uqt7gegnxc6+SvuB4T9nawCIniG8
 NwxE/78THgGirVQye5qPvXLcMjGxH0RrnxPeZHv+laNblut2EM3muc045cIr
 R87AYFMQDQAVsiDL
-  "]],
+  "],ExpressionUUID->"8c65db29-40b6-4100-b74b-a113341cf125"],
 
 Cell[BoxData[
  RowBox[{
@@ -153,7 +159,8 @@ Cell[BoxData[
    3.5937394446334887`*^9, 3.593739458791*^9}, {3.593739526934896*^9, 
    3.593739530928615*^9}, {3.595576273000304*^9, 3.595576276341443*^9}, 
    3.598314890087105*^9, {3.5989180619374237`*^9, 3.598918079920545*^9}, 
-   3.598920552904406*^9}],
+   3.598920552904406*^9},ExpressionUUID->"6e02bbeb-e4e5-4d9d-96f2-\
+06c729a49a01"],
 
 Cell[TextData[{
  StyleBox["To compute the gradient vector as a general rule, type and \
@@ -173,7 +180,7 @@ e5L8ashtsp0wesks6T1jOd9J5jSk+6A6e0R/jayvshjgVvm98BPSOTkXhX0a
 zSwcXJO8AvvNadUfQpyF2stcMK08Yoy94Ey0Tx6F1pxbJ1Rhzpa0Sit8f6Tr
 ju8NZ5Hl35L3Z5RB6DlnlDSsjz3bE+WsuePCczimePcSemyjEThk7H0LD+du
 nIadzhZ9zRRniq+KEliryxRhSWVC8j/2kjRM
-  "]],
+  "],ExpressionUUID->"0aeb789c-462b-4071-84b0-92fff62513ce"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -191,7 +198,9 @@ Cell[BoxData[
    3.5898703301707783`*^9}, {3.593739501528327*^9, 3.593739548079397*^9}, {
    3.595576285357417*^9, 3.595576288071587*^9}, {3.598315161462538*^9, 
    3.598315178969491*^9}, 3.59831598937379*^9, 3.598316084554804*^9, 
-   3.5989181171670647`*^9, {3.598918210813785*^9, 3.598918259925323*^9}}],
+   3.5989181171670647`*^9, {3.598918210813785*^9, 
+   3.598918259925323*^9}},ExpressionUUID->"7175a944-66f1-4739-b157-\
+69c996c54825"],
 
 Cell[TextData[StyleBox["Or alternatively:",
  FontFamily->"Courier"]], "Text",
@@ -221,7 +230,9 @@ Cell[TextData[StyleBox["Or alternatively:",
    3.598315109072106*^9, 3.598315144566443*^9}, {3.59831602165773*^9, 
    3.598316118908255*^9}, 3.5983161498924093`*^9, {3.5989183023962584`*^9, 
    3.598918314995872*^9}, {3.598918468140812*^9, 3.598918481435647*^9}, {
-   3.598919227564451*^9, 3.59891927305503*^9}}],
+   3.598919227564451*^9, 
+   3.59891927305503*^9}},ExpressionUUID->"8840216e-9b4c-4ef3-bf87-\
+2cbedc21522c"],
 
 Cell[BoxData[
  RowBox[{"D", "[", 
@@ -231,7 +242,9 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"{", 
      RowBox[{"x", ",", "y"}], "}"}], "}"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.59891926998285*^9, 3.598919275144948*^9}}],
+ CellChangeTimes->{{3.59891926998285*^9, 
+  3.598919275144948*^9}},ExpressionUUID->"f6799288-a088-4ccc-8bab-\
+8525759bd773"],
 
 Cell[TextData[{
  StyleBox["To evaluate the gradient at a given point, let\[CloseCurlyQuote]s \
@@ -265,7 +278,9 @@ say (1, 3), use the substitution rule:",
    3.598315109072106*^9, 3.598315144566443*^9}, {3.59831602165773*^9, 
    3.598316118908255*^9}, 3.5983161498924093`*^9, {3.5989183023962584`*^9, 
    3.598918314995872*^9}, {3.598918468140812*^9, 3.598918481435647*^9}, {
-   3.598919227564451*^9, 3.59891923700954*^9}, 3.598919281518249*^9}],
+   3.598919227564451*^9, 3.59891923700954*^9}, 
+   3.598919281518249*^9},ExpressionUUID->"49018c47-a2d3-478e-b84b-\
+5fda70e71bf1"],
 
 Cell[BoxData[
  RowBox[{"%", "/.", 
@@ -274,7 +289,9 @@ Cell[BoxData[
     RowBox[{"x", "\[Rule]", "1"}], ",", 
     RowBox[{"y", "\[Rule]", "3"}]}], "}"}]}]], "Input",
  CellChangeTimes->{{3.598315977127303*^9, 3.5983159956835747`*^9}, {
-  3.598918329080978*^9, 3.598918357297661*^9}}],
+  3.598918329080978*^9, 
+  3.598918357297661*^9}},ExpressionUUID->"56b1c8c2-53a8-428f-90ad-\
+54a4b9a4d676"],
 
 Cell[TextData[StyleBox["If we plan to use this particular gradient vector for \
 more computations, we can assign the result to a variable called \
@@ -305,12 +322,16 @@ more computations, we can assign the result to a variable called \
    3.5983149559855328`*^9}, {3.598314998439913*^9, 3.598315070074152*^9}, {
    3.598315109072106*^9, 3.598315144566443*^9}, {3.59831602165773*^9, 
    3.598316118908255*^9}, 3.5983161498924093`*^9, {3.5989183023962584`*^9, 
-   3.598918314995872*^9}, {3.598918468140812*^9, 3.598918540296384*^9}}],
+   3.598918314995872*^9}, {3.598918468140812*^9, 
+   3.598918540296384*^9}},ExpressionUUID->"4249f8d6-1a7d-4506-92a3-\
+b74be519469c"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"gradient", "=", "%"}], ";"}]], "Input",
- CellChangeTimes->{{3.5989183753304234`*^9, 3.5989183968937817`*^9}}],
+ CellChangeTimes->{{3.5989183753304234`*^9, 
+  3.5989183968937817`*^9}},ExpressionUUID->"52671e72-b75c-4418-bf6b-\
+0c262a1bb686"],
 
 Cell[TextData[StyleBox["Suppose that at the given point (1, 3) we want to \
 compute the directional derivative in the direction of v = <-1, 5>. Recall \
@@ -342,7 +363,9 @@ the unit vector in the direction of v.",
    3.5983149559855328`*^9}, {3.598314998439913*^9, 3.598315070074152*^9}, {
    3.598315109072106*^9, 3.598315144566443*^9}, {3.59831602165773*^9, 
    3.598316118908255*^9}, 3.5983161498924093`*^9, {3.5989183023962584`*^9, 
-   3.598918314995872*^9}, {3.598918468140812*^9, 3.598918671830768*^9}}],
+   3.598918314995872*^9}, {3.598918468140812*^9, 
+   3.598918671830768*^9}},ExpressionUUID->"e641d5de-7313-45a2-9a61-\
+7a99d1eae151"],
 
 Cell[BoxData[
  RowBox[{
@@ -355,7 +378,9 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{
      RowBox[{"-", "1"}], ",", "5"}], "}"}], "]"}]}]], "Input",
- CellChangeTimes->{{3.598918675918433*^9, 3.5989187165510063`*^9}}],
+ CellChangeTimes->{{3.598918675918433*^9, 
+  3.5989187165510063`*^9}},ExpressionUUID->"5a8c5195-4b58-4788-afb0-\
+a1e772455e80"],
 
 Cell[TextData[StyleBox["To plot a set of gradient vectors for a particular \
 rectangle in the domain space (i.e. xy plane), type and execute the \
@@ -388,7 +413,9 @@ point (1,3)?",
    3.598315109072106*^9, 3.598315144566443*^9}, {3.59831602165773*^9, 
    3.598316118908255*^9}, 3.5983161498924093`*^9, {3.5989183023962584`*^9, 
    3.598918314995872*^9}, {3.598918468140812*^9, 3.598918671830768*^9}, {
-   3.5989193176208057`*^9, 3.5989193814203663`*^9}}],
+   3.5989193176208057`*^9, 
+   3.5989193814203663`*^9}},ExpressionUUID->"3f588897-bcfc-47c4-8afd-\
+c17efcbaaf8b"],
 
 Cell[BoxData[{
  RowBox[{"D", "[", 
@@ -405,7 +432,9 @@ Cell[BoxData[{
      RowBox[{"-", "1"}], ",", "3"}], "}"}], ",", 
    RowBox[{"{", 
     RowBox[{"y", ",", "1", ",", "5"}], "}"}]}], "]"}]}], "Input",
- CellChangeTimes->{{3.598919129874002*^9, 3.598919180427636*^9}}]
+ CellChangeTimes->{{3.598919129874002*^9, 
+  3.598919180427636*^9}},ExpressionUUID->"f1c99e06-4891-4c86-8335-\
+07404da09fd1"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -417,7 +446,8 @@ Cell[TextData[StyleBox["Task 2",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
    3.581266715599557*^9, 3.5812667166632633`*^9}, {3.594303088409164*^9, 
    3.5943030890562487`*^9}, 3.598919680435996*^9, {3.5989202302438183`*^9, 
-   3.598920245691539*^9}}],
+   3.598920245691539*^9}},ExpressionUUID->"b9944c6f-3024-45f6-bb1c-\
+1deedb477e0b"],
 
 Cell[TextData[{
  StyleBox["In ",
@@ -440,7 +470,7 @@ kL08pwxyZfxUGGjRhbXf09e3kqerIx1QFjOjeEZaSvVZMEHY4x8hq96+D0Cv
 XL4OBT2+DViydzBvbZpjQ6PdehhnsdXBYZGhAapfJat2fByrVJ1Twy81125K
 /NS/ezwPusW+Arj/obAIKqR3Wx2LHPu6vbwNJi2Lxy4HODbHpJyEgtyJ9IoV
 jhXd0l2EEUdieZXkT/FA2P9TNydx
-  "]],
+  "],ExpressionUUID->"a6bf9d45-52f2-47d7-a0ba-d7332ad1eff0"],
 
 Cell[BoxData[
  RowBox[{
@@ -487,7 +517,8 @@ Cell[BoxData[
    3.593739530928615*^9}, {3.595576273000304*^9, 3.595576276341443*^9}, 
    3.598314890087105*^9, {3.5989180619374237`*^9, 3.598918079920545*^9}, {
    3.598919724327215*^9, 3.598919747019991*^9}, 3.5989200074110622`*^9, 
-   3.598920226944141*^9}],
+   3.598920226944141*^9},ExpressionUUID->"a63e74da-9172-4c29-bf23-\
+9a84b058e4aa"],
 
 Cell[TextData[{
  StyleBox["Suppose we want the gradient at the point (1, 1, -2). In ",
@@ -511,7 +542,7 @@ Xrl8Dg6sil+Gffqkqnd+wvlbNHaYVBzURp4TjjdPHYfGjFvl0gDhFhQSI3x7
 rOOO+yXhgotLgvdnJT7oPK8VVK+LPNsfJlxD68UhOM6+eQGdptEgHNT2vIZH
 MzfMwHZbo6p6mnDsV7YAWpWpPCwoiwluzVlabaW2hfYlQs1kVxo8uX1iM2SH
 8vNgaW6h4H/2mUqw
-  "]],
+  "],ExpressionUUID->"1d879995-5863-4626-a992-678729a6a40b"],
 
 Cell[BoxData[
  RowBox[{
@@ -534,7 +565,9 @@ Cell[BoxData[
    3.595576285357417*^9, 3.595576288071587*^9}, {3.598315161462538*^9, 
    3.598315178969491*^9}, 3.59831598937379*^9, 3.598316084554804*^9, 
    3.5989181171670647`*^9, {3.598918210813785*^9, 3.598918259925323*^9}, {
-   3.598919912926003*^9, 3.5989200012742147`*^9}}],
+   3.598919912926003*^9, 
+   3.5989200012742147`*^9}},ExpressionUUID->"eb1f4628-f781-44b7-9e21-\
+916a3964372e"],
 
 Cell[TextData[StyleBox["To compute the gradient vector as a general formula \
 and a 3-dimensional plot of gradient vectors for a particular cuboid in the \
@@ -567,7 +600,9 @@ domain space (x-y-z), type: ",
    3.598316118908255*^9}, 3.5983161498924093`*^9, {3.5989183023962584`*^9, 
    3.598918314995872*^9}, {3.598918468140812*^9, 3.598918481435647*^9}, {
    3.598919227564451*^9, 3.59891927305503*^9}, {3.598920060842957*^9, 
-   3.598920096813198*^9}, {3.598920179958881*^9, 3.598920196389954*^9}}],
+   3.598920096813198*^9}, {3.598920179958881*^9, 
+   3.598920196389954*^9}},ExpressionUUID->"986db0ea-20d1-4f68-930b-\
+ad93bfc06ef0"],
 
 Cell[BoxData[{
  RowBox[{"D", "[", 
@@ -589,7 +624,9 @@ Cell[BoxData[{
      RowBox[{"-", "3"}], ",", 
      RowBox[{"-", "1"}]}], "}"}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.59891926998285*^9, 3.598919275144948*^9}, {
-  3.5989201006515493`*^9, 3.5989201575982647`*^9}}]
+  3.5989201006515493`*^9, 
+  3.5989201575982647`*^9}},ExpressionUUID->"27e1c184-e04d-42eb-94b4-\
+137e8f001669"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -601,7 +638,9 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
    3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
    3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-   3.581351448726061*^9, 3.5813514696435127`*^9}, 3.595576992095945*^9}],
+   3.581351448726061*^9, 3.5813514696435127`*^9}, 
+   3.595576992095945*^9},ExpressionUUID->"3274f420-825c-41c1-9fbe-\
+a5ecace16716"],
 
 Cell[TextData[StyleBox["1.  Suppose f(x, y, z) = x sin(yz). Find the gradient \
 of f and the directional derivative of f at the point (1, 3, 0) in the \
@@ -619,7 +658,7 @@ HMh794SricrUeRa4ENBbpyGyaqh6MI/yWEzEbpXXCrLXzVOrxJ47N23og03g
 smL07feVgr77wsK3DYwSmhKKwEr3bgl3EyO/oVsAvpg/RofsGMUo+8dADu8j
 eWYPoxD9Dw8cdhXIvw4wUi0m9YGUyOIEHWHBZ6DVJnrOP8Fo4FD8CgYq5sP4
 RCnfHQmaigafWhwYJal3aBum94rFxMT98XLwH0B0BIs=
-  "]],
+  "],ExpressionUUID->"fd3df4c3-cce8-4b6c-b0eb-56d3ad48bfca"],
 
 Cell[TextData[{
  StyleBox["2.  Find the directional derivative of the function ", "Text",
@@ -636,8 +675,8 @@ Cell[TextData[{
       SuperscriptBox["x", "2"], 
       SuperscriptBox["y", "3"]}], "-", 
      RowBox[{"4", "y"}]}]}], TraditionalForm]], "Input",
-  FormatType->"TraditionalForm",
-  FontWeight->"Plain"], "Input"],
+  FontWeight->"Plain",ExpressionUUID->"0476a404-10b4-4cff-ac0a-81432faaf7e3"],
+   "Input"],
  StyleBox[" ", "Input"],
  StyleBox["at the point (2, -1) in the direction of v = <2, 5>.", "Text",
   FontFamily->"Courier",
@@ -654,30 +693,30 @@ fGMyyH/3RhmJugx7LDgb0lNnIsZKqXqwiPKuLhE1hmcnmLDmGF8mdt15aJkP
 LvGZE6PvYKAcDNwLhW/rGLEb2SKwyrNTxtvAKGjViMFXx8fw4C5Gibq+EZDL
 /0id3MMo0vLDB/VnJdqvfYwMc5xekJKvnoJuVvg56HTJX4qPMeo/UPjB0G47
 S0BUCTwx4JJo4KnZjRHHuE0rm9grVRA1aVlScDw9UQZaTN9y8B+/Agxm
-  "]]
+  "],ExpressionUUID->"713b7361-569e-4ddd-97d3-3b97fd5d09ca"]
 }, Open  ]],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2014",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}, {3.59831618681911*^9, 
-  3.598316191208681*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, {3.59831618681911*^9, 
+   3.598316191208681*^9}, 3.908312328249538*^9},
+ TextAlignment->Center,ExpressionUUID->"a24c962e-1bac-448f-a226-c7265b5e6cfc"]
 }, Open  ]]
 },
 WindowSize->{1089, 705},
-WindowMargins->{{22, Automatic}, {Automatic, 98}},
+WindowMargins->{{22, Automatic}, {-9, Automatic}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 1.5, 1.5 Inherited],
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"042a9f85-af69-4167-8808-0e499a8769ab"
 ]
 (* End of Notebook Content *)
 
@@ -691,44 +730,43 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 363, 6, 82, "Title"],
-Cell[945, 30, 1535, 23, 99, "Subtitle"],
-Cell[2483, 55, 903, 25, 49, "Subsection"],
+Cell[579, 22, 455, 9, 84, "Title",ExpressionUUID->"68076523-15d8-48fd-bad5-5ba6650b2310"],
+Cell[1037, 33, 1596, 25, 102, "Subtitle",ExpressionUUID->"a00b26a5-7a0a-4700-9203-37ca5c7784b4"],
+Cell[2636, 60, 958, 25, 61, "Subsection",ExpressionUUID->"97a25807-5db0-497a-97e2-defda6a46420"],
 Cell[CellGroupData[{
-Cell[3411, 84, 274, 6, 41, "Section"],
-Cell[3688, 92, 884, 21, 39, "Text"],
-Cell[4575, 115, 2555, 40, 42, "Input"],
-Cell[7133, 157, 831, 18, 39, "Text"],
-Cell[7967, 177, 718, 16, 48, "Input"],
-Cell[8688, 195, 2047, 28, 39, "Text"],
-Cell[10738, 225, 271, 8, 40, "Input"],
-Cell[11012, 235, 2170, 32, 62, "Text"],
-Cell[13185, 269, 276, 7, 40, "Input"],
-Cell[13464, 278, 2148, 29, 62, "Text"],
-Cell[15615, 309, 144, 3, 40, "Input"],
-Cell[15762, 314, 2226, 30, 84, "Text"],
-Cell[17991, 346, 357, 11, 40, "Input"],
-Cell[18351, 359, 2247, 31, 84, "Text"],
-Cell[20601, 392, 493, 15, 64, "Input"]
+Cell[3619, 89, 331, 7, 43, "Section",ExpressionUUID->"104ac330-b686-46b6-b2bd-0209bc443801"],
+Cell[3953, 98, 939, 21, 46, "Text",ExpressionUUID->"8c65db29-40b6-4100-b74b-a113341cf125"],
+Cell[4895, 121, 2612, 41, 46, "Input",ExpressionUUID->"6e02bbeb-e4e5-4d9d-96f2-06c729a49a01"],
+Cell[7510, 164, 886, 18, 53, "Text",ExpressionUUID->"0aeb789c-462b-4071-84b0-92fff62513ce"],
+Cell[8399, 184, 779, 18, 49, "Input",ExpressionUUID->"7175a944-66f1-4739-b157-69c996c54825"],
+Cell[9181, 204, 2108, 30, 46, "Text",ExpressionUUID->"8840216e-9b4c-4ef3-bf87-2cbedc21522c"],
+Cell[11292, 236, 331, 10, 46, "Input",ExpressionUUID->"f6799288-a088-4ccc-8bab-8525759bd773"],
+Cell[11626, 248, 2231, 34, 81, "Text",ExpressionUUID->"49018c47-a2d3-478e-b84b-5fda70e71bf1"],
+Cell[13860, 284, 336, 9, 46, "Input",ExpressionUUID->"56b1c8c2-53a8-428f-90ad-54a4b9a4d676"],
+Cell[14199, 295, 2209, 31, 101, "Text",ExpressionUUID->"4249f8d6-1a7d-4506-92a3-b74be519469c"],
+Cell[16411, 328, 204, 5, 46, "Input",ExpressionUUID->"52671e72-b75c-4418-bf6b-0c262a1bb686"],
+Cell[16618, 335, 2287, 32, 129, "Text",ExpressionUUID->"e641d5de-7313-45a2-9a61-7a99d1eae151"],
+Cell[18908, 369, 417, 13, 46, "Input",ExpressionUUID->"5a8c5195-4b58-4788-afb0-a1e772455e80"],
+Cell[19328, 384, 2308, 33, 129, "Text",ExpressionUUID->"3f588897-bcfc-47c4-8afd-c17efcbaaf8b"],
+Cell[21639, 419, 553, 17, 78, "Input",ExpressionUUID->"f1c99e06-4891-4c86-8335-07404da09fd1"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[21131, 412, 350, 7, 88, "Section"],
-Cell[21484, 421, 899, 21, 39, "Text"],
-Cell[22386, 444, 2755, 45, 42, "Input"],
-Cell[25144, 491, 988, 22, 62, "Text"],
-Cell[26135, 515, 907, 21, 40, "Input"],
-Cell[27045, 538, 2286, 31, 62, "Text"],
-Cell[29334, 571, 677, 20, 64, "Input"]
+Cell[22229, 441, 407, 8, 66, "Section",ExpressionUUID->"b9944c6f-3024-45f6-bb1c-1deedb477e0b"],
+Cell[22639, 451, 954, 21, 46, "Text",ExpressionUUID->"a6bf9d45-52f2-47d7-a0ba-d7332ad1eff0"],
+Cell[23596, 474, 2812, 46, 46, "Input",ExpressionUUID->"a63e74da-9172-4c29-bf23-9a84b058e4aa"],
+Cell[26411, 522, 1043, 22, 74, "Text",ExpressionUUID->"1d879995-5863-4626-a992-678729a6a40b"],
+Cell[27457, 546, 968, 23, 46, "Input",ExpressionUUID->"eb1f4628-f781-44b7-9e21-916a3964372e"],
+Cell[28428, 571, 2347, 33, 101, "Text",ExpressionUUID->"986db0ea-20d1-4f68-930b-ad93bfc06ef0"],
+Cell[30778, 606, 737, 22, 78, "Input",ExpressionUUID->"27e1c184-e04d-42eb-94b4-137e8f001669"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[30048, 596, 411, 7, 91, "Section"],
-Cell[30462, 605, 844, 16, 71, "Subsection"],
-Cell[31309, 623, 1265, 33, 63, "Subsection"]
+Cell[31552, 633, 472, 9, 69, "Section",ExpressionUUID->"3274f420-825c-41c1-9fbe-a5ecace16716"],
+Cell[32027, 644, 899, 16, 85, "Subsection",ExpressionUUID->"fd3df4c3-cce8-4b6c-b0eb-56d3ad48bfca"],
+Cell[32929, 662, 1345, 33, 67, "Subsection",ExpressionUUID->"713b7361-569e-4ddd-97d3-3b97fd5d09ca"]
 }, Open  ]],
-Cell[32589, 659, 311, 7, 85, "Section"]
+Cell[34289, 698, 382, 7, 63, "Section",ExpressionUUID->"a24c962e-1bac-448f-a226-c7265b5e6cfc"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

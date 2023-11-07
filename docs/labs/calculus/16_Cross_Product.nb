@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     17327,        364]
-NotebookOptionsPosition[     16208,        324]
-NotebookOutlinePosition[     16697,        344]
-CellTagsIndexPosition[     16654,        341]
+NotebookDataLength[     19322,        388]
+NotebookOptionsPosition[     17231,        348]
+NotebookOutlinePosition[     17756,        368]
+CellTagsIndexPosition[     17713,        365]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+   3.581265638393551*^9, 3.581265647393133*^9}, 
+   3.908312208125368*^9},ExpressionUUID->"7dad391c-512b-4b55-8b50-\
+ee5f86afccac"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Cross Product",
  FontFamily->"Courier",
@@ -45,7 +47,9 @@ Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Cross Product",
    3.5816940579924173`*^9}, {3.581696836497075*^9, 3.5816968451504107`*^9}, {
    3.581698714022531*^9, 3.581698715631257*^9}, {3.581777069356966*^9, 
    3.581777073394075*^9}, {3.5886618498815517`*^9, 3.588661852924423*^9}, {
-   3.589236874604916*^9, 3.589236875202207*^9}}],
+   3.589236874604916*^9, 
+   3.589236875202207*^9}},ExpressionUUID->"605c24b5-df73-4563-8a52-\
+9853ceae2ae5"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -70,7 +74,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 5q50DpCebtklA6L13t/h7QLSTforBED0KsaK6B4gLRBREwOibWru7NoApEva
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYFo
 ABxis10=
-  "]],
+  "],ExpressionUUID->"43b39e7e-adea-4454-a9f7-73a2ad12a678"],
 
 Cell[CellGroupData[{
 
@@ -79,7 +83,9 @@ Cell[TextData[StyleBox["Task 1",
  FontSize->12,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
-  3.581266715599557*^9, 3.5812667166632633`*^9}}],
+  3.581266715599557*^9, 
+  3.5812667166632633`*^9}},ExpressionUUID->"a1ee5ebe-d975-4442-94b4-\
+aca66774428f"],
 
 Cell[TextData[StyleBox["The command Cross[vector1, vector2] computes the \
 cross product. Try the following:",
@@ -94,7 +100,7 @@ PLybnlyAQ/2+1lIyNPCVrySdMhpc4WFnsAdkvHtC4IvRFgrXPX874Gd6qgHm
 C56hi83ir8HXfkXBxrTNeGhqkYvhAat26yOn7QxCyJXyYuFxV96/+lpF8wAZ
 UOfRAYV+2+JBUlOiSIUR/CnLKll1dHUM50WiC+g0tXUJi38ccs83OdZmnlDA
 II2uCa4IlC1QuhYled3i2AxJuBT+AcUT+W0=
-  "]],
+  "],ExpressionUUID->"502c595a-7bce-4fa0-bac3-cf8855eebb59"],
 
 Cell[BoxData[
  RowBox[{"Cross", "[", 
@@ -129,7 +135,9 @@ Cell[BoxData[
    3.581694294844863*^9}, {3.5816943281534433`*^9, 3.58169434701108*^9}, {
    3.5816991025760803`*^9, 3.5816991586536493`*^9}, {3.581773441025317*^9, 
    3.581773468167568*^9}, {3.588661990565235*^9, 3.5886620028263903`*^9}, {
-   3.589237334694792*^9, 3.589237351046542*^9}}],
+   3.589237334694792*^9, 
+   3.589237351046542*^9}},ExpressionUUID->"08588225-3abd-4fac-98d6-\
+4d87c180579b"],
 
 Cell[TextData[StyleBox["If the vectors are going to be used for additional \
 computations, it may be a good idea to define them:",
@@ -144,7 +152,7 @@ s5OqyUGZKA0mr89nwsiT2zzYtXlaVk9GFaxo4HeuzyLMX44zwXjtypOW1F+W
 PEPPH1tIA77uKxa2ZVgToalDLoUHrNZ7iJxzMoggp+IlwOM+xb/6RmX7CBna
 5NsDRcF26SjZUKFMh9H8WdsaWXt0dQzNYvEFtLg5/8JlhaDq3Mqx1oEsLRTk
 7Re+bnGsXH1UBP8AREnwWA==
-  "]],
+  "],ExpressionUUID->"9bf49ba0-4b87-4317-8151-fa869640228b"],
 
 Cell[BoxData[{
  RowBox[{
@@ -157,7 +165,9 @@ Cell[BoxData[{
    RowBox[{"{", 
     RowBox[{"v1", ",", "v2", ",", "v3"}], "}"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.5886620757644*^9, 3.588662109798359*^9}, {
-  3.58923739281164*^9, 3.589237416419742*^9}}],
+  3.58923739281164*^9, 
+  3.589237416419742*^9}},ExpressionUUID->"157e1eb6-9f57-4c3a-8804-\
+7456cdec64f1"],
 
 Cell[TextData[StyleBox["And then define the cross product as a new vector:",
  FontFamily->"Courier"]], "Text",
@@ -182,14 +192,17 @@ Cell[TextData[StyleBox["And then define the cross product as a new vector:",
    3.581773807533708*^9, 3.5817738333332853`*^9}, {3.581773976897744*^9, 
    3.581774057991506*^9}, {3.5886621139167137`*^9, 3.588662148139463*^9}, {
    3.589237428154524*^9, 3.589237437888071*^9}, {3.58923747732725*^9, 
-   3.589237488898794*^9}}],
+   3.589237488898794*^9}},ExpressionUUID->"117b0eb2-699e-475f-9b96-\
+3603c9b5014c"],
 
 Cell[BoxData[
  RowBox[{"w", "=", 
   RowBox[{"Cross", "[", 
    RowBox[{"u", ",", "v"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.588662152333537*^9, 3.588662194837125*^9}, {
-  3.5892374399792147`*^9, 3.58923745991391*^9}}],
+  3.5892374399792147`*^9, 
+  3.58923745991391*^9}},ExpressionUUID->"a23445ec-2cbf-4e6e-931f-\
+0769161cc878"],
 
 Cell[TextData[{
  StyleBox["Another way to compute the cross product is by using the ",
@@ -221,11 +234,15 @@ tab, second operation). Verify that the operation is in fact the same:",
    3.581774057991506*^9}, {3.5886621139167137`*^9, 3.588662148139463*^9}, {
    3.589237428154524*^9, 3.589237437888071*^9}, {3.58923747732725*^9, 
    3.589237537201008*^9}, {3.589237675805027*^9, 3.589237693833344*^9}, {
-   3.5892377376381483`*^9, 3.5892378162535543`*^9}}],
+   3.5892377376381483`*^9, 
+   3.5892378162535543`*^9}},ExpressionUUID->"92a6284d-3fb8-45f3-bea7-\
+066bb1d2ea37"],
 
 Cell[BoxData[
  RowBox[{"u", "\[Cross]", "v"}]], "Input",
- CellChangeTimes->{{3.5892377918083344`*^9, 3.5892377946022673`*^9}}]
+ CellChangeTimes->{{3.5892377918083344`*^9, 
+  3.5892377946022673`*^9}},ExpressionUUID->"ed5a3d04-4679-481f-a58c-\
+ccf35eea1c9e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -236,7 +253,8 @@ Cell[TextData[StyleBox["Task 2",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
-  3.581699482068055*^9}}],
+  3.581699482068055*^9}},ExpressionUUID->"1e5b2cb0-1e0c-45c8-a9e2-\
+fb13768c93d9"],
 
 Cell[TextData[{
  StyleBox["a) Use ",
@@ -272,7 +290,9 @@ Cell[TextData[{
    3.581774379999298*^9}, {3.588662269075189*^9, 3.588662312135104*^9}, {
    3.588872641718484*^9, 3.588872642387156*^9}, {3.588873150676856*^9, 
    3.588873151997048*^9}, {3.5892378812215443`*^9, 3.589237975891858*^9}, {
-   3.589238213792892*^9, 3.589238219134796*^9}}],
+   3.589238213792892*^9, 
+   3.589238219134796*^9}},ExpressionUUID->"e493fa6c-575c-4b52-b1b6-\
+7dce7a45eda9"],
 
 Cell[TextData[StyleBox["b) Use the dot product definition to compute the \
 cosine of the angle.\n\nc) Does the sum of the squares of your answers above \
@@ -301,7 +321,9 @@ is orthogonal\n   to the given vectors u and v.   ",
    3.581774788285108*^9, 3.581774889594425*^9}, 3.581775010744265*^9, {
    3.5886623468140783`*^9, 3.588662402892191*^9}, {3.5892379842866096`*^9, 
    3.589238021307193*^9}, {3.589238175810094*^9, 3.589238188200882*^9}, {
-   3.5892394812597923`*^9, 3.589239518282255*^9}}]
+   3.5892394812597923`*^9, 
+   3.589239518282255*^9}},ExpressionUUID->"9322ae28-9810-4eca-b1ea-\
+acf052ec0c87"]
 }, Open  ]],
 
 Cell[TextData[StyleBox["Related Exercises/Notes:",
@@ -311,15 +333,17 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
   3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+  3.581351448726061*^9, 
+  3.5813514696435127`*^9}},ExpressionUUID->"b0440982-5843-498e-b7dd-\
+403e79780729"],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.9083122125846987`*^9},
+ TextAlignment->Center,ExpressionUUID->"13bef502-49bd-4af5-b896-51f49551a8c2"]
 }, Open  ]]
 },
 WindowSize->{693, 712},
@@ -327,10 +351,10 @@ WindowMargins->{{Automatic, 286}, {Automatic, 0}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"64e70165-0f46-4b75-b30f-5f2b42cd4189"
 ]
 (* End of Notebook Content *)
 
@@ -344,30 +368,29 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 55, "Title"],
-Cell[846, 29, 1217, 18, 66, "Subtitle"],
-Cell[2066, 49, 774, 23, 32, "Subsection"],
+Cell[579, 22, 331, 7, 56, "Title",ExpressionUUID->"7dad391c-512b-4b55-8b50-ee5f86afccac"],
+Cell[913, 31, 1278, 20, 69, "Subtitle",ExpressionUUID->"605c24b5-df73-4563-8a52-9853ceae2ae5"],
+Cell[2194, 53, 829, 23, 41, "Subsection",ExpressionUUID->"43b39e7e-adea-4454-a9f7-73a2ad12a678"],
 Cell[CellGroupData[{
-Cell[2865, 76, 223, 5, 29, "Section"],
-Cell[3091, 83, 712, 13, 41, "Text"],
-Cell[3806, 98, 2185, 33, 27, "Input"],
-Cell[5994, 133, 720, 13, 41, "Text"],
-Cell[6717, 148, 376, 11, 43, "Input"],
-Cell[7096, 161, 1682, 23, 26, "Text"],
-Cell[8781, 186, 221, 5, 27, "Input"],
-Cell[9005, 193, 1986, 30, 56, "Text"],
-Cell[10994, 225, 126, 2, 27, "Input"]
+Cell[3048, 80, 283, 7, 30, "Section",ExpressionUUID->"a1ee5ebe-d975-4442-94b4-aca66774428f"],
+Cell[3334, 89, 767, 13, 50, "Text",ExpressionUUID->"502c595a-7bce-4fa0-bac3-cf8855eebb59"],
+Cell[4104, 104, 2246, 35, 30, "Input",ExpressionUUID->"08588225-3abd-4fac-98d6-4d87c180579b"],
+Cell[6353, 141, 775, 13, 50, "Text",ExpressionUUID->"9bf49ba0-4b87-4317-8151-fa869640228b"],
+Cell[7131, 156, 436, 13, 52, "Input",ExpressionUUID->"157e1eb6-9f57-4c3a-8804-7456cdec64f1"],
+Cell[7570, 171, 1739, 24, 31, "Text",ExpressionUUID->"117b0eb2-699e-475f-9b96-3603c9b5014c"],
+Cell[9312, 197, 281, 7, 30, "Input",ExpressionUUID->"a23445ec-2cbf-4e6e-931f-0769161cc878"],
+Cell[9596, 206, 2047, 32, 92, "Text",ExpressionUUID->"92a6284d-3fb8-45f3-bea7-066bb1d2ea37"],
+Cell[11646, 240, 186, 4, 30, "Input",ExpressionUUID->"ed5a3d04-4679-481f-a58c-ccf35eea1c9e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11157, 232, 272, 6, 59, "Section"],
-Cell[11432, 240, 2100, 34, 41, "Text"],
-Cell[13535, 276, 1990, 27, 101, "Text"]
+Cell[11869, 249, 329, 7, 44, "Section",ExpressionUUID->"1e5b2cb0-1e0c-45c8-a9e2-fb13768c93d9"],
+Cell[12201, 258, 2161, 36, 69, "Text",ExpressionUUID->"e493fa6c-575c-4b52-b1b6-7dce7a45eda9"],
+Cell[14365, 296, 2051, 29, 164, "Text",ExpressionUUID->"9322ae28-9810-4eca-b1ea-acf052ec0c87"]
 }, Open  ]],
-Cell[15540, 306, 386, 7, 61, "Section"],
-Cell[15929, 315, 263, 6, 29, "Section"]
+Cell[16431, 328, 446, 9, 46, "Section",ExpressionUUID->"b0440982-5843-498e-b7dd-403e79780729"],
+Cell[16880, 339, 335, 6, 29, "Section",ExpressionUUID->"13bef502-49bd-4af5-b896-51f49551a8c2"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

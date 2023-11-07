@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     43109,        892]
-NotebookOptionsPosition[     41005,        822]
-NotebookOutlinePosition[     41494,        842]
-CellTagsIndexPosition[     41451,        839]
+NotebookDataLength[     47368,        941]
+NotebookOptionsPosition[     43190,        871]
+NotebookOutlinePosition[     43715,        891]
+CellTagsIndexPosition[     43672,        888]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+   3.581265638393551*^9, 3.581265647393133*^9}, 
+   3.9083122666238117`*^9},ExpressionUUID->"ebbf2967-8635-4391-a68b-\
+3129484ce347"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Multivariable Functions",
  FontFamily->"Courier",
@@ -47,7 +49,9 @@ Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Multivariable Functions",
    3.581777073394075*^9}, {3.5886618498815517`*^9, 3.588661852924423*^9}, {
    3.589236874604916*^9, 3.589236875202207*^9}, {3.589870859384839*^9, 
    3.589870864719035*^9}, {3.590005008862859*^9, 3.590005009396494*^9}, {
-   3.593739318017055*^9, 3.593739324114998*^9}}],
+   3.593739318017055*^9, 
+   3.593739324114998*^9}},ExpressionUUID->"ec087feb-335b-4feb-963e-\
+f90927db4d6f"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -72,7 +76,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 5q50DpCebtklA6L13t/h7QLSTforBED0KsaK6B4gLRBREwOibWru7NoApEva
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0S/3vmhvfnYK0fJpuoOEA0AuXvFqg==
-  "]],
+  "],ExpressionUUID->"43a6439b-7474-4859-945e-4dc92406a7cd"],
 
 Cell[CellGroupData[{
 
@@ -82,7 +86,8 @@ Cell[TextData[StyleBox["Task 1",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.594303088409164*^9, 
-  3.5943030890562487`*^9}}],
+  3.5943030890562487`*^9}},ExpressionUUID->"6465de21-ccea-4ffb-9d48-\
+d30f927214fd"],
 
 Cell[TextData[{
  StyleBox["In ",
@@ -104,7 +109,7 @@ ellNkBWIPuGYLdgFpOcztqmB6FfxTAYg+nxrMJiuKoiu7AHSckWizSBaTeag
 VS+QzomLdgDRmhzz9m8A0mlnb5wH0Ss0NK6CaLZ5e6+B6NjfLAFX9rxy/Ltx
 TjSIVsgpKQfR6zkTakC012Yd97d7Xzm6uqt7gegnxc6+SvuB4T9nawCIniG8
 NwxE/78THgGirVQye5qPvXLcMjGxH0QDANrXEhk=
-  "]],
+  "],ExpressionUUID->"24ebb195-7aa4-45c3-988b-47a527d29d79"],
 
 Cell[BoxData[
  RowBox[{
@@ -143,7 +148,8 @@ Cell[BoxData[
    3.589237334694792*^9, 3.589237351046542*^9}, {3.589870217340852*^9, 
    3.5898702463410673`*^9}, {3.593739390532539*^9, 3.593739413475771*^9}, {
    3.5937394446334887`*^9, 3.593739458791*^9}, {3.593739526934896*^9, 
-   3.593739530928615*^9}}],
+   3.593739530928615*^9}},ExpressionUUID->"8d304d65-c785-4836-aee9-\
+427eb65c1884"],
 
 Cell[TextData[StyleBox["Or more conveniently:",
  FontFamily->"Courier"]], "Text",
@@ -158,7 +164,7 @@ ellNkBWIPuGYLdgFpOcztqmB6FfxTAYg+nxrMJiuKoiu7AHSckWizSBaTeag
 VS+QzomLdgDRmhzz9m8A0mlnb5wH0Ss0NK6C6PXszP9B9KpgkeQre1457ulw
 zQbRIp7H/d7ufeUYlHA2EETHyE2LVNr/yvGFoWwMiL4U0D+n+dgrx+NfvoLp
 BZdll4Hokgo/MA0AxhUK/A==
-  "]],
+  "],ExpressionUUID->"7b2a4376-99ba-426a-9d06-c8875904afde"],
 
 Cell[BoxData[{
  RowBox[{
@@ -171,7 +177,9 @@ Cell[BoxData[{
     RowBox[{"Sin", "[", "y", "]"}]}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.5886620757644*^9, 3.588662109798359*^9}, {
   3.58923739281164*^9, 3.589237416419742*^9}, {3.589870308158969*^9, 
-  3.5898703301707783`*^9}, {3.593739501528327*^9, 3.593739548079397*^9}}],
+  3.5898703301707783`*^9}, {3.593739501528327*^9, 
+  3.593739548079397*^9}},ExpressionUUID->"196d7865-645e-4ab8-882a-\
+e2d46a57b04a"],
 
 Cell[TextData[StyleBox["To evaluate the function at a given point (a, b), we \
 use the replacement rules:",
@@ -199,7 +207,8 @@ use the replacement rules:",
    3.589237428154524*^9, 3.589237437888071*^9}, {3.58923747732725*^9, 
    3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}, {
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5943032068524837`*^9, 
-   3.594303230659815*^9}}],
+   3.594303230659815*^9}},ExpressionUUID->"2e3fea09-4732-42cd-b624-\
+1ee12e4b895b"],
 
 Cell[BoxData[
  RowBox[{"f", "/.", 
@@ -211,7 +220,9 @@ Cell[BoxData[
      RowBox[{"Pi", "/", "3"}]}]}], "}"}]}]], "Input",
  CellChangeTimes->{{3.588662152333537*^9, 3.588662194837125*^9}, {
   3.5892374399792147`*^9, 3.58923745991391*^9}, {3.589870418247301*^9, 
-  3.589870446759838*^9}, {3.59373961118738*^9, 3.593739636307563*^9}}],
+  3.589870446759838*^9}, {3.59373961118738*^9, 
+  3.593739636307563*^9}},ExpressionUUID->"631c91a1-37c4-44d5-a9e7-\
+410c4dc27a5b"],
 
 Cell[TextData[StyleBox["Generally, if the answer needs simplification, use \
 the Simplify command:",
@@ -239,11 +250,14 @@ the Simplify command:",
    3.589237428154524*^9, 3.589237437888071*^9}, {3.58923747732725*^9, 
    3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}, {
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5937396689448547`*^9, 
-   3.5937396912709293`*^9}}],
+   3.5937396912709293`*^9}},ExpressionUUID->"b59ba0d3-e1ab-45d1-ae7f-\
+2a85b7781ae4"],
 
 Cell[BoxData[
  RowBox[{"Simplify", "[", "%", "]"}]], "Input",
- CellChangeTimes->{{3.5937396935328903`*^9, 3.593739696608651*^9}}],
+ CellChangeTimes->{{3.5937396935328903`*^9, 
+  3.593739696608651*^9}},ExpressionUUID->"566aa921-72a4-4777-896b-\
+131210554e5e"],
 
 Cell[TextData[StyleBox["Note that the percentage sign refers to the result of \
 the previous command.\n",
@@ -271,7 +285,9 @@ the previous command.\n",
    3.589237428154524*^9, 3.589237437888071*^9}, {3.58923747732725*^9, 
    3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}, {
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5937396689448547`*^9, 
-   3.5937397331977*^9}, 3.594303096328783*^9}]
+   3.5937397331977*^9}, 
+   3.594303096328783*^9},ExpressionUUID->"fe3dc85e-de89-4f9f-a7e9-\
+9bd3f16f9ffc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -282,7 +298,9 @@ Cell[TextData[StyleBox["Task 2",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
-  3.581699482068055*^9}, {3.594303255922751*^9, 3.594303269818185*^9}}],
+  3.581699482068055*^9}, {3.594303255922751*^9, 
+  3.594303269818185*^9}},ExpressionUUID->"ed45f84c-629a-4940-ac60-\
+a3ade46617f8"],
 
 Cell[TextData[StyleBox["To sketch the domain of a function in two variables, \
 we use the RegionPlot command. For example, the function:",
@@ -314,7 +332,8 @@ we use the RegionPlot command. For example, the function:",
    3.589870801090763*^9, 3.589870815464855*^9}, {3.5900050610043573`*^9, 
    3.590005067281046*^9}, {3.593739741583948*^9, 3.593739765614018*^9}, {
    3.5937398102978487`*^9, 3.593739832652116*^9}, {3.594303279707136*^9, 
-   3.5943033394161*^9}}],
+   3.5943033394161*^9}},ExpressionUUID->"77faea1c-3018-4908-b0cb-\
+aa3929759cd1"],
 
 Cell[BoxData[
  RowBox[{
@@ -329,7 +348,9 @@ Cell[BoxData[
  CellChangeTimes->{{3.589870596616097*^9, 3.5898706587372913`*^9}, {
   3.5937397682062693`*^9, 3.593739791774715*^9}, {3.594303345267701*^9, 
   3.594303402552849*^9}, {3.594303448012495*^9, 3.59430345759937*^9}, {
-  3.5943036332076683`*^9, 3.594303646594575*^9}}],
+  3.5943036332076683`*^9, 
+  3.594303646594575*^9}},ExpressionUUID->"e613af9f-6dc7-4af6-8501-\
+6da13f78729b"],
 
 Cell[TextData[StyleBox["will exist whenever the denominator is nonzero and \
 the expression inside th square root is greater than or equal to zero. We \
@@ -360,7 +381,9 @@ specify these inequalities in the Regionplot command:",
    3.5892377376381483`*^9, 3.5892378162535543`*^9}, {3.589870510916089*^9, 
    3.5898705336241817`*^9}, {3.58987057695922*^9, 3.589870594646262*^9}, {
    3.589870801090763*^9, 3.589870845767839*^9}, {3.593739877454111*^9, 
-   3.5937399004743958`*^9}, {3.594303471643963*^9, 3.594303555480928*^9}}],
+   3.5937399004743958`*^9}, {3.594303471643963*^9, 
+   3.594303555480928*^9}},ExpressionUUID->"54ccd818-581a-476d-8cf9-\
+4309db623b2f"],
 
 Cell[BoxData[
  RowBox[{"RegionPlot", "[", 
@@ -381,7 +404,9 @@ Cell[BoxData[
    RowBox[{"Axes", "\[Rule]", "True"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.589870686871353*^9, 3.589870725509593*^9}, {
   3.589870765078651*^9, 3.589870771580866*^9}, {3.593739902658465*^9, 
-  3.593739919057469*^9}, {3.594303567410282*^9, 3.5943036498898497`*^9}}]
+  3.593739919057469*^9}, {3.594303567410282*^9, 
+  3.5943036498898497`*^9}},ExpressionUUID->"5050ad34-7abc-42bc-8d17-\
+37c875ca716f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -392,7 +417,9 @@ Cell[TextData[StyleBox["Task 3",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
-  3.581699482068055*^9}, {3.594303255922751*^9, 3.5943032560979013`*^9}}],
+  3.581699482068055*^9}, {3.594303255922751*^9, 
+  3.5943032560979013`*^9}},ExpressionUUID->"da460984-acdb-4512-85e2-\
+d91ee210097c"],
 
 Cell[TextData[StyleBox["To plot a function of two variables in 3-space, we \
 use the Plot3D command. Remember to include the bounds for each independent \
@@ -424,7 +451,9 @@ variable:",
    3.5898705336241817`*^9}, {3.58987057695922*^9, 3.589870594646262*^9}, {
    3.589870801090763*^9, 3.589870815464855*^9}, {3.5900050610043573`*^9, 
    3.590005067281046*^9}, {3.593739741583948*^9, 3.593739765614018*^9}, {
-   3.5937398102978487`*^9, 3.593739832652116*^9}}],
+   3.5937398102978487`*^9, 
+   3.593739832652116*^9}},ExpressionUUID->"ab186a5d-bce6-4e2f-9eee-\
+884f33dfa742"],
 
 Cell[BoxData[
  RowBox[{"Plot3D", "[", 
@@ -436,7 +465,9 @@ Cell[BoxData[
     RowBox[{"y", ",", 
      RowBox[{"-", "3"}], ",", "3"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.589870596616097*^9, 3.5898706587372913`*^9}, {
-  3.5937397682062693`*^9, 3.593739791774715*^9}}],
+  3.5937397682062693`*^9, 
+  3.593739791774715*^9}},ExpressionUUID->"444cc03c-9ba6-4a7e-8b71-\
+5302063f0173"],
 
 Cell[TextData[StyleBox["To get a vertical cross-section, we simply set one \
 the independent variables equal to a specific value:",
@@ -466,7 +497,8 @@ the independent variables equal to a specific value:",
    3.5892377376381483`*^9, 3.5892378162535543`*^9}, {3.589870510916089*^9, 
    3.5898705336241817`*^9}, {3.58987057695922*^9, 3.589870594646262*^9}, {
    3.589870801090763*^9, 3.589870845767839*^9}, {3.593739877454111*^9, 
-   3.5937399004743958`*^9}}],
+   3.5937399004743958`*^9}},ExpressionUUID->"0e8fc909-5aed-4cf8-b5e1-\
+335d54127e2b"],
 
 Cell[BoxData[
  RowBox[{"Plot", "[", 
@@ -479,7 +511,8 @@ Cell[BoxData[
      RowBox[{"-", "1"}], ",", "3"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.589870686871353*^9, 3.589870725509593*^9}, {
   3.589870765078651*^9, 3.589870771580866*^9}, {3.593739902658465*^9, 
-  3.593739919057469*^9}}],
+  3.593739919057469*^9}},ExpressionUUID->"eb846ad5-a543-4f55-b65f-\
+4f55901d79f4"],
 
 Cell[TextData[StyleBox["Your turn: Set the x-coordinate to a specific value, \
 to get a cross section of the surface that shows f(x,y) versus y.",
@@ -509,7 +542,9 @@ to get a cross section of the surface that shows f(x,y) versus y.",
    3.5892377376381483`*^9, 3.5892378162535543`*^9}, {3.589870510916089*^9, 
    3.5898705336241817`*^9}, {3.58987057695922*^9, 3.589870594646262*^9}, {
    3.589870801090763*^9, 3.589870845767839*^9}, {3.593739877454111*^9, 
-   3.5937399004743958`*^9}, {3.5937399687288103`*^9, 3.59374001133379*^9}}],
+   3.5937399004743958`*^9}, {3.5937399687288103`*^9, 
+   3.59374001133379*^9}},ExpressionUUID->"cc2d687a-e2bb-461e-b2d5-\
+735143e1b510"],
 
 Cell[TextData[StyleBox["Your turn: In the Documentation Center, look up the \
 following options of Plot3D:PlotStyle, Lighting,PlotRange,BoxRatios,Boxed, \
@@ -542,7 +577,8 @@ and Axes. Explore at your own pace with a function of your own.",
    3.589870801090763*^9, 3.589870845767839*^9}, {3.593739877454111*^9, 
    3.5937399004743958`*^9}, {3.5937399687288103`*^9, 3.59374001133379*^9}, {
    3.5937400783427973`*^9, 3.593740177234014*^9}, {3.593740209758609*^9, 
-   3.593740230518917*^9}}]
+   3.593740230518917*^9}},ExpressionUUID->"18050e6e-f0f4-4727-afb8-\
+d7fdadf0ac3c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -554,7 +590,9 @@ Cell[TextData[StyleBox["Task 4",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
   3.581699482068055*^9}, {3.593740257305437*^9, 3.59374025783082*^9}, {
-  3.59430325173814*^9, 3.5943032518667727`*^9}}],
+  3.59430325173814*^9, 
+  3.5943032518667727`*^9}},ExpressionUUID->"a3a4f435-e40d-4779-b0d5-\
+c11eca59e535"],
 
 Cell[TextData[StyleBox["To plot the level curves (contours) of a funtion of \
 two variables, we use the ContourPlot command in Mathemaica. By default, it \
@@ -589,7 +627,9 @@ number of contour lines, use the Contours property: ",
    3.589870801090763*^9, 3.589870815464855*^9}, {3.5900050610043573`*^9, 
    3.590005067281046*^9}, {3.593739741583948*^9, 3.593739765614018*^9}, {
    3.5937398102978487`*^9, 3.593739832652116*^9}, {3.593740261262735*^9, 
-   3.593740366451272*^9}, {3.593740618212599*^9, 3.593740635458775*^9}}],
+   3.593740366451272*^9}, {3.593740618212599*^9, 
+   3.593740635458775*^9}},ExpressionUUID->"132d3316-7225-4aa2-8531-\
+87398f7df494"],
 
 Cell[BoxData[
  RowBox[{"ContourPlot", "[", 
@@ -606,7 +646,8 @@ Cell[BoxData[
   3.5937397682062693`*^9, 3.593739791774715*^9}, {3.59374040518497*^9, 
   3.5937404463324337`*^9}, {3.5937404899807262`*^9, 3.59374049164957*^9}, {
   3.593740539050997*^9, 3.593740564121695*^9}, {3.5937406082068243`*^9, 
-  3.59374061071027*^9}}],
+  3.59374061071027*^9}},ExpressionUUID->"fbd49b65-1c52-4633-9d15-\
+6b169bf8dc5c"],
 
 Cell[TextData[StyleBox["To plot level surfaces of functions in three \
 variables (w = f(x, y, z)), we use the ContourPlot3D command. Here is an \
@@ -637,7 +678,9 @@ example:",
    3.5892377376381483`*^9, 3.5892378162535543`*^9}, {3.589870510916089*^9, 
    3.5898705336241817`*^9}, {3.58987057695922*^9, 3.589870594646262*^9}, {
    3.589870801090763*^9, 3.589870845767839*^9}, {3.593739877454111*^9, 
-   3.5937399004743958`*^9}, {3.5937407215681963`*^9, 3.593740747751278*^9}}],
+   3.5937399004743958`*^9}, {3.5937407215681963`*^9, 
+   3.593740747751278*^9}},ExpressionUUID->"e3a21e68-7ad6-478b-97a7-\
+e96fb5a7fdc7"],
 
 Cell[BoxData[
  RowBox[{"ContourPlot3D", "[", 
@@ -661,7 +704,9 @@ Cell[BoxData[
    RowBox[{"Mesh", "\[Rule]", "None"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.589870686871353*^9, 3.589870725509593*^9}, {
   3.589870765078651*^9, 3.589870771580866*^9}, {3.593739902658465*^9, 
-  3.593739919057469*^9}, {3.593740749705858*^9, 3.5937408166717854`*^9}}]
+  3.593739919057469*^9}, {3.593740749705858*^9, 
+  3.5937408166717854`*^9}},ExpressionUUID->"1253a635-0ea1-487a-b77a-\
+1c82829e6421"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -673,7 +718,9 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
   3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+  3.581351448726061*^9, 
+  3.5813514696435127`*^9}},ExpressionUUID->"37d29f94-8b05-4a93-9050-\
+3faf1db5f518"],
 
 Cell[CellGroupData[{
 
@@ -703,7 +750,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0S/3vmhvfnYK0fJpuoOEK2o90F15vFXjhzzfuuBaABX
 Z830
-  "]],
+  "],ExpressionUUID->"7ac687ae-0068-4f10-a4c7-0d76fc92d47f"],
 
 Cell[BoxData[{
  FormBox[
@@ -733,7 +780,8 @@ Cell[BoxData[{
       RowBox[{
        SuperscriptBox["x", "2"], "+", 
        SuperscriptBox["y", "2"]}]]]}],
-   FontWeight->"Plain"], TraditionalForm]}], "Input"]
+   FontWeight->"Plain"], TraditionalForm]}], "Input",ExpressionUUID->\
+"0b04ea08-6abd-4b71-ade4-ab2feffba8c2"]
 }, Open  ]],
 
 Cell[TextData[StyleBox["2. Use the Plot3D command to graph the functions in \
@@ -751,7 +799,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0S/3vmhvfnYK0fJpuoOEK2o90F15vFXjh+cN1qBaABa
 qs5D
-  "]],
+  "],ExpressionUUID->"c886f56c-df68-454a-83e3-03c3f81fab93"],
 
 Cell[CellGroupData[{
 
@@ -780,7 +828,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0S/3vmhvfnYK0fJpuoOEK2o90F15vFXjh+cN1qBaBlW
 fXsQnT9/riuIBgB3wdXZ
-  "]],
+  "],ExpressionUUID->"d8667c81-eb4a-4ece-a859-eb6eaab874f1"],
 
 Cell[BoxData[{
  FormBox[
@@ -794,7 +842,7 @@ Cell[BoxData[{
       SqrtBox[
        RowBox[{
         SuperscriptBox["x", "2"], "+", 
-        SuperscriptBox["y", "2"]}]]}]}], "\[IndentingNewLine]", "\n"}],
+        SuperscriptBox["y", "2"]}]]}]}], "\n", "\[IndentingNewLine]"}],
    FontWeight->"Plain"], TraditionalForm], "\[IndentingNewLine]", 
  FormBox[
   StyleBox[
@@ -807,17 +855,18 @@ Cell[BoxData[{
       SuperscriptBox["x", "2"], "+", 
       RowBox[{"2", 
        SuperscriptBox["y", "2"]}]}]]}],
-   FontWeight->"Plain"], TraditionalForm]}], "Input"]
+   FontWeight->"Plain"], TraditionalForm]}], "Input",ExpressionUUID->\
+"4f995ade-c240-4b75-a9ac-94fbff4a14d0"]
 }, Open  ]]
 }, Open  ]],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.9083122711661263`*^9},
+ TextAlignment->Center,ExpressionUUID->"e1d371b9-13a9-4030-9113-e243efed07c7"]
 }, Open  ]]
 },
 WindowSize->{1280, 714},
@@ -825,10 +874,10 @@ WindowMargins->{{22, Automatic}, {Automatic, 0}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"e45250c6-0943-4cef-bb4e-305a3c2a70dd"
 ]
 (* End of Notebook Content *)
 
@@ -842,60 +891,59 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 55, "Title"],
-Cell[846, 29, 1373, 20, 66, "Subtitle"],
-Cell[2222, 51, 812, 23, 32, "Subsection"],
+Cell[579, 22, 333, 7, 56, "Title",ExpressionUUID->"ebbf2967-8635-4391-a68b-3129484ce347"],
+Cell[915, 31, 1434, 22, 69, "Subtitle",ExpressionUUID->"ec087feb-335b-4feb-963e-f90927db4d6f"],
+Cell[2352, 55, 867, 23, 41, "Subsection",ExpressionUUID->"43a6439b-7474-4859-945e-4dc92406a7cd"],
 Cell[CellGroupData[{
-Cell[3059, 78, 274, 6, 29, "Section"],
-Cell[3336, 86, 868, 20, 26, "Text"],
-Cell[4207, 108, 2389, 37, 27, "Input"],
-Cell[6599, 147, 698, 13, 26, "Text"],
-Cell[7300, 162, 477, 11, 43, "Input"],
-Cell[7780, 175, 1865, 26, 26, "Text"],
-Cell[9648, 203, 423, 10, 27, "Input"],
-Cell[10074, 215, 1860, 26, 26, "Text"],
-Cell[11937, 243, 129, 2, 27, "Input"],
-Cell[12069, 247, 1883, 26, 41, "Text"]
+Cell[3244, 82, 331, 7, 30, "Section",ExpressionUUID->"6465de21-ccea-4ffb-9d48-d30f927214fd"],
+Cell[3578, 91, 923, 20, 31, "Text",ExpressionUUID->"24ebb195-7aa4-45c3-988b-47a527d29d79"],
+Cell[4504, 113, 2446, 38, 30, "Input",ExpressionUUID->"8d304d65-c785-4836-aee9-427eb65c1884"],
+Cell[6953, 153, 753, 13, 31, "Text",ExpressionUUID->"7b2a4376-99ba-426a-9d06-c8875904afde"],
+Cell[7709, 168, 537, 13, 52, "Input",ExpressionUUID->"196d7865-645e-4ab8-882a-e2d46a57b04a"],
+Cell[8249, 183, 1922, 27, 31, "Text",ExpressionUUID->"2e3fea09-4732-42cd-b624-1ee12e4b895b"],
+Cell[10174, 212, 483, 12, 30, "Input",ExpressionUUID->"631c91a1-37c4-44d5-a9e7-410c4dc27a5b"],
+Cell[10660, 226, 1917, 27, 31, "Text",ExpressionUUID->"b59ba0d3-e1ab-45d1-ae7f-2a85b7781ae4"],
+Cell[12580, 255, 189, 4, 30, "Input",ExpressionUUID->"566aa921-72a4-4777-896b-131210554e5e"],
+Cell[12772, 261, 1944, 28, 50, "Text",ExpressionUUID->"fe3dc85e-de89-4f9f-a7e9-9bd3f16f9ffc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13989, 278, 318, 6, 59, "Section"],
-Cell[14310, 286, 2189, 30, 26, "Text"],
-Cell[16502, 318, 495, 13, 60, "Input"],
-Cell[17000, 333, 2159, 29, 41, "Text"],
-Cell[19162, 364, 732, 19, 33, "Input"]
+Cell[14753, 294, 378, 8, 44, "Section",ExpressionUUID->"ed45f84c-629a-4940-ac60-a3ade46617f8"],
+Cell[15134, 304, 2246, 31, 31, "Text",ExpressionUUID->"77faea1c-3018-4908-b0cb-aa3929759cd1"],
+Cell[17383, 337, 555, 15, 57, "Input",ExpressionUUID->"e613af9f-6dc7-4af6-8501-6da13f78729b"],
+Cell[17941, 354, 2220, 31, 50, "Text",ExpressionUUID->"54ccd818-581a-476d-8cf9-4309db623b2f"],
+Cell[20164, 387, 792, 21, 33, "Input",ExpressionUUID->"5050ad34-7abc-42bc-8d17-37c875ca716f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[19931, 388, 320, 6, 59, "Section"],
-Cell[20254, 396, 2169, 30, 26, "Text"],
-Cell[22426, 428, 371, 10, 27, "Input"],
-Cell[22800, 440, 2036, 28, 26, "Text"],
-Cell[24839, 470, 407, 11, 27, "Input"],
-Cell[25249, 483, 2098, 28, 26, "Text"],
-Cell[27350, 513, 2274, 31, 41, "Text"]
+Cell[20993, 413, 380, 8, 44, "Section",ExpressionUUID->"da460984-acdb-4512-85e2-d91ee210097c"],
+Cell[21376, 423, 2230, 32, 50, "Text",ExpressionUUID->"ab186a5d-bce6-4e2f-9eee-884f33dfa742"],
+Cell[23609, 457, 431, 12, 30, "Input",ExpressionUUID->"444cc03c-9ba6-4a7e-8b71-5302063f0173"],
+Cell[24043, 471, 2093, 29, 31, "Text",ExpressionUUID->"0e8fc909-5aed-4cf8-b5e1-335d54127e2b"],
+Cell[26139, 502, 464, 12, 30, "Input",ExpressionUUID->"eb846ad5-a543-4f55-b65f-4f55901d79f4"],
+Cell[26606, 516, 2159, 30, 31, "Text",ExpressionUUID->"cc2d687a-e2bb-461e-b2d5-735143e1b510"],
+Cell[28768, 548, 2331, 32, 50, "Text",ExpressionUUID->"18050e6e-f0f4-4727-afb8-d7fdadf0ac3c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29661, 549, 367, 7, 59, "Section"],
-Cell[30031, 558, 2467, 33, 56, "Text"],
-Cell[32501, 593, 644, 15, 27, "Input"],
-Cell[33148, 610, 2109, 29, 26, "Text"],
-Cell[35260, 641, 851, 22, 27, "Input"]
+Cell[31136, 585, 427, 9, 44, "Section",ExpressionUUID->"a3a4f435-e40d-4779-b0d5-c11eca59e535"],
+Cell[31566, 596, 2528, 35, 69, "Text",ExpressionUUID->"132d3316-7225-4aa2-8531-87398f7df494"],
+Cell[34097, 633, 701, 16, 30, "Input",ExpressionUUID->"fbd49b65-1c52-4633-9d15-6b169bf8dc5c"],
+Cell[34801, 651, 2170, 31, 31, "Text",ExpressionUUID->"e3a21e68-7ad6-478b-97a7-e96fb5a7fdc7"],
+Cell[36974, 684, 911, 24, 30, "Input",ExpressionUUID->"1253a635-0ea1-487a-b77a-1c82829e6421"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[36148, 668, 386, 7, 61, "Section"],
+Cell[37922, 713, 446, 9, 46, "Section",ExpressionUUID->"37d29f94-8b05-4a93-9050-3faf1db5f518"],
 Cell[CellGroupData[{
-Cell[36559, 679, 951, 26, 32, "Subsection"],
-Cell[37513, 707, 761, 28, 107, "Input"]
+Cell[38393, 726, 1006, 26, 41, "Subsection",ExpressionUUID->"7ac687ae-0068-4f10-a4c7-0d76fc92d47f"],
+Cell[39402, 754, 818, 29, 103, "Input",ExpressionUUID->"0b04ea08-6abd-4b71-ade4-ab2feffba8c2"]
 }, Open  ]],
-Cell[38289, 738, 760, 15, 47, "Subsection"],
+Cell[40235, 786, 815, 15, 57, "Subsection",ExpressionUUID->"c886f56c-df68-454a-83e3-03c3f81fab93"],
 Cell[CellGroupData[{
-Cell[39074, 757, 948, 25, 39, "Subsection"],
-Cell[40025, 784, 674, 25, 95, "Input"]
+Cell[41075, 805, 1003, 25, 41, "Subsection",ExpressionUUID->"d8667c81-eb4a-4ece-a859-eb6eaab874f1"],
+Cell[42081, 832, 731, 26, 96, "Input",ExpressionUUID->"4f995ade-c240-4b75-a9ac-94fbff4a14d0"]
 }, Open  ]]
 }, Open  ]],
-Cell[40726, 813, 263, 6, 59, "Section"]
+Cell[42839, 862, 335, 6, 43, "Section",ExpressionUUID->"e1d371b9-13a9-4030-9113-e243efed07c7"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)

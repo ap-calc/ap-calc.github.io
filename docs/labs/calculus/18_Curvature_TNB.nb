@@ -10,22 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     33544,        754]
-NotebookOptionsPosition[     31660,        692]
-NotebookOutlinePosition[     32247,        714]
-CellTagsIndexPosition[     32204,        711]
+NotebookDataLength[     37193,        794]
+NotebookOptionsPosition[     33562,        732]
+NotebookOutlinePosition[     34185,        754]
+CellTagsIndexPosition[     34142,        751]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Mathematica Labs | iLearnMath.net | Denis Shubleka",
+Cell[TextData[StyleBox["Mathematica Labs | Denis Shubleka",
  FontFamily->"Courier",
  FontSize->15]], "Title",
- PageWidth->PaperWidth,
+ PageWidth:>PaperWidth,
  CellChangeTimes->{{3.581265578672155*^9, 3.58126559347425*^9}, {
-  3.581265638393551*^9, 3.581265647393133*^9}}],
+  3.581265638393551*^9, 3.581265647393133*^9}, {3.90831224741299*^9, 
+  3.908312248234503*^9}},ExpressionUUID->"f0400f51-a6c4-428f-82fe-\
+1b8472166990"],
 
 Cell[TextData[StyleBox["Subject: Calculus\n\nTopic: Curvature; Tangent, \
 Normal, and Binormal Vectors",
@@ -49,7 +51,8 @@ Normal, and Binormal Vectors",
    3.589236874604916*^9, 3.589236875202207*^9}, {3.589870859384839*^9, 
    3.589870864719035*^9}, {3.590005008862859*^9, 3.590005009396494*^9}, {
    3.593739318017055*^9, 3.593739324114998*^9}, {3.5943087686504803`*^9, 
-   3.5943088000925903`*^9}}],
+   3.5943088000925903`*^9}},ExpressionUUID->"8c95cd10-3b17-46f6-9749-\
+40038da55178"],
 
 Cell[TextData[{
  StyleBox["Goal: Use ",
@@ -77,7 +80,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0S/3vmhvfnYK0fJpuoOEL0iPjhz1nFgOCy5mA+iZe7y
 L5kNpGfkLF4GogGWk9fK
-  "]],
+  "],ExpressionUUID->"47cf8797-943d-4607-bbfd-80a61ecc3e69"],
 
 Cell[CellGroupData[{
 
@@ -87,7 +90,8 @@ Cell[TextData[StyleBox["Task 1",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.594303088409164*^9, 
-  3.5943030890562487`*^9}}],
+  3.5943030890562487`*^9}},ExpressionUUID->"3fd80ab9-aabb-4632-b7fa-\
+703569841b6e"],
 
 Cell[TextData[{
  StyleBox["In ",
@@ -111,7 +115,7 @@ B2RHlFMGeZ3gBJy6WxjRVq292UwetsTboSwxoHhEmkq1OfCosN3/jqyYXJyC
 Xrl8Hsa0+xZgyfYu9dwIz4b727Qw2WStg30ifT3k3qcrN3w8m6c8wsHVmnMX
 JX76v21QDd1xviK487X4MlRIrzfbP/HsQGtZC0wzNFW/GKfdAbEF9n5w3ILd
 us8RhxpOP4XSYPAZ3FJ7C16Si9v5HPwP9HE3DQ==
-  "]],
+  "],ExpressionUUID->"e5405844-5c6f-4d13-b4c1-a1776a6df27b"],
 
 Cell[BoxData[{
  RowBox[{
@@ -157,7 +161,9 @@ Cell[BoxData[{
    3.589237334694792*^9, 3.589237351046542*^9}, {3.589870217340852*^9, 
    3.5898702463410673`*^9}, {3.593739390532539*^9, 3.593739413475771*^9}, {
    3.5937394446334887`*^9, 3.593739458791*^9}, {3.593739526934896*^9, 
-   3.593739530928615*^9}, {3.594310550333844*^9, 3.594310648037228*^9}}],
+   3.593739530928615*^9}, {3.594310550333844*^9, 
+   3.594310648037228*^9}},ExpressionUUID->"8b374072-3e67-4cf3-ab30-\
+b6b85473bb92"],
 
 Cell[TextData[{
  StyleBox["The unit tangent vector T(t) is defined as ",
@@ -171,8 +177,8 @@ Cell[TextData[{
     RowBox[{"\[LeftBracketingBar]", 
      RowBox[{
       RowBox[{"r", "'"}], 
-      RowBox[{"(", "t", ")"}]}], "\[RightBracketingBar]"}]], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+      RowBox[{"(", "t", ")"}]}], "\[RightBracketingBar]"}]], 
+   TraditionalForm]],ExpressionUUID->"bde5f6fa-856c-4452-8c52-701110b6287c"],
  ".",
  StyleBox[" Below we compute the unit tangent vector as a general rule, and \
 then find a specific vector at t = ",
@@ -193,7 +199,7 @@ Z4iLhUKJJBXO3tSL2i8art4mE6qjnZCNH1ffIauKDZkwSfrY94SsmPk4C/uV
 ynk4Eh66CQf1UWXvvQLnbci2wKhcv3btucDxppmT0JjQelrhE7gVlcwI351o
 bndOCZx//ado15zMA21XtKIFvaVND/0CN6270AJfSMtboYZ/2gFzNNe6YZd2
 uhfG3C9agA57+CLctvo5/xGZJv8rmrz//J92MpDqEP0PDe1A2Q==
-  "]],
+  "],ExpressionUUID->"a7966a37-0b5b-4cce-8afe-a59e2faec906"],
 
 Cell[BoxData[
  RowBox[{
@@ -205,13 +211,17 @@ Cell[BoxData[
     RowBox[{"Norm", "[", 
      RowBox[{
       RowBox[{"r", "'"}], "[", "t", "]"}], "]"}]}]}], ";"}]], "Input",
- CellChangeTimes->{{3.59431211717059*^9, 3.594312118849028*^9}}],
+ CellChangeTimes->{{3.59431211717059*^9, 
+  3.594312118849028*^9}},ExpressionUUID->"16eb2246-dbcf-4255-aa63-\
+b1ca4010bdb3"],
 
 Cell[BoxData[
  RowBox[{"T", "[", 
   RowBox[{"Pi", "/", "2"}], "]"}]], "Input",
  CellChangeTimes->{{3.594310900625042*^9, 3.594310906253553*^9}, {
-  3.5943113619280453`*^9, 3.5943113641831493`*^9}}],
+  3.5943113619280453`*^9, 
+  3.5943113641831493`*^9}},ExpressionUUID->"02c2f08a-0707-48f7-9775-\
+f1346fb1a119"],
 
 Cell[TextData[{
  StyleBox["The unit normal vector N(t) is defined as ",
@@ -225,8 +235,8 @@ Cell[TextData[{
     RowBox[{"\[LeftBracketingBar]", 
      RowBox[{
       RowBox[{"T", "'"}], 
-      RowBox[{"(", "t", ")"}]}], "\[RightBracketingBar]"}]], TraditionalForm]],
-  FormatType->"TraditionalForm"],
+      RowBox[{"(", "t", ")"}]}], "\[RightBracketingBar]"}]], 
+   TraditionalForm]],ExpressionUUID->"94463e01-c8e4-4a0e-80d8-7b698abb9b82"],
  ".",
  StyleBox[" Below we compute the unit normal vector as a general rule \
 Nrml[t], and then find a specific vector ",
@@ -267,7 +277,9 @@ Nrml[t], and then find a specific vector ",
    3.594311295271965*^9}, {3.5943114039501*^9, 3.594311405924087*^9}, 
    3.594311439055175*^9, {3.594311510924053*^9, 3.594311512129861*^9}, {
    3.594311544904457*^9, 3.594311549129479*^9}, 3.5943116297453003`*^9, {
-   3.594312309280836*^9, 3.594312314984872*^9}}],
+   3.594312309280836*^9, 
+   3.594312314984872*^9}},ExpressionUUID->"85cea2e4-5c50-4839-84bc-\
+6c4bcf997dae"],
 
 Cell[CellGroupData[{
 
@@ -285,13 +297,16 @@ Cell[BoxData[{
  RowBox[{"Nrml", "[", 
   RowBox[{"Pi", "/", "2"}], "]"}]}], "Input",
  CellChangeTimes->{{3.594311441359891*^9, 3.594311489523959*^9}, 
-   3.594312329815235*^9}],
+   3.594312329815235*^9},ExpressionUUID->"15bb4388-1a77-44c7-9a81-\
+6a1d0e429bfb"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"0", ",", 
    RowBox[{"-", "1"}], ",", "0"}], "}"}]], "Output",
- CellChangeTimes->{3.594312331419057*^9}]
+ CellChangeTimes->{
+  3.594312331419057*^9},ExpressionUUID->"9e2e103c-e0b0-4153-aba9-\
+c1ab05dd9cf1"]
 }, Open  ]],
 
 Cell[TextData[StyleBox["Note that we could also compute the normal vector \
@@ -309,7 +324,7 @@ M8whhXyBIA1OP9WFtFXqHzWTCVXRdiiNH1E8J8vz9ZkwRfTO94ksCSxOw16Z
 bAEOhAsPYJ8uqmjey7Nep9IMo9R+zdYXnuWMgRvQkNB2R+Lj2Q252ABnr7e8
 tU/wrH/nX8iuObEbWh9qQt7qKWx64+fZKW1FK/wqKm6DKm6wA+aoHnfDLs1U
 D4x5lbcEa2zhy1Dh4bahum7zDzwETnc4rQ==
-  "]],
+  "],ExpressionUUID->"44246c6a-f594-4d9e-b9da-0c729272d5d6"],
 
 Cell[BoxData[
  RowBox[{
@@ -324,7 +339,9 @@ Cell[BoxData[
    3.5892374399792147`*^9, 3.58923745991391*^9}, {3.589870418247301*^9, 
    3.589870446759838*^9}, {3.59373961118738*^9, 3.593739636307563*^9}, {
    3.5943113031693487`*^9, 3.594311354672244*^9}, {3.594311418738752*^9, 
-   3.594311419076543*^9}, 3.5943115230182867`*^9, 3.594311571280594*^9}],
+   3.594311419076543*^9}, 3.5943115230182867`*^9, 
+   3.594311571280594*^9},ExpressionUUID->"b05b7d55-7cb3-4467-930b-\
+87af38e9dc78"],
 
 Cell[TextData[{
  StyleBox["Finally, the Binormal vector B(t) is defined as cross product T(t) \
@@ -363,7 +380,8 @@ use it to compute a specific vector BiNrml(t) at t = ",
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5937396689448547`*^9, 
    3.5937396912709293`*^9}, {3.594311422260046*^9, 3.594311422986904*^9}, {
    3.594311577208248*^9, 3.594311621317458*^9}, {3.594312851434194*^9, 
-   3.594312881063033*^9}}],
+   3.594312881063033*^9}},ExpressionUUID->"d4d3aab0-5cd7-4859-ae2f-\
+90aaf546f926"],
 
 Cell[BoxData[{
  RowBox[{
@@ -379,7 +397,9 @@ Cell[BoxData[{
   3.594311637078518*^9, 3.5943116656847763`*^9}, {3.594312040427271*^9, 
   3.594312041339386*^9}, {3.594312397712618*^9, 3.594312401120411*^9}, {
   3.5943124563110228`*^9, 3.594312460870079*^9}, {3.594312631812203*^9, 
-  3.5943126531729717`*^9}, {3.5943127382301407`*^9, 3.594312784748069*^9}}],
+  3.5943126531729717`*^9}, {3.5943127382301407`*^9, 
+  3.594312784748069*^9}},ExpressionUUID->"a81abdf4-a319-401e-9d70-\
+b04a43f3c019"],
 
 Cell[TextData[StyleBox["After evaluating the previous cell, confirm that the \
 dot product of B(t) with T(t) of N(t) is zero, since the three vectors are \
@@ -409,7 +429,8 @@ mutually orthogonal:",
    3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}, {
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5937396689448547`*^9, 
    3.5937397331977*^9}, 3.594303096328783*^9, {3.594311696684164*^9, 
-   3.5943117444174833`*^9}}],
+   3.5943117444174833`*^9}},ExpressionUUID->"89d54af6-81b7-44d7-9fe1-\
+8378b7d847b1"],
 
 Cell[BoxData[
  RowBox[{
@@ -426,14 +447,14 @@ Cell[BoxData[
      RowBox[{"BiNrml", "[", 
       RowBox[{"Pi", "/", "2"}], "]"}], ".", 
      RowBox[{"Nrml", "[", 
-      RowBox[{"Pi", "/", "2"}], "]"}]}], "\[Equal]", "0"}], ")"}]}]], "Input",\
-
+      RowBox[{"Pi", "/", "2"}], "]"}]}], "\[Equal]", "0"}], ")"}]}]], "Input",
  CellChangeTimes->{{3.594311770631419*^9, 3.59431188890359*^9}, {
    3.594311921760459*^9, 3.5943119235023527`*^9}, {3.594312015239283*^9, 
    3.594312022593957*^9}, {3.594312409016169*^9, 3.5943124121920567`*^9}, {
    3.594312445269784*^9, 3.594312448892214*^9}, {3.594312669095992*^9, 
    3.594312720182497*^9}, {3.5943127896861973`*^9, 3.5943128345236998`*^9}, 
-   3.594312900033856*^9}],
+   3.594312900033856*^9},ExpressionUUID->"6b6e77ef-6434-4d95-ac0a-\
+650314c5c79f"],
 
 Cell[TextData[StyleBox["The symbol == simply checks if the two sides are \
 equal and prints \[OpenCurlyQuote]true\[CloseCurlyQuote] when they are, and \
@@ -465,7 +486,9 @@ statements.",
    3.589237488898794*^9}, {3.589870346830491*^9, 3.5898704067441063`*^9}, {
    3.593739588603365*^9, 3.5937396044256563`*^9}, {3.5937396689448547`*^9, 
    3.5937397331977*^9}, 3.594303096328783*^9, {3.594311696684164*^9, 
-   3.5943117444174833`*^9}, {3.594315810234247*^9, 3.594315885836088*^9}}]
+   3.5943117444174833`*^9}, {3.594315810234247*^9, 
+   3.594315885836088*^9}},ExpressionUUID->"73e5f2f9-db84-4a23-877b-\
+ec07c97ef250"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -476,7 +499,9 @@ Cell[TextData[StyleBox["Task 2",
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.581699481644733*^9, 
-  3.581699482068055*^9}, {3.594303255922751*^9, 3.594303269818185*^9}}],
+  3.581699482068055*^9}, {3.594303255922751*^9, 
+  3.594303269818185*^9}},ExpressionUUID->"dce582ed-d021-486a-832d-\
+d22e37b89728"],
 
 Cell[TextData[{
  StyleBox["Curvature is a measure of how fast the tangent vector T(t) changes \
@@ -519,7 +544,8 @@ compute curvature at t = 0 (far east corner) and t = ",
    3.5937398102978487`*^9, 3.593739832652116*^9}, {3.594303279707136*^9, 
    3.5943033394161*^9}, {3.594313020595964*^9, 3.594313072288363*^9}, {
    3.5943131134259443`*^9, 3.594313382714099*^9}, 3.5943137379795933`*^9, 
-   3.594314167581122*^9}],
+   3.594314167581122*^9},ExpressionUUID->"a9f2b734-0c5f-4c05-a56b-\
+5915d448cd40"],
 
 Cell[BoxData[
  RowBox[{
@@ -534,7 +560,9 @@ Cell[BoxData[
  CellChangeTimes->{{3.592562606185281*^9, 3.592562625795518*^9}, {
    3.5925631465049973`*^9, 3.592563154993124*^9}, {3.592563224865573*^9, 
    3.592563246810046*^9}, {3.592563287483124*^9, 3.592563301850926*^9}, 
-   3.5925806466262407`*^9, {3.593391130722211*^9, 3.5933911442730494`*^9}}],
+   3.5925806466262407`*^9, {3.593391130722211*^9, 
+   3.5933911442730494`*^9}},ExpressionUUID->"e173d698-c57f-41aa-a59c-\
+82ce20744e9b"],
 
 Cell[BoxData[
  RowBox[{
@@ -551,7 +579,8 @@ Cell[BoxData[
   3.5925628667418823`*^9, 3.59256286744627*^9}, {3.592562926804422*^9, 
   3.592562928822751*^9}, {3.592563169457781*^9, 3.5925631710170727`*^9}, {
   3.592563251754195*^9, 3.592563263610656*^9}, {3.5925633068826323`*^9, 
-  3.5925633151468763`*^9}}],
+  3.5925633151468763`*^9}},ExpressionUUID->"f331c5c7-293f-411a-b3cf-\
+4eacafb4625e"],
 
 Cell[BoxData[
  RowBox[{
@@ -563,7 +592,8 @@ Cell[BoxData[
     RowBox[{"r", "'"}], "[", "0", "]"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.592580710623775*^9, 3.592580732848235*^9}, {
   3.592580819507449*^9, 3.592580819738336*^9}, {3.593391192649103*^9, 
-  3.593391213697876*^9}}],
+  3.593391213697876*^9}},ExpressionUUID->"d6dfb9c1-3658-426e-996c-\
+447fe9b0829f"],
 
 Cell[BoxData[
  RowBox[{
@@ -575,7 +605,9 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"r", "'"}], "[", 
     RowBox[{"Pi", "/", "2"}], "]"}], "]"}]}]], "Input",
- CellChangeTimes->{{3.5933912285073557`*^9, 3.593391245357802*^9}}],
+ CellChangeTimes->{{3.5933912285073557`*^9, 
+  3.593391245357802*^9}},ExpressionUUID->"8fcf8e1e-1b3a-40a2-b4a3-\
+2b9814b9d88d"],
 
 Cell[TextData[StyleBox["At which point is curvature the greatest? Does the \
 computation agree with graph of the parametric curve?",
@@ -608,7 +640,9 @@ computation agree with graph of the parametric curve?",
    3.5937399004743958`*^9}, {3.594303471643963*^9, 3.594303555480928*^9}, {
    3.594313424041114*^9, 3.5943134335017347`*^9}, {3.594313740888763*^9, 
    3.594313742325021*^9}, {3.594314015884226*^9, 3.594314017355987*^9}, {
-   3.594314092455553*^9, 3.594314126520525*^9}}],
+   3.594314092455553*^9, 
+   3.594314126520525*^9}},ExpressionUUID->"2e9b92b4-6da1-4525-a50e-\
+88e8b99a41db"],
 
 Cell[BoxData[
  RowBox[{"ParametricPlot", "[", 
@@ -620,7 +654,9 @@ Cell[BoxData[
  CellChangeTimes->{{3.594313521159615*^9, 3.594313694497072*^9}, {
   3.594313795098068*^9, 3.5943137977817707`*^9}, {3.594313833644215*^9, 
   3.594313834836109*^9}, {3.594313884731123*^9, 3.594313915855568*^9}, {
-  3.594314054606687*^9, 3.594314077217712*^9}}]
+  3.594314054606687*^9, 
+  3.594314077217712*^9}},ExpressionUUID->"1132057e-00ab-4dfd-af84-\
+fa78e9e751f2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -632,7 +668,9 @@ Cell[TextData[StyleBox["Related Exercises/Notes:",
  CellChangeTimes->{{3.581265611914537*^9, 3.581265615841908*^9}, {
   3.581266715599557*^9, 3.5812667166632633`*^9}, {3.58134449810716*^9, 
   3.58134449819549*^9}, {3.58134649412864*^9, 3.5813464959600163`*^9}, {
-  3.581351448726061*^9, 3.5813514696435127`*^9}}],
+  3.581351448726061*^9, 
+  3.5813514696435127`*^9}},ExpressionUUID->"c41ec2fe-db21-4f10-8864-\
+dda9360da5a8"],
 
 Cell[CellGroupData[{
 
@@ -661,7 +699,7 @@ B9J8TS0/QbT8Hi6jFCC9rGC+MYie8V4vPAtkzvPHYFrpWNt8EO13eNkCEL2q
 nu8B0eK7d07bBKTLHl0D01xP9vlc2fPK8cvPH74g+sdjV9e3e185yiXIuYHo
 kGtHvZX2v3L8Ob/EB0S/3vmhvfnYK0fJpuoOEK2o90F15vFXjhzzfuuB6B03
 KjvmAOlTrHN7QDQAjaHXmg==
-  "]],
+  "],ExpressionUUID->"f6cc1f1b-0f8e-4db8-90ac-455cd147dd8e"],
 
 Cell[BoxData[
  FormBox[
@@ -677,17 +715,19 @@ Cell[BoxData[
     RowBox[{"(", 
      RowBox[{"1", ",", " ", "0", ",", " ", "0"}], ")"}]}],
    FontWeight->"Plain"], TraditionalForm]], "Input",
- CellChangeTimes->{{3.594314867476807*^9, 3.5943149130017233`*^9}}]
+ CellChangeTimes->{{3.594314867476807*^9, 
+  3.5943149130017233`*^9}},ExpressionUUID->"247af5bc-a8ff-4255-a6de-\
+47516d4ec8bf"]
 }, Open  ]]
 }, Open  ]],
 
-Cell[TextData[StyleBox["(c) iLearnMath.net | 2013",
+Cell[TextData[StyleBox["ap-calc.github.io",
  FontFamily->"Courier",
  FontSize->10,
  FontWeight->"Plain"]], "Section",
  CellChangeTimes->{{3.5812656199219*^9, 3.58126562105793*^9}, {
-  3.581346408075123*^9, 3.5813464207760553`*^9}},
- TextAlignment->Center]
+   3.581346408075123*^9, 3.5813464207760553`*^9}, 3.908312253874022*^9},
+ TextAlignment->Center,ExpressionUUID->"e18eb419-3a09-42b8-9060-7d27e2c4fa6e"]
 }, Open  ]]
 },
 WindowSize->{1280, 714},
@@ -697,10 +737,10 @@ PrintingPageRange->{1, Automatic},
 CellLabelAutoDelete->True,
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 1.5, 1.5 Inherited],
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
-2010)",
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""},
+ExpressionUUID->"e1913a43-a814-4ef7-8662-28d5f258eda0"
 ]
 (* End of Notebook Content *)
 
@@ -714,50 +754,49 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 264, 5, 82, "Title"],
-Cell[846, 29, 1454, 22, 99, "Subtitle"],
-Cell[2303, 53, 964, 26, 68, "Subsection"],
+Cell[579, 22, 352, 7, 84, "Title",ExpressionUUID->"f0400f51-a6c4-428f-82fe-1b8472166990"],
+Cell[934, 31, 1511, 23, 102, "Subtitle",ExpressionUUID->"8c95cd10-3b17-46f6-9749-40038da55178"],
+Cell[2448, 56, 1019, 26, 82, "Subsection",ExpressionUUID->"47cf8797-943d-4607-bbfd-80a61ecc3e69"],
 Cell[CellGroupData[{
-Cell[3292, 83, 274, 6, 41, "Section"],
-Cell[3569, 91, 950, 22, 39, "Text"],
-Cell[4522, 115, 2675, 44, 88, "Input"],
-Cell[7200, 161, 1322, 34, 77, "Text"],
-Cell[8525, 197, 324, 10, 42, "Input"],
-Cell[8852, 209, 197, 4, 40, "Input"],
-Cell[9052, 215, 2811, 54, 99, "Text"],
+Cell[3492, 86, 331, 7, 43, "Section",ExpressionUUID->"3fd80ab9-aabb-4632-b7fa-703569841b6e"],
+Cell[3826, 95, 1005, 22, 74, "Text",ExpressionUUID->"e5405844-5c6f-4d13-b4c1-a1776a6df27b"],
+Cell[4834, 119, 2736, 46, 109, "Input",ExpressionUUID->"8b374072-3e67-4cf3-ab30-b6b85473bb92"],
+Cell[7573, 167, 1403, 34, 97, "Text",ExpressionUUID->"a7966a37-0b5b-4cce-8afe-a59e2faec906"],
+Cell[8979, 203, 384, 12, 46, "Input",ExpressionUUID->"16eb2246-dbcf-4255-aa63-b1ca4010bdb3"],
+Cell[9366, 217, 257, 6, 46, "Input",ExpressionUUID->"02c2f08a-0707-48f7-9775-f1346fb1a119"],
+Cell[9626, 225, 2898, 56, 124, "Text",ExpressionUUID->"85cea2e4-5c50-4839-84bc-6c4bcf997dae"],
 Cell[CellGroupData[{
-Cell[11888, 273, 441, 14, 65, "Input"],
-Cell[12332, 289, 144, 4, 40, "Output"]
+Cell[12549, 285, 498, 15, 78, "Input",ExpressionUUID->"15bb4388-1a77-44c7-9a81-6a1d0e429bfb"],
+Cell[13050, 302, 204, 6, 52, "Output",ExpressionUUID->"9e2e103c-e0b0-4153-aba9-c1ab05dd9cf1"]
 }, Open  ]],
-Cell[12491, 296, 811, 15, 39, "Text"],
-Cell[13305, 313, 592, 13, 40, "Input"],
-Cell[13900, 328, 2232, 37, 62, "Text"],
-Cell[16135, 367, 676, 14, 65, "Input"],
-Cell[16814, 383, 2008, 28, 62, "Text"],
-Cell[18825, 413, 850, 22, 40, "Input"],
-Cell[19678, 437, 2175, 30, 62, "Text"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[21890, 472, 318, 6, 88, "Section"],
-Cell[22211, 480, 2698, 41, 108, "Text"],
-Cell[24912, 523, 547, 13, 42, "Input"],
-Cell[25462, 538, 601, 15, 42, "Input"],
-Cell[26066, 555, 373, 10, 40, "Input"],
-Cell[26442, 567, 329, 10, 40, "Input"],
-Cell[26774, 579, 2281, 31, 39, "Text"],
-Cell[29058, 612, 461, 10, 40, "Input"]
+Cell[13269, 311, 866, 15, 46, "Text",ExpressionUUID->"44246c6a-f594-4d9e-b9da-0c729272d5d6"],
+Cell[14138, 328, 653, 15, 46, "Input",ExpressionUUID->"b05b7d55-7cb3-4467-930b-87af38e9dc78"],
+Cell[14794, 345, 2289, 38, 115, "Text",ExpressionUUID->"d4d3aab0-5cd7-4859-ae2f-90aaf546f926"],
+Cell[17086, 385, 736, 16, 78, "Input",ExpressionUUID->"a81abdf4-a319-401e-9d70-b04a43f3c019"],
+Cell[17825, 403, 2065, 29, 74, "Text",ExpressionUUID->"89d54af6-81b7-44d7-9fe1-8378b7d847b1"],
+Cell[19893, 434, 905, 22, 46, "Input",ExpressionUUID->"6b6e77ef-6434-4d95-ac0a-650314c5c79f"],
+Cell[20801, 458, 2236, 32, 74, "Text",ExpressionUUID->"73e5f2f9-db84-4a23-877b-ec07c97ef250"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29556, 627, 386, 7, 91, "Section"],
+Cell[23074, 495, 378, 8, 66, "Section",ExpressionUUID->"dce582ed-d021-486a-832d-d22e37b89728"],
+Cell[23455, 505, 2755, 42, 164, "Text",ExpressionUUID->"a9f2b734-0c5f-4c05-a56b-5915d448cd40"],
+Cell[26213, 549, 608, 15, 46, "Input",ExpressionUUID->"e173d698-c57f-41aa-a59c-82ce20744e9b"],
+Cell[26824, 566, 658, 16, 46, "Input",ExpressionUUID->"f331c5c7-293f-411a-b3cf-4eacafb4625e"],
+Cell[27485, 584, 430, 11, 46, "Input",ExpressionUUID->"d6dfb9c1-3658-426e-996c-447fe9b0829f"],
+Cell[27918, 597, 389, 12, 46, "Input",ExpressionUUID->"8fcf8e1e-1b3a-40a2-b4a3-2b9814b9d88d"],
+Cell[28310, 611, 2342, 33, 74, "Text",ExpressionUUID->"2e9b92b4-6da1-4525-a50e-88e8b99a41db"],
+Cell[30655, 646, 521, 12, 46, "Input",ExpressionUUID->"1132057e-00ab-4dfd-af84-fa78e9e751f2"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[29967, 638, 897, 25, 49, "Subsection"],
-Cell[30867, 665, 487, 14, 40, "Input"]
+Cell[31213, 663, 446, 9, 69, "Section",ExpressionUUID->"c41ec2fe-db21-4f10-8864-dda9360da5a8"],
+Cell[CellGroupData[{
+Cell[31684, 676, 952, 25, 61, "Subsection",ExpressionUUID->"f6cc1f1b-0f8e-4db8-90ac-455cd147dd8e"],
+Cell[32639, 703, 547, 16, 41, "Input",ExpressionUUID->"247af5bc-a8ff-4255-a6de-47516d4ec8bf"]
 }, Open  ]]
 }, Open  ]],
-Cell[31381, 683, 263, 6, 85, "Section"]
+Cell[33213, 723, 333, 6, 63, "Section",ExpressionUUID->"e18eb419-3a09-42b8-9060-7d27e2c4fa6e"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)
